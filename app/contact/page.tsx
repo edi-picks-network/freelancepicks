@@ -141,22 +141,22 @@ export default function ContactPage() {
                 <p className="text-sm text-[#8BA3BE]">
                   <strong className="text-[#F0F4F8]">Support:</strong>
                   <br />
-                  <a href="mailto:support@freelancehubs.net" className="text-[#3B82F6] hover:underline">
-                    support@freelancehubs.net
+                  <a href="mailto:support@freelancepicks.net" className="text-[#3B82F6] hover:underline">
+                    support@freelancepicks.net
                   </a>
                 </p>
                 <p className="text-sm text-[#8BA3BE]">
                   <strong className="text-[#F0F4F8]">General:</strong>
                   <br />
-                  <a href="mailto:info@freelancehubs.net" className="text-[#3B82F6] hover:underline">
-                    info@freelancehubs.net
+                  <a href="mailto:info@freelancepicks.net" className="text-[#3B82F6] hover:underline">
+                    info@freelancepicks.net
                   </a>
                 </p>
                 <p className="text-sm text-[#8BA3BE]">
                   <strong className="text-[#F0F4F8]">Press:</strong>
                   <br />
-                  <a href="mailto:info@freelancehubs.net" className="text-[#3B82F6] hover:underline">
-                    info@freelancehubs.net
+                  <a href="mailto:info@freelancepicks.net" className="text-[#3B82F6] hover:underline">
+                    info@freelancepicks.net
                   </a>
                 </p>
               </div>
