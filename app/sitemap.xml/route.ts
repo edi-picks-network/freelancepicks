@@ -2,6 +2,8 @@ import { MetadataRoute } from "next";
 
 const BLOG_SLUGS = [
   "top-freelance-platforms-for-designers-2026",
+  "freelance-platforms-comparison-2026",
+  "how-to-start-freelancing",
 ] as const;
 
 const TOOL_SLUGS = [
@@ -15,6 +17,16 @@ const TOOL_SLUGS = [
     "designcrowd",
     "contently",
     "clearvoice",
+    "crowdspring",
+    "skyword",
+    "writeraccess",
+    "codeable",
+    "envatostudio",
+    "solidgigs",
+    "hubstafftalent",
+    "truelancer",
+    "gotranscript",
+    "flexjobs",
 ] as const;
 
 const CATEGORY_SLUGS = [
