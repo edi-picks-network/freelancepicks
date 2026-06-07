@@ -10,7 +10,6 @@ import {
 import Link from "next/link";
 
 // ============================================================
-// 模板F：FreelancePicks 首页 — 简洁目录式
 // ============================================================
 
 import { ALL_TOOLS } from "@/data/tools";
@@ -24,7 +23,6 @@ export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
 
-  // 分类
   const categories = useMemo(() => {
     const m = new Map<string, { count: number; downloads?: number }>();
     for (const t of ALL_TOOLS) {
@@ -37,7 +35,6 @@ export default function HomePage() {
       .sort((a, b) => b.count - a.count);
   }, [ALL_TOOLS]);
 
-  // 搜索过滤
   const filteredTools = useMemo(() => {
     if (!searchQuery) return ALL_TOOLS.slice(0, 12);
     return ALL_TOOLS.filter((t: any) =>
@@ -47,13 +44,11 @@ export default function HomePage() {
     ).slice(0, 12);
   }, [ALL_TOOLS, searchQuery]);
 
-  // 热门资源（按评分）
   const popularResources = useMemo(
     () => [...ALL_TOOLS].sort((a: any, b: any) => b.rating - a.rating).slice(0, 8),
     [ALL_TOOLS]
   );
 
-  // 最新博客
   const latestPosts = useMemo(
     () => [...BLOG_POSTS]
       .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -84,7 +79,6 @@ export default function HomePage() {
           <p className="text-gray-500 max-w-xl mx-auto mb-8">
             Curated directory of the best freelance platforms. Compare features, read reviews, and find the perfect marketplace for your skills.
           </p>
-          {/* 搜索框 */}
           <div className="max-w-2xl mx-auto relative">
             <div className="flex items-center bg-[#12121E] border border-[#1E1E32] rounded-xl px-5 py-3.5">
               <Search className="w-5 h-5 text-gray-500 mr-3" />
@@ -97,7 +91,6 @@ export default function HomePage() {
               />
             </div>
           </div>
-          {/* 分类快速入口 */}
           <div className="flex flex-wrap justify-center gap-2 mt-6">
             {categories.slice(0, 8).map((cat) => (
               <Link
@@ -154,14 +147,12 @@ export default function HomePage() {
                   href={`/tools/${tool.id}`}
                   className="group bg-[#0F0F1E] border border-[#1A1A2E] rounded-xl overflow-hidden hover:border-[#2A2A4E] transition-all"
                 >
-                  {/* 平台缩略图 */}
                   <div className="aspect-[16/9] flex items-center justify-center"
                     style={{ background: `linear-gradient(135deg, ${ACCENT_COLOR}15, ${i % 2 === 0 ? SECONDARY_ACCENT : ACCENT_COLOR}08)` }}>
                     <div className="text-center">
                       <Users className="w-8 h-8 mx-auto opacity-30"
                         style={{ color: i % 2 === 0 ? ACCENT_COLOR : SECONDARY_ACCENT }} />
                     </div>
-                    {/* 免费标签 */}
                     <span className="absolute top-2 right-2 text-[10px] px-2 py-0.5 rounded-full bg-green-500/20 text-green-400 font-medium">
                       {tool.pricing?.includes("Free") || tool.pricing?.includes("From $0") ? "Free" : "Popular"}
                     </span>

@@ -38,9 +38,7 @@ export default function Footer() {
   return (
     <footer className="relative border-t border-[#2D2D6B] bg-[#0A0A1A]">
       <div className="max-w-[1200px] mx-auto px-6 py-16">
-        {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between gap-12 mb-12">
-          {/* Brand Column */}
           <div className="max-w-xs">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#8B5CF6] to-[#A78BFA] flex items-center justify-center">
@@ -64,7 +62,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Link Columns */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {Object.entries(FOOTER_LINKS).map(([title, links]) => (
               <div key={title}>
@@ -86,7 +83,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className="pt-8 border-t border-[#2D2D6B] flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-[#6B7280]">
             &copy; {new Date().getFullYear()} FreelanceHubs. All rights reserved.

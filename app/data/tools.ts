@@ -687,5 +687,4 @@ export const ALL_TOOLS: ToolData[] = [
   },
 ];
 
-// Lookup map for tool detail pages
 export const TOOL_MAP = new Map(ALL_TOOLS.map((tool) => [tool.id, tool]));

@@ -34,7 +34,6 @@ export default function Header() {
       }`}
     >
       <div className="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#8B5CF6] to-[#A78BFA] flex items-center justify-center">
             <Users className="w-4 h-4 text-white" />
@@ -44,7 +43,6 @@ export default function Header() {
           </span>
         </Link>
 
-        {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-1">
           {NAV_ITEMS.map((item) => (
             <Link
@@ -57,7 +55,6 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* CTA Button */}
         <div className="hidden md:flex items-center gap-3">
           <Link
             href="/"
@@ -71,7 +68,6 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           className="md:hidden p-2 text-[#C4B5FD] hover:text-[#F0F0FF]"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -80,7 +76,6 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {mobileMenuOpen && (
         <motion.div
           initial={{ opacity: 0, y: -10 }}
