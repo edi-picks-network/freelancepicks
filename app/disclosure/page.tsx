@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Affiliate Disclosure — FreelanceHubs",
+  title: "Affiliate Disclosure — FreelancePicks",
   description:
-    "FreelanceHubs's affiliate disclosure policy. Learn how we may earn commissions through partner links on our site.",
+    "FreelancePicks's affiliate disclosure policy. Learn how we may earn commissions through partner links on our site.",
 };
 
 export default function DisclosurePage() {
@@ -26,7 +26,7 @@ export default function DisclosurePage() {
           <section>
             <h2 className="text-xl font-bold text-[#F0F4F8] mb-3">Transparency First</h2>
             <p>
-              FreelanceHubs is committed to transparency. This Affiliate Disclosure
+              FreelancePicks is committed to transparency. This Affiliate Disclosure
               explains how we may earn compensation through links on our website.
             </p>
           </section>
@@ -34,7 +34,7 @@ export default function DisclosurePage() {
           <section>
             <h2 className="text-xl font-bold text-[#F0F4F8] mb-3">Affiliate Links</h2>
             <p>
-              Some of the links on FreelanceHubs are affiliate links. This means that
+              Some of the links on FreelancePicks are affiliate links. This means that
               if you click on a link and make a purchase or sign up for a service, we may
               receive a commission at no additional cost to you.
             </p>
@@ -65,7 +65,7 @@ export default function DisclosurePage() {
               <li>Amazon Associates</li>
               <li>PartnerStack</li>
               <li>Impact Radius</li>
-              <li>Individual SaaS vendor referral programs</li>
+              <li>Individual freelance platform referral programs</li>
             </ul>
             <p className="mt-3">
               This list may change over time as we add or remove affiliate partnerships.
@@ -77,8 +77,8 @@ export default function DisclosurePage() {
             <p>
               If you have any questions about our affiliate relationships or this
               disclosure, please contact us at{" "}
-              <a href="mailto:info@freelancehubs.net" className="text-[#3B82F6] hover:underline">
-                info@freelancehubs.net
+              <a href="mailto:info@freelancepicks.net" className="text-[#3B82F6] hover:underline">
+                info@freelancepicks.net
               </a>
               .
             </p>

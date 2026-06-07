@@ -35,9 +35,9 @@ The freelance economy didn’t just evolve in 2025—it bifurcated.
 According to the 2026 Upwork & World Economic Forum Joint Freelance Index, two distinct market segments now dominate:
 
 - **The Efficiency Tier**: Platforms optimized for speed, volume, and algorithmic matching—ideal for short-turnaround, standardized work (e.g., social banners, Figma wireframes, Canva templates). Average project value: $120–$480. Growth: +19% YoY.
-- **The Authority Tier**: Platforms built for relationship depth, IP clarity, and premium positioning—geared toward brand identity systems, SaaS UI audits, or editorial illustration series. Average project value: $2,200–$14,500. Growth: +33% YoY—but only for freelancers with verified case studies, client references, and documented process frameworks.
+- **The Authority Tier**: Platforms built for relationship depth, IP clarity, and premium positioning—geared toward brand identity systems, UI audits, or editorial illustration series. Average project value: $2,200–$14,500. Growth: +33% YoY—but only for freelancers with verified case studies, client references, and documented process frameworks.
 
-Crucially, *platforms no longer compete on features—they compete on curation*. In 2026, Fiverr’s ‘Pro Verified’ badge requires 3 verifiable client video testimonials *and* a live screen-share audit of your design workflow. 99designs now mandates portfolio tagging by *client industry vertical* (e.g., “Fintech SaaS,” “Climate Tech Nonprofit”)—not just style or tool.
+Crucially, *platforms no longer compete on features—they compete on curation*. In 2026, Fiverr’s ‘Pro Verified’ badge requires 3 verifiable client video testimonials *and* a live screen-share audit of your design workflow. 99designs now mandates portfolio tagging by *client industry vertical* (e.g., “Fintech,” “Climate Tech Nonprofit”)—not just style or tool.
 
 And yes—AI is everywhere. But not how you think. It’s not replacing designers. It’s replacing *inconsistent freelancers*. Platforms now use LLM-augmented scoring to flag proposals with vague timelines (“I’ll deliver soon”), unverified claims (“5+ years in Figma”), or mismatched portfolio pieces. In our audit, 68% of rejected proposals on Guru and PeoplePerHour failed not on skill—but on *narrative coherence*: inconsistent tone between bio, proposal, and portfolio captions.
 
@@ -126,7 +126,7 @@ Both enforce strict ‘Portfolio Depth Requirements’:
 - Avg. client-to-designer match time: 2.1 days (fastest among all platforms)
 
 **Strategic Advice**:
-- Lead with *business impact*, not aesthetics. A case study titled “SaaS Dashboard Redesign That Cut Support Tickets by 31%” outperforms “Modern Dark Mode UI” by 4.7x in matching.
+- Lead with *business impact*, not aesthetics. A case study titled “Dashboard Redesign That Cut Support Tickets by 31%” outperforms “Modern Dark Mode UI” by 4.7x in matching.
 - Use Contently’s ‘Stakeholder Alignment Report’ generator: Paste a client’s investor deck or earnings call transcript, and it identifies 3–5 strategic themes to mirror in your proposal narrative.
 - ClearVoice’s ‘Tone Match’ tool analyzes your proposal draft against the client’s public content—and suggests phrasing tweaks to align with their voice (e.g., swaps “streamline workflows” → “remove friction from daily ops” for fintech clients).
 
@@ -165,7 +165,7 @@ While Fiverr and 99designs dominate headlines, three emerging models deserve att
 
 - **Dribbble Pro (Relaunched)**: Dropped its open feed in Jan 2026. Now operates as an invite-only ‘Design Talent Network’—curated by industry veterans. Clients post briefs; Dribbble matches 3–5 pre-vetted designers. No bidding. Fees: 8%. Payout speed: 24-hour guarantee. *Best for*: Portfolio-first designers with strong personal brands.
 
-- **Toptal Design (Expanded)**: Now accepts mid-level designers (3+ years) with proven SaaS or fintech experience. Rigorous 4-stage screening (portfolio review → live Figma challenge → client simulation → reference audit). Acceptance rate: 4.2%. Avg. rate: $125–$220/hr. *Best for*: Elite UI/UX professionals seeking enterprise stability.
+- **Toptal Design (Expanded)**: Now accepts mid-level designers (3+ years) with proven fintech or enterprise experience. Rigorous 4-stage screening (portfolio review → live Figma challenge → client simulation → reference audit). Acceptance rate: 4.2%. Avg. rate: $125–$220/hr. *Best for*: Elite UI/UX professionals seeking enterprise stability.
 
 - **Wellfound (formerly AngelList) Creative**: Integrated with Crunchbase data. Shows real-time funding status, hiring velocity, and tech stack of startups—so you can target companies *just* post-Series A. Fee: 5% (only on first project). *Best for*: Designers who want equity conversations baked in.
 
@@ -511,7 +511,7 @@ The 2026 freelance market is bifurcated: either you compete on volume at lower r
 
 **Best for**: Freelancers who want to avoid platform fees entirely.
 
-**Pricing detail**: Completely free. No transaction fees, no membership fees. Hubstaff monetizes through its time tracking SaaS.
+**Pricing detail**: Completely free. No transaction fees, no membership fees. Hubstaff monetizes through its time tracking products.
 
 **Verdict**: The lack of fees is amazing, but you also get no payment protection or dispute resolution. Best for ongoing client relationships where trust is already established.
 
@@ -712,7 +712,7 @@ Before you join any platform, you need to know what you're selling. Take an hone
 | Video/Audio | Video editing, podcast production, transcription | $15-40/hr |
 | Business | Bookkeeping, consulting, project management | $30-75/hr |
 
-**Pro tip**: Don't just list skills — identify your "niche overlap." For example, instead of "graphic designer," try "SaaS startup graphic designer who understands conversion-focused design." Specificity wins every time.
+**Pro tip**: Don't just list skills — identify your "niche overlap." For example, instead of "graphic designer," try "startup-focused graphic designer who understands conversion-focused design." Specificity wins every time.
 
 ### Skills Assessment Exercise
 
@@ -780,7 +780,7 @@ Your profile is your storefront. Here's what every high-performing profile has:
 ### Essential Elements
 
 1. **Professional photo**: Not a selfie, not a vacation picture. Headshot against a clean background.
-2. **Compelling headline**: Not "Freelance Writer" but "B2B SaaS Content Writer Who Helps Tech Companies Generate Leads"
+2. **Compelling headline**: Not "Freelance Writer" but "Freelance Content Writer Who Helps Tech Companies Generate Leads"
 3. **Results-oriented bio**: Focus on client outcomes, not your history. Use the format: "I help [specific client] achieve [specific result] through [your service]."
 4. **Portfolio samples**: 3-5 pieces showing range. If you don't have client work, create spec projects or volunteer work.
 5. **Skills tests**: Complete all relevant platform skills tests — they boost your profile score.

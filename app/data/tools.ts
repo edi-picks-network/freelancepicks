@@ -230,7 +230,7 @@ export const ALL_TOOLS: ToolData[] = [
     userQuotes: [
       {
         role: "CTO",
-        company: "HealthTech SaaS startup",
+        company: "HealthTech startup",
         quote: "We hired a Toptal blockchain architect to redesign our HIPAA-compliant ledger — he shipped production code in 11 days and mentored our internal team on zero-knowledge proofs"
       },
       {
@@ -622,7 +622,7 @@ export const ALL_TOOLS: ToolData[] = [
       },
       {
         role: "Director of Marketing",
-        company: "Healthcare SaaS Startup",
+        company: "Healthcare Startup",
         quote: "Worth the investment once we scaled past 12 freelancers, but the first quarter felt like learning a new ERP system instead of shipping content."
       },
     ],
@@ -806,8 +806,8 @@ export const ALL_TOOLS: ToolData[] = [
     userQuotes: [
       {
         role: "Content Marketing Director",
-        company: "Enterprise SaaS Corp",
-        quote: "Skyword's talent matching is exceptional — they understand our industry deeply and consistently deliver writers who get complex B2B topics."
+        company: "Enterprise Corp",
+        quote: "Skyword's talent matching is exceptional — they understand our industry deeply and consistently deliver writers who get complex industry topics."
       },
       {
         role: "Freelance Technology Writer",
@@ -872,7 +872,7 @@ export const ALL_TOOLS: ToolData[] = [
         quote: "WriterAccess has become our primary content engine. The AI matching saves hours of screening and the quality is consistently solid."
       },
       {
-        role: "Freelance B2B Writer",
+        role: "Freelance Writer (Tech)",
         company: "ContentWorks",
         quote: "The rating system on WriterAccess rewards quality work. Since reaching 5-star status, I've had more work than I can handle."
       },
@@ -1091,7 +1091,7 @@ export const ALL_TOOLS: ToolData[] = [
       "Smaller client base than Upwork or Fiverr",
     ],
     pricing: "Free",
-    pricingDetail: "Hubstaff Talent is 100% free for both freelancers and clients. No transaction fees, no membership fees, no hidden costs. Hubstaff monetizes through its separate time tracking and productivity SaaS products.",
+    pricingDetail: "Hubstaff Talent is 100% free for both freelancers and clients. No transaction fees, no membership fees, no hidden costs. Hubstaff monetizes through its separate time tracking and productivity products.",
     features: [
       "Free freelance marketplace",
       "Detailed freelancer profiles with portfolios",

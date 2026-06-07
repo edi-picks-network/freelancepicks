@@ -23,92 +23,106 @@ function deslugify(slug: string): string | undefined {
 }
 
 const BUYING_GUIDES: Record<string, string> = {
-  CRM:
-    "When choosing a freelance platform, consider your skills, preferred work type, and income goals. General freelancers benefit from Upwork's diverse project landscape, while tech professionals often prefer Toptal's curated network. Key factors to evaluate include platform fees, payment protection, client quality, and category specialization. Look for platforms that offer seamless communication tools, escrow payment systems, and dispute resolution.",
-  Marketing:
-    "The best marketing platform depends on your primary channel strategy. Content-driven teams benefit from HubSpot's inbound marketing suite, while email-focused marketers may prefer Mailchimp or Klaviyo. Evaluate automation capabilities, lead scoring sophistication, multi-channel campaign management, and analytics depth. Consider total cost of ownership including contact tiers — the jump between pricing tiers can be significant for growing teams.",
-  Communication:
-    "Evaluate communication platforms based on your organization's size, remote work setup, and integration ecosystem. Slack leads for channel-based messaging and app integrations, while Zoom excels at video quality and meeting features. Microsoft Teams offers the deepest Office 365 integration. Consider AI features like meeting summaries, smart replies, and thread summarization. For enterprise deployments, prioritize admin controls, compliance features, and guest access management.",
-  Management:
-    "Project management tools vary significantly in their approach. Asana excels at cross-team portfolio management and goal tracking. Monday.com offers the most visual, customizable interface with 200+ templates. Jira is the standard for software development teams. ClickUp provides the most features per dollar. Consider your team's workflow style — some prefer Kanban boards, others need Gantt charts or timeline views with dependency tracking.",
-};
+  "General Freelance":
+    "When choosing a general freelance platform, consider your experience level, preferred work type, and income goals. Upwork offers the widest variety of projects across all categories, while Freelancer.com provides contest-based opportunities. Key factors include platform fees, payment protection, client quality, and dispute resolution. Look for platforms with escrow payment systems, robust communication tools, and strong community support.",
+  "Design & Creative":
+    "Designers have specialized platform options depending on their medium. 99designs excels for logo and graphic design through contest-based selection. Dribbble is ideal for UI/UX designers seeking portfolio-based opportunities. Consider platform commission rates, project visibility, and the quality of creative briefs. Niche platforms often provide better client matching for specialized creative work.",
+  "Tech & Development":
+    "For developers and technical freelancers, Toptal offers premium rates through rigorous vetting. Upwork provides the broadest range of development projects. Gun.io focuses exclusively on connecting developers with tech companies. Evaluate each platform's screening process, project scoping tools, and support for version control integration.",
+  "Writing & Content":
+    "Content creators should choose platforms that match their expertise level and writing niche. Contently and ClearVoice connect writers with premium content marketing clients. WriterAccess offers a rating system that rewards quality work. Consider platform editorial standards, payment rates per word or project, and the availability of long-term contracts versus one-off assignments.",
+  "Admin & Virtual Assistance":
+    "Virtual assistants and administrative freelancers benefit from platforms with strong communication tools and scheduling features. Upwork and Freelancer.com have the largest selection of administrative projects. Guru offers a streamlined interface for finding support roles. Look for platforms with time tracking, milestone-based payments, and clear scope-of-work templates.",
+};;
 
 const FAQS: Record<string, { q: string; a: string }[]> = {
-  CRM: [
+  "General Freelance": [
     {
-      q: "What's the best CRM for small businesses?",
-      a: "For small businesses, HubSpot's free CRM offers the best value with contact management, deal tracking, and email integration at no cost. Freshsales is also excellent for growing teams with its intuitive interface and built-in phone system starting at $9/user/month.",
+      q: "Which general freelance platform is best for beginners?",
+      a: "For beginners, Upwork and Fiverr are the most accessible platforms. Upwork offers a wide range of entry-level projects, while Fiverr lets you create gigs that clients purchase directly. Both have robust support systems and large client bases. Start with smaller projects to build your rating and portfolio before targeting higher-value contracts.",
     },
     {
-      q: "How much does enterprise CRM cost?",
-      a: "Enterprise CRM costs vary widely. Salesforce Enterprise starts at $165/user/month with full customization, while HubSpot Enterprise runs $3,600/month for 10K contacts. Pipedrive and Zoho offer more affordable plans starting under $15/user/month.",
+      q: "How much do general freelance platforms charge in fees?",
+      a: "Fees vary significantly. Upwork charges a sliding fee starting at 20% for the first $500 with a client, dropping to 5% after $10,000. Fiverr takes 20% of each transaction. Freelancer.com charges 10% for fixed-price projects. PeoplePerHour takes 20% of earnings. Always factor platform fees into your pricing strategy.",
     },
     {
-      q: "What CRM features should I prioritize in 2026?",
-      a: "Prioritize AI-powered lead scoring, pipeline forecasting, workflow automation, mobile access with offline mode, and API quality for integrations. In 2026, platforms with strong AI features and agent-ready APIs have a significant advantage.",
-    },
-  ],
-  Marketing: [
-    {
-      q: "Is HubSpot worth the price for marketing automation?",
-      a: "HubSpot Marketing Hub provides exceptional value for mid-market B2B teams that need an all-in-one solution. The free CRM integration, smart content engine, and AI content strategy tools justify the cost for teams that will use the full suite. However, the jump from Starter ($15/mo) to Pro ($890/mo) is steep.",
-    },
-    {
-      q: "What's the best email marketing platform for B2B?",
-      a: "For B2B email marketing, HubSpot is the gold standard for integrated CRM+email. Mailchimp is best for simplicity and ease of use. Marketo Engage leads enterprise-level email automation. Consider your contact list size, automation complexity, and CRM integration needs.",
-    },
-    {
-      q: "What are the must-have marketing automation features?",
-      a: "Essential features include multi-step automation workflows, lead scoring and grading, A/B testing for emails and landing pages, smart content personalization, and integrated analytics. AI-powered content recommendations and predictive lead scoring are becoming table stakes in 2026.",
+      q: "What should I include in my freelance profile?",
+      a: "A strong profile includes a professional photo, clear headline describing your specialization, detailed work history with quantifiable achievements, portfolio samples, relevant certifications, and a personalized bio that speaks to your target clients. Completing platform skills tests and earning badges also boosts your profile visibility.",
     },
   ],
-  Communication: [
+  "Design & Creative": [
     {
-      q: "Slack vs Teams vs Zoom — which is best?",
-      a: "Slack is best for deep app integrations and developer-friendly workflows. Microsoft Teams wins for organizations already using Office 365 with its native integration. Zoom Workplace is the strongest choice for video-first organizations that want an all-in-one platform with AI Companion included at no extra cost.",
+      q: "Which platform is best for graphic designers?",
+      a: "99designs is excellent for graphic designers specializing in logos, branding, and print design. Dribbble is the go-to platform for UI/UX designers and digital creatives. DesignCrowd offers contest-based opportunities across multiple design disciplines. For specialized work like illustration or motion graphics, consider Envato Studio.",
     },
     {
-      q: "How do I reduce notification overload in team chat?",
-      a: "Implement channel governance policies (dedicated channels per project/team), use Do Not Disturb hours, set notification preferences per channel, and encourage async communication. Slack's notification schedules and Teams' quiet hours are effective — but culture change is more important than tool settings.",
+      q: "How do design contests work on freelance platforms?",
+      a: "On contest-based platforms like 99designs and DesignCrowd, clients post a design brief and multiple freelancers submit concepts. The client selects a winner who receives the prize payment. While this model can yield good payouts for winners, many designers prefer direct-hire platforms where they are compensated for all work submitted.",
     },
     {
-      q: "Is Slack AI worth the upgrade?",
-      a: "Slack AI provides genuinely useful daily recaps and thread summaries, particularly for managers and executives who can't read every message. The natural-language search across message history saves time finding past decisions. However, enterprise-grade features require Enterprise Grid, which is custom-priced.",
-    },
-  ],
-  Management: [
-    {
-      q: "Asana vs Monday.com vs ClickUp — which is best?",
-      a: "Asana is best for teams that need portfolio management and goal tracking across departments. Monday.com offers the most visual, customizable interface with minimal training. ClickUp provides the most features per dollar but has a steeper learning curve. Jira remains the standard for software development teams.",
-    },
-    {
-      q: "What project management methodology works best for SaaS teams?",
-      a: "Most SaaS teams benefit from a hybrid approach — Scrum for engineering sprints, Kanban for ongoing operations, and OKRs for strategic initiatives. Look for tools that support multiple views (board, timeline, calendar) so each team can work their way while leadership gets portfolio-level visibility.",
-    },
-    {
-      q: "How much should we budget for project management software?",
-      a: "Expect $10-15/user/month for basic plans, $20-35/user/month for business plans with automation and reporting, and custom pricing for enterprise tiers. For a 50-person team, budget approximately $750-1,500/month for a solid project management solution with automation capabilities.",
+      q: "What is the best way to showcase a design portfolio?",
+      a: "Create a focused portfolio that highlights your best 10-15 projects rather than everything you have done. Include case studies showing the problem, process, and results. Use high-quality mockups, before/after comparisons, and client testimonials. On platforms like Dribbble, consistency in style and regular posting helps build your following.",
     },
   ],
-};
-
-function getDefaultBuyingGuide(category: string): string {
-  return `When evaluating ${category.toLowerCase()} software solutions, consider your specific use case, team size, budget, and required integrations. Key evaluation criteria include feature completeness, ease of use, scalability, customer support quality, and total cost of ownership. Always take advantage of free trials to test the platform with your actual workflows before committing.`;
+  "Tech & Development": [
+    {
+      q: "Is Toptal worth the rigorous screening process?",
+      a: "Toptal's screening process accepts only the top 1-3% of applicants, but those who pass gain access to premium clients and higher rates (typically $100-200+/hour). The process includes language and personality tests, live coding challenges, and test projects. For experienced developers seeking quality over quantity, the investment is worthwhile.",
+    },
+    {
+      q: "What development niches are in highest demand?",
+      a: "Currently, AI/ML engineering, blockchain development, cloud architecture (AWS/Azure/GCP), full-stack JavaScript (React/Node.js), and cybersecurity are the highest-paying niches. Mobile development (React Native, Flutter) and DevOps engineering also have strong demand. Specializing in a high-demand niche can significantly increase your rates.",
+    },
+    {
+      q: "How do I win technical freelance projects?",
+      a: "Beyond technical skills, clients value clear communication, reliability, and understanding of business requirements. Submit proposals that demonstrate you have read the project brief, ask thoughtful technical questions, and include relevant portfolio examples. Consider offering a small paid proof-of-concept for complex projects to build trust.",
+    },
+  ],
+  "Writing & Content": [
+    {
+      q: "Which writing platform pays the best rates?",
+      a: "Contently and ClearVoice offer premium rates ($0.50-$2.00/word) but require experience and strong portfolios. WriterAccess pays based on your rating tier, with top-rated writers earning significantly more. ProBlogger and BloggingPro list mid-range opportunities. Upwork has the widest range from entry-level to premium writing projects.",
+    },
+    {
+      q: "How do I increase my writing rates on platforms?",
+      a: "Build a portfolio of published work in your niche, collect strong client reviews, complete platform skill assessments, and specialize in a high-value writing type (e.g., white papers, case studies, technical documentation). Raise rates gradually by 10-20% every few months as you gain reviews and repeat clients.",
+    },
+    {
+      q: "What is more profitable: per-word or per-project pricing?",
+      a: "Per-project pricing is generally more profitable once you know how quickly you work. A $200 flat fee for a 1,000-word article is $0.20/word, but if it takes you 2 hours, that is $100/hour. Per-word pricing protects you from scope creep. Start with per-word, then transition to project pricing as you gain experience.",
+    },
+  ],
+  "Admin & Virtual Assistance": [
+    {
+      q: "What skills are most in-demand for virtual assistants?",
+      a: "Top in-demand VA skills include calendar management, email management, CRM administration (HubSpot, Salesforce), social media scheduling, bookkeeping (QuickBooks, Xero), project management (Asana, Trello), and customer service. Technical skills like WordPress management and basic graphic design increase your marketability.",
+    },
+    {
+      q: "How do I set rates as a virtual assistant?",
+      a: "VA rates vary widely based on experience and skills. Beginners on Upwork typically earn $10-20/hour, while experienced VAs with specialized skills command $30-60/hour. Consider offering package pricing for recurring tasks. Platforms like Belay and Time Etc offer higher rates for experienced VAs with verified skills.",
+    },
+    {
+      q: "What tools should every virtual assistant master?",
+      a: "Essential tools include Google Workspace or Microsoft 365, project management software (Asana, Trello, ClickUp), communication tools (Slack, Zoom), password managers (LastPass, 1Password), time tracking (Toggl, Harvest), and booking tools (Calendly, Acuity). Proficiency in these tools can justify higher rates.",
+    },
+  ],
+};function getDefaultBuyingGuide(category: string): string {
+  return `When evaluating ${category.toLowerCase()} platforms, consider your specific skills, experience level, budget, and income goals. Key evaluation criteria include platform fees, payment protection, client quality, support availability, and matching algorithms. Always take advantage of free signup and test the platform with a few proposals before committing.`;
 }
 
 function getDefaultFAQs(category: string): { q: string; a: string }[] {
   return [
     {
-      q: `What is the best ${category.toLowerCase()} software?`,
-      a: `The best ${category.toLowerCase()} software depends on your specific needs. Our rankings are based on verified user reviews, feature analysis, and expert evaluation. Compare the top-rated tools above to find the best fit for your organization.`,
+      q: `What is the best ${category.toLowerCase()} freelance platform?`,
+      a: `The best ${category.toLowerCase()} freelance platform depends on your specific needs. Our rankings are based on verified user reviews, feature analysis, and expert evaluation. Compare the top-rated platforms above to find the best fit for your freelance career.`,
     },
     {
-      q: `How much does ${category.toLowerCase()} software cost?`,
-      a: `Pricing varies widely from free tiers to enterprise plans. Most ${category.toLowerCase()} tools offer monthly or annual subscriptions with tiered pricing based on features and usage. See individual tool pages for detailed pricing information.`,
+      q: `How much does ${category.toLowerCase()} freelance platform charge?`,
+      a: `Pricing varies widely across platforms. Most ${category.toLowerCase()} freelance platforms charge a commission on earnings or offer subscription plans. See individual platform pages for detailed pricing information.`,
     },
     {
-      q: `What features should I look for in ${category.toLowerCase()} software?`,
-      a: `Essential features include core functionality specific to ${category.toLowerCase()} use cases, integration capabilities with your existing tech stack, reporting and analytics, security and compliance features, and responsive customer support.`,
+      q: `What features should I look for in a ${category.toLowerCase()} freelance platform?`,
+      a: `Essential features include strong client matching, payment protection, dispute resolution, communication tools, profile customization, and responsive support. Look for platforms with positive freelancer reviews and transparent fee structures.`,
     },
   ];
 }
@@ -132,18 +146,18 @@ export function generateMetadata({
     (a, b) => b.rating - a.rating
   );
   return {
-    title: `Best ${category} Software in 2026 — Top ${Math.min(tools.length, 10)} Tools Compared`,
-    description: `Discover the best ${category.toLowerCase()} software in 2026. Compare top-rated platforms with verified reviews, pricing breakdowns, and expert recommendations. Find the perfect ${category.toLowerCase()} tool for your business.`,
+    title: `Best ${category} Freelance Platforms in 2026 — Top ${Math.min(tools.length, 10)} Tools Compared`,
+    description: `Discover the best ${category.toLowerCase()} freelance platforms in 2026. Compare top-rated platforms with verified reviews, pricing breakdowns, and expert recommendations. Find the perfect ${category.toLowerCase()} platform for your freelance career.`,
     keywords: [
-      `best ${category.toLowerCase()} software 2026`,
-      `top ${category.toLowerCase()} tools`,
+      `best ${category.toLowerCase()} freelance platforms 2026`,
+      `top ${category.toLowerCase()} platforms`,
       `${category.toLowerCase()} comparison`,
       `${category.toLowerCase()} reviews`,
       `best ${category.toLowerCase()} platforms`,
     ],
     openGraph: {
-      title: `Best ${category} Software in 2026 — Top Picks & Comparison`,
-      description: `Find the best ${category.toLowerCase()} software for your business. Expert comparisons, verified reviews, and detailed pricing for ${tools.length} leading ${category.toLowerCase()} platforms.`,
+      title: `Best ${category} Freelance Platforms in 2026 — Top Picks & Comparison`,
+      description: `Find the best ${category.toLowerCase()} freelance platforms. Expert comparisons, verified reviews, and detailed pricing for ${tools.length} leading ${category.toLowerCase()} platforms.`,
     },
   };
 }
@@ -190,7 +204,7 @@ export default function BestCategoryPage({
             </div>
             <div>
               <h1 className="text-4xl md:text-5xl font-extrabold text-[#F0F4F8] tracking-tight">
-                Best {category} Software in 2026
+                Best {category} Freelance Platforms in 2026
               </h1>
               <p className="text-base text-[#8BA3BE] mt-1">
                 Our expert picks for the top{" "}
@@ -359,7 +373,7 @@ export default function BestCategoryPage({
           <div className="bg-[#0F1D32] border border-[#1E3A5F] rounded-2xl p-8">
             <h2 className="text-2xl font-bold text-[#F0F4F8] mb-4 flex items-center gap-2">
               <ArrowRight className="w-6 h-6 text-[#3B82F6]" />
-              {category} Software Buying Guide
+              {category} Platform Buying Guide
             </h2>
             <p className="text-[#8BA3BE] leading-relaxed text-base">
               {buyingGuide}

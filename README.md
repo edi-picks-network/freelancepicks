@@ -1,4 +1,4 @@
-# FreelanceHubs
+# FreelancePicks
 
 A modern freelance platform directory and comparison website built with Next.js 15, Tailwind CSS v3.4, and TypeScript. Features a violet color scheme.
 

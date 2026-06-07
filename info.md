@@ -1,6 +1,6 @@
 # freelancehubs
 
-**FreelanceHubs** — a freelance platform directory and review site with a violet color scheme.
+**FreelancePicks** — a freelance platform directory and review site with a violet color scheme.
 
 Built with Next.js 15, Tailwind CSS v3.4, and TypeScript.
 

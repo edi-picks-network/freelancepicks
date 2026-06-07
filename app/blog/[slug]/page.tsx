@@ -20,7 +20,7 @@ export async function generateMetadata({
   const post = BLOG_POSTS.find((p) => p.slug === slug);
   if (!post) return { title: "Post Not Found" };
   return {
-    title: `${post.title} — FreelanceHubs`,
+    title: `${post.title} — FreelancePicks`,
     description: post.excerpt,
   };
 }
@@ -166,12 +166,12 @@ export default async function BlogPostPage({
     post.title,
     post.author,
     post.date,
-    'FreelanceHubs',
+    'FreelancePicks',
     post.excerpt
   );
   const orgJsonLd = organizationSchema(
-    'FreelanceHubs',
-    'https://freelancehubs.net',
+    'FreelancePicks',
+    'https://freelancepicks.net',
     'Comprehensive freelance platform directory for remote work.'
   );
 

@@ -39,7 +39,7 @@ export default function Header() {
             <Users className="w-4 h-4 text-white" />
           </div>
           <span className="text-lg font-bold text-[#F0F0FF] group-hover:text-[#8B5CF6] transition-colors">
-            FreelanceHubs
+            FreelancePicks
           </span>
         </Link>
 

@@ -64,8 +64,8 @@ export default function ToolDetailPage() {
     scripts.push(s1);
 
     const org = organizationSchema(
-      'FreelanceHubs',
-      'https://freelancehubs.net',
+      'FreelancePicks',
+      'https://freelancepicks.net',
       'Comprehensive freelance platform directory for remote work.'
     );
     const s2 = document.createElement('script');

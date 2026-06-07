@@ -8,8 +8,8 @@ interface JsonLdProps {
 }
 
 export default function JsonLd({
-  siteName = 'FreelanceHubs',
-  siteUrl = 'https://freelancehubs.net',
+  siteName = 'FreelancePicks',
+  siteUrl = 'https://freelancepicks.net',
   description = 'Comprehensive freelance platform directory and comparison hub for remote work opportunities.',
 }: JsonLdProps) {
   useEffect(() => {

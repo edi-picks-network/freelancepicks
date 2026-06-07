@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://freelancehubs.net/sitemap.xml
+Sitemap: https://freelancepicks.net/sitemap.xml

@@ -44,7 +44,7 @@ export default function Footer() {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#8B5CF6] to-[#A78BFA] flex items-center justify-center">
                 <Users className="w-4 h-4 text-white" />
               </div>
-              <span className="text-lg font-bold text-[#F0F0FF]">FreelanceHubs</span>
+              <span className="text-lg font-bold text-[#F0F0FF]">FreelancePicks</span>
             </Link>
             <p className="text-sm text-[#C4B5FD] leading-relaxed mb-6">
               The most comprehensive directory of freelance platforms. Discover, compare, and read reviews for the best freelance marketplaces for remote work opportunities.
@@ -85,7 +85,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-[#2D2D6B] flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-[#6B7280]">
-            &copy; {new Date().getFullYear()} FreelanceHubs. All rights reserved.
+            &copy; {new Date().getFullYear()} FreelancePicks. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link href="/privacy" className="text-sm text-[#6B7280] hover:text-[#C4B5FD] transition-colors">
