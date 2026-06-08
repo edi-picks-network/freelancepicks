@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import "@fontsource/nunito/400.css";
-import "@fontsource/nunito/500.css";
-import "@fontsource/nunito/600.css";
-import "@fontsource/nunito/700.css";
-import "@fontsource/nunito/800.css";
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/500.css";
+import "@fontsource/inter/600.css";
+import "@fontsource/inter/700.css";
+import "@fontsource/inter/800.css";
 import "./globals.css";
 import Header from "./sections/Header";
 import Footer from "./sections/Footer";
 import CookieBanner from "./components/CookieBanner";
 
 export const metadata: Metadata = {
-  title: "FreelancePicks - Best Freelance Platforms & Marketplaces 2026",
+  title: "FreelancePicks — Best Freelance Platforms & Marketplaces 2026",
   description:
     "Honest reviews of the best freelance platforms and marketplaces. Find your next remote work opportunity with our expert comparisons.",
   keywords: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "FreelancePicks",
-    title: "FreelancePicks - Best Freelance Platforms & Marketplaces 2026",
+    title: "FreelancePicks — Best Freelance Platforms & Marketplaces 2026",
     description:
       "Honest reviews of the best freelance platforms and marketplaces. Find your next remote work opportunity with our expert comparisons.",
   },
@@ -44,17 +44,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="font-nunito">
-      <body className="min-h-screen antialiased font-nunito">
-        <div className="aurora-bg" />
-        <div className="grid-pattern" />
-
+    <html lang="en" className="font-sans">
+      <body className="min-h-screen bg-white antialiased">
         <Header />
-
-        <main className="relative z-10">{children}</main>
-
+        <main className="min-h-screen">{children}</main>
         <Footer />
-
         <CookieBanner />
       </body>
     </html>
