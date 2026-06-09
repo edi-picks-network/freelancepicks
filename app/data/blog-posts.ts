@@ -232,7 +232,7 @@ You’re not selling design. You’re selling *certainty*. In 2026, the platform
 
 — Sarah Mitchell
 `,
-    author: "Sarah Mitchell",
+    author: "Chris Taylor",
     authorRole: "Freelance Copywriter and Platform Review Expert",
     date: "2026-06-07",
     category: "Freelance Platforms",
@@ -663,7 +663,7 @@ Remember: The platform is just the marketplace. Your reputation, portfolio, and 
 
 — Alex Chen
 `,
-    author: "Alex Chen",
+    author: "Chris Taylor",
     authorRole: "Freelance Strategist and Platform Analyst",
     date: "2026-06-07",
     category: "Freelance Platforms",
@@ -954,7 +954,7 @@ Start today. Send your first proposal. Your future freelance career is waiting.
 
 — Maria Santos
 `,
-    author: "Maria Santos",
+    author: "Chris Taylor",
     authorRole: "Freelance Career Coach and Founder of FreelanceLaunch",
     date: "2026-06-07",
     category: "Getting Started",
@@ -1031,7 +1031,7 @@ The most successful freelancers in 2026 share a common approach to AI: they use 
 Start by identifying the most repetitive, time-consuming tasks in your workflow. For most freelancers, these fall into three categories: research and information gathering, drafting and content creation, and administrative overhead. Choose one AI tool per category, integrate it into your routine for two weeks, and measure the impact on your productivity and output quality.
 
 The freelancers who thrive in this new landscape will be those who combine their unique human expertise — creative vision, strategic thinking, emotional intelligence, and client relationship skills — with the speed and efficiency that AI tools provide. Technology is the amplifier; you are still the signal.`,
-    author: "FreelancePicks Team",
+    author: "Chris Taylor",
     authorRole: "Freelance Tool Research & Review",
     date: "2026-06-08",
     category: "AI & Productivity",
@@ -1106,7 +1106,7 @@ A: Fiverr (2 days average) for micro-gigs, Guru (3 days) for project work. FlexJ
 ## Final Verdict  
 
 Skip the "best platform" myth. In 2026, top earners use stacked platforms: FlexJobs for lead generation, PeoplePerHour for mid-tier contracts, and Toptal or WriterAccess for premium work. Upwork remains essential for volume — but treat it as a sales funnel, not a salary source. For most, the sweet spot is two platforms: one for discovery (FlexJobs or PeoplePerHour), one for high-margin delivery (Codeable or WriterAccess). Start with fees, double down on payout speed, and always track your net effective hourly rate.`,
-    author: "FreelancePicks Team",
+    author: "Chris Taylor",
     authorRole: "Freelance Platform Research & Analysis",
     date: "2026-06-09",
     category: "Freelance Platforms",
