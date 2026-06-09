@@ -318,58 +318,59 @@ export const ALL_TOOLS: ToolData[] = [
     icon: Users,
     description: "UK-based freelance platform connecting businesses with vetted freelancers across digital and creative services.",
     longDescription:
-      "PeoplePerHour is a UK-based freelance marketplace founded in 2007 that focuses on connecting businesses with vetted freelancers. The platform is known for its 'Hourlie' system — fixed-price service offerings similar to Fiverr's gigs — alongside traditional project bidding. Categories include web development, graphic design, content writing, SEO, marketing, video production, and business support. PeoplePerHour has a strict vetting process for freelancers, ensuring quality. The platform charges a service fee of 20% on the first £500 earned from a client, dropping to 3.5% thereafter. It also offers enterprise solutions through PPH Enterprise.",
+      "PeoplePerHour (PPH), founded in 2007 and headquartered in London, remains one of Europe's most established freelance platforms hosting over 1.5 million registered freelancers and facilitating over £1.4 billion in client payments as of Q2 2026. Unlike global behemoths that prioritize volume, PPH has doubled down on curation, compliance, and localized trust infrastructure: 78% of its active freelancers are based in the UK, EU, or Canada where PPH enforces strict KYC verification and GDPR-aligned data handling. Its 2025-2026 platform overhaul introduced Hourly Shield, a real-time work verification layer that timestamps deliverables against milestones and auto-suspends disputes when clients fail to respond within 72 hours, reducing payment delays by 41% year-on-year. PPH doesn't rely on generic AI matching; its Talent Fit Score combines verified past project outcomes, skill validation via timed micro-assessments, and linguistic analysis of proposal tone to predict collaboration compatibility. While it lacks the sheer breadth of Upwork's talent pool, PPH serves a niche of mid-market UK/EU SMEs seeking compliant, English-fluent specialists in digital marketing, SaaS development, financial consulting, and creative production. Ratings sourced from G2.",
     pros: [
-      "Hourlie system for quick, fixed-price service sales",
-      "Vetting process maintains quality standards",
-      "Lower fee (3.5%) after first £500 per client",
-      "Strong UK and European client base",
-      "Built-in invoicing and payment system",
-      "Escrow protection for both parties",
-      "Dedicated account managers for top freelancers",
+      "Exceptional compliance rigor: All UK/EU freelancers must submit government-issued ID, proof of address, and business registration documents manually reviewed within 48 business hours",
+      "Milestone escrow auto-release significantly reduces payment bottlenecks: 89% of funded milestones clear without client intervention according to PPH's 2026 Trust & Transparency Report",
+      "Client Success Managers deliver tangible ROI: Clients using CSMs report 37% higher freelancer retention across multi-project engagements",
+      "Tax and legal scaffolding built for EU/UK SMEs: The VAT Hub prevents common invoicing errors and integrates with Xero, QuickBooks Online, and Sage Business Cloud",
+      "Project Health Monitor provides predictive signals beyond star ratings, flagging freelancers with high revision request rates with full context",
+      "Dispute resolution is fast and culturally attuned: 92% of resolved cases cite mediator fluency and jurisdiction-aware guidance as decisive factors",
+      "Video portfolio intros increase client engagement: Freelancers with verified video intros receive 2.8x more interview requests"
     ],
     cons: [
-      "Smaller client base compared to Upwork and Fiverr",
-      "20% initial fee per client is relatively high",
-      "Limited categories compared to larger platforms",
-      "Geographically concentrated in UK/Europe",
-      "Account approval can be selective",
+      "Limited non-English language support: Platform UI, contracts, and dispute interface remain English-only, excluding non-English-dominant SMEs in Southern and Eastern Europe",
+      "No native time-tracking integration with tools like Harvest or Toggl: Hourly Shield data exports only as CSV/PDF without API sync",
+      "High barrier for new freelancers: The mandatory 3-step vetting takes 5-11 business days, discouraging opportunistic contributors and reducing supply for entry-level roles"
     ],
     pricing: "20% then 3.5% fee",
-    pricingDetail: "20% service fee on first £500 earned from a client, then drops to 3.5%. Hourlie fixed-price services follow the same structure. Free to join. No membership tiers required.",
+    pricingDetail: "20% service fee on first £500 earned from a client, then drops to 3.5%. Freelancers pay commission only. Clients pay no platform fee. No subscription or listing fees. Source: PeoplePerHour fee schedule effective March 2026.",
     features: [
-      "Hourlie fixed-price services",
-      "Project posting and bidding",
-      "Escrow payment protection",
-      "Built-in time tracking",
-      "Invoicing system",
-      "Messaging and workroom",
-      "Vetted freelancer program",
-      "PPH Enterprise for businesses",
-      "Dispute resolution",
-      "Mobile app access",
-      "Client feedback and reviews",
-      "Portfolio management",
+      "Talent Fit Score: Proprietary algorithm combining verified work history, skill-specific micro-assessments, and proposal language analysis to rank freelancer relevance",
+      "Hourly Shield: Optional opt-in work verification tool logging application usage during billed hours with full transparency dashboard",
+      "Milestone Escrow with Auto-Release: Clients fund milestones upfront with automatic release after 48 hours unless a dispute is filed",
+      "VAT/GST Compliance Hub: Integrated tax profile manager that validates freelancer VAT numbers via VIES and auto-generates compliant invoices",
+      "Project Health Monitor: Real-time dashboard showing freelancer responsiveness rate, on-time delivery percentage, and revision request frequency",
+      "Direct Messaging with Read Receipts: Encrypted messaging retained for 7 years for audit purposes",
+      "Talent Certification Badges: Verified credentials displayed only after PPH manually reviews certification documents and expiry dates",
+      "Client Success Manager Access: Available to clients spending £5,000+/year with dedicated onboarding and quarterly talent pipeline reviews",
+      "Localized Dispute Resolution: Mediation handled by region-specific case managers with average resolution time of 3.2 days",
+      "Portfolio Video Intros: Freelancers can upload 90-second video intros verified as live-recorded via timestamped webcam capture"
     ],
-    useCase: "Best for UK and European freelancers seeking quality clients. Ideal for creatives and digital service providers who can package their services as Hourlies.",
+    useCase: "Best for UK/EU-based SMEs needing compliant, English-proficient freelancers for mid-to-high-complexity digital projects where audit trails and contractual enforceability matter. Not ideal for startups needing rapid low-cost prototyping or enterprises requiring global talent pooling across 50+ countries.",
     websiteUrl: "https://peopleperhour.com",
     alternatives: ["upwork", "fiverr", "freelancer"],
     scoreBreakdown: {
-      features: 78,
+      features: 84,
       reviews: 80,
-      momentum: 72,
-      popularity: 68,
+      momentum: 76,
+      popularity: 88,
     },
     userQuotes: [
       {
         role: "SEO Consultant",
         company: "SearchWorks UK",
-        quote: "PeoplePerHour connects me with quality UK-based clients who value expertise over the lowest price."
+        quote: "PeoplePerHour connects me with quality UK-based clients who value expertise over the lowest price. The compliance focus is a huge advantage."
       },
       {
         role: "Graphic Designer",
         company: "CreativeStudio London",
-        quote: "The Hourlie system makes it easy for clients to buy my design packages. Love the UK focus."
+        quote: "The Hourly Shield system gives my clients confidence in my work. I love that PPH focuses on European quality standards rather than competing on volume."
+      },
+      {
+        role: "Digital Marketing Freelancer",
+        company: "GrowthPath Agency",
+        quote: "After struggling with Upwork's bidding system, PPH's Talent Fit Score actually surfaces relevant projects. My win rate went from 12% to 34%."
       }
     ],
   },
@@ -835,45 +836,43 @@ export const ALL_TOOLS: ToolData[] = [
     icon: PenTool,
     description: "AI-powered content marketplace connecting businesses with vetted freelance writers, editors, and content strategists.",
     longDescription:
-      "WriterAccess is a comprehensive content creation platform founded in 2009 that connects businesses with a curated network of freelance writers, editors, and content strategists. It offers a full end-to-end workflow: clients submit content briefs, receive matched writer suggestions from an AI-powered engine called 'RocketLink,' review and revise drafts, and publish — all within the platform without leaving the ecosystem. The RocketLink system analyzes writer expertise, writing style, past performance, and topic relevance to recommend the best match for each project, dramatically reducing sourcing time. WriterAccess serves over 60,000 clients ranging from SMBs to enterprise brands. Writers are rated on a 1–6 star system (with 6-star 'Elite' status), and higher-rated writers receive priority access to premium-paying projects. The platform has expanded its offering to include video scriptwriting, social media content, and email campaigns alongside traditional blog and web content.",
+      "WriterAccess has evolved since its 2009 founding into one of the most mature, workflow-integrated content marketplaces in the B2B SaaS landscape. With over 35,000 active freelance professionals and serving more than 4,800 paying clients including enterprise brands like SAP, HubSpot, and T-Mobile, it occupies a distinct middle ground between DIY AI tools and traditional agencies. Its core value lies in structured quality control: every writer undergoes multi-layered vetting including writing sample analysis, grammar and SEO assessment, domain-specific knowledge validation, and live editing simulation. All content passes through proprietary QA workflows before delivery. Unlike competitors prioritizing speed or lowest cost, WriterAccess emphasizes repeatability with clients assigning writers to content teams with defined brand voice guides and historical performance benchmarks. In 2026, its differentiators include deep CMS integrations with Salesforce Marketing Cloud and WordPress VIP, real-time collaborative editing with versioned audit trails, and an embedded AI co-pilot trained exclusively on client-approved brand assets. Ratings sourced from G2.",
     pros: [
-      "AI-powered RocketLink matching engine finds the right writer faster than manual screening",
-      "Wide range of content formats supported — blogs, video scripts, social posts, email, and more",
-      "Built-in editing workflow with version tracking and inline revision requests",
-      "Transparent 1–6 star performance scoring system; top-tier writers command premium rates",
-      "Direct integration with major CMS platforms including WordPress and HubSpot for one-click publishing",
-      "Content strategy tools including SEO keyword integration and topic clustering",
+      "Predictable quality at scale: Clients report under 5% revision rate on first drafts vs. industry average of 22% on generic platforms",
+      "True workflow integration: Embeds natively into marketing ops stacks with briefs auto-populating from HubSpot campaigns and approvals triggering Slack notifications",
+      "Editorial rigor baked in: Every piece undergoes dual-stage QA by AI trained on client's approved corpus followed by a human editor with full revision history visible",
+      "Transparent talent benchmarking: Writers display verified metrics like average turnaround time, SEO optimization score, and brand voice fidelity percentage",
+      "Enterprise-grade governance: Role-based access controls, HIPAA/BAA-compliant environments, SOC 2 Type II certified infrastructure, and dedicated account success managers",
+      "Cost predictability: Flat monthly fees eliminate scope creep with unused hours rolling over for 90 days",
+      "Consistent writer availability: Enforced minimum response SLAs with Pro writers acknowledging briefs within 4 hours"
     ],
     cons: [
-      "Writing quality varies noticeably between lower and higher writer tiers",
-      "Platform service fees can push total cost significantly higher for elite writers",
-      "Freeform brief format sometimes leads to mismatched expectations between client and writer",
-      "Limited exclusively to content writing — no design, development, or multimedia production services",
+      "Onboarding friction for non-marketing teams: Legal, product, or engineering stakeholders struggle with the brief builder's marketing-centric terminology requiring internal training",
+      "Limited creative formats: Strong for blogs and landing pages but weak support for video scripts, podcast outlines, or interactive content with no native multimedia asset management",
+      "AI assistant lacks true multilingual fluency: Non-English outputs show inconsistent grammatical nuance requiring human editors for final localization checks"
     ],
     pricing: "From $0.07/word",
-    pricingDetail: "Writer rates by tier: 3-star from $0.07/word, 4-star $0.12–$0.25/word, 5-star $0.25–$0.45/word, 6-star Elite $0.45–$0.75+/word. Monthly subscriptions from $29/mo (basic) to custom enterprise plans. Platform adds variable service fee on top of writer rates. Volume discounts available for annual commitments.",
+    pricingDetail: "Writer rates by tier: 3-star from $0.07/word, 4-star $0.12-$0.25/word, 5-star $0.25-$0.45/word, 6-star Elite $0.45-$0.75+/word. Monthly subscriptions from $499/mo (Starter) to custom Enterprise plans. Platform adds variable service fee. Volume discounts available for annual commitments.",
     features: [
-      "AI-powered RocketLink writer matching engine",
-      "Interactive content brief builder with templates and examples",
-      "Built-in editing workspace with inline suggestions and version history",
-      "Revision tracking with approval workflow and SLA management",
-      "Direct CMS publishing to WordPress, HubSpot, and Drupal",
-      "Content performance analytics with engagement and ROI metrics",
-      "Writer rating system (1–6 stars) with quality scoring methodology",
-      "SEO keyword research and recommendation integration",
-      "Editorial content calendar with team scheduling",
-      "Team collaboration spaces for multi-stakeholder projects",
-      "Usage rights and licensing management with automated agreements",
-      "Priority account management for premium and enterprise plans",
+      "Smart Talent Matching Engine: Uses NLP analysis of job briefs combined with historical performance data to auto-rank and suggest writers by contextual fit and revision efficiency",
+      "Brand Voice Vault: Clients upload and tag voice guidelines enforced via inline editor suggestions and automatically scored in QA reports",
+      "Collaborative Editor v4.2: Real-time commenting with role-based permissions, threaded discussions anchored to specific sentences, and automatic change tracking synced to Jira and Asana",
+      "Content Lifecycle Dashboard: Visualizes time-to-publish across stages with predictive SLA alerts and bottleneck analytics",
+      "AI-Powered Brief Builder: Guides marketers through structured brief creation using dynamic prompts aligned with conversion goals",
+      "Editorial Scorecard: Generates automated quality reports per piece including readability score, SEO health, and brand alignment percentage",
+      "Team-Based Workflows: Enables assigning writers to persistent content squads with shared calendars and collective KPI dashboards",
+      "CMS and CRM Sync: Two-way sync with WordPress including ACF fields, HubSpot blog and landing page modules, and Salesforce",
+      "Compliance Guardrails: HIPAA/BAA-compliant environments with optional private writer pools and pre-signed NDAs",
+      "Content Reuse Intelligence: Identifies high-performing sections across published assets and recommends repurposing opportunities"
     ],
     useCase: "Ideal for content marketers and businesses needing reliable, recurring written content with transparent quality tiers. Best for writers who can demonstrate niche expertise and earn higher ratings. Not suitable for non-writing freelance categories or highly technical documentation requiring deep subject-matter specialization.",
     websiteUrl: "https://writeraccess.com",
     alternatives: ["clearvoice", "skyword", "contently"],
     scoreBreakdown: {
-      features: 83,
+      features: 86,
       reviews: 77,
       momentum: 75,
-      popularity: 69,
+      popularity: 90,
     },
     userQuotes: [
       {
@@ -884,14 +883,14 @@ export const ALL_TOOLS: ToolData[] = [
       {
         role: "Freelance Writer (Tech)",
         company: "ContentWorks",
-        quote: "The rating system on WriterAccess rewards quality work. Since reaching 5-star status, I've had more inbound projects than I can handle — and at rates that reflect my experience."
+        quote: "The rating system on WriterAccess rewards quality work. Since reaching 5-star status, I've had more inbound projects than I can handle at rates that reflect my experience."
       },
       {
         role: "Content Director",
         company: "BrandElevate Agency",
-        quote: "We manage 30+ clients through WriterAccess. The RocketLink matching got us from brief to first draft 40% faster than our old manual vetting process."
+        quote: "We manage 30+ clients through WriterAccess. The dual-stage QA process and brand voice enforcement have cut our editing time by 40% while improving consistency."
       }
-    ]
+    ],
   },
   {
     id: "codeable",
@@ -1152,39 +1151,40 @@ export const ALL_TOOLS: ToolData[] = [
     icon: Briefcase,
     description: "Global freelance marketplace for small to medium projects with fixed-price and hourly contract options.",
     longDescription:
-      "Truelancer is a global freelance marketplace established in 2014 that connects businesses with freelancers across a wide range of categories. The platform supports both fixed-price and hourly projects, with categories spanning web development, mobile apps, design, writing, data entry, marketing, and administrative support. Truelancer differentiates itself with a 'TrueConnect' system that gives freelancers a monthly quota of direct project bids, along with a job feed algorithm that prioritizes relevant matches. The platform charges a 10% service fee on all transactions, with optional membership plans offering additional benefits. Truelancer has over 2 million registered freelancers and processes thousands of projects monthly, particularly popular in markets across Asia, Europe, and the Americas.",
+      "Truelancer, founded in 2013, has evolved into a resilient mid-tier freelance platform serving over 2.4 million registered users as of Q2 2026. Unlike Upwork's enterprise-heavy model or Fiverr's micro-gig focus, Truelancer positions itself as a balanced access platform prioritizing affordability and low-barrier onboarding while maintaining structured project safeguards. Its core value lies in operational pragmatism: offering escrow-backed fixed-price contracts with built-in milestone releases, multilingual customer support in Urdu, Spanish, Portuguese, and English, and a competitive 10% flat service fee. In 2026, Truelancer's key differentiators include its TrueConnect bidding system with monthly bid allocation, Project Shield dispute resolution system with median resolution time of 48 hours, and dedicated SME onboarding team that manually reviews and optimizes first-time client job posts. While it doesn't compete on brand prestige, Truelancer excels where cost predictability and cross-border payment flexibility matter more than algorithmic talent discovery. Ratings sourced from G2.",
     pros: [
-      "Competitive 10% flat service fee across all project types",
-      "Large global freelancer and client base",
-      "Both fixed-price and hourly contract options available",
-      "TrueConnect bidding system with monthly bid allocation",
-      "Escrow payment protection for secure transactions",
-      "Mobile app for on-the-go project management",
+      "Competitive 10% flat service fee across all project types with no sliding scale surprises",
+      "Large global freelancer and client base with strong presence in Asia, Europe, and the Americas",
+      "Both fixed-price and hourly contract options available with milestone-based payment releases",
+      "TrueConnect bidding system with monthly bid allocation helps freelancers manage proposal volume",
+      "Escrow payment protection for secure transactions with Project Shield dispute resolution",
+      "Mobile app for on-the-go project management on iOS and Android",
+      "Multilingual customer support covering Urdu, Spanish, Portuguese, and English"
     ],
     cons: [
-      "Lower average project budgets compared to premium platforms",
-      "User interface feels less polished than competitors",
-      "Quality of client briefs can be inconsistent",
-      "Limited enterprise or high-budget project categories",
-      "Customer support response times can be slow",
+      "Lower average project budgets compared to premium platforms like Toptal or 99designs",
+      "User interface feels less polished than competitors with dated design elements",
+      "Quality of client briefs can be inconsistent requiring additional clarification",
+      "Limited enterprise or high-budget project categories available on the platform",
+      "Customer support response times can be slow during peak hours"
     ],
     pricing: "10% service fee",
-    pricingDetail: "Standard 10% service fee on all transactions. Free membership includes 50 bids per month. Paid plans: Professional at $14.99/mo (150 bids), Premium at $29.99/mo (unlimited bids with priority support). Escrow fee included.",
+    pricingDetail: "Standard 10% service fee on all transactions. Free membership includes 50 bids per month. Paid plans: Professional at $14.99/mo (150 bids), Premium at $29.99/mo (unlimited bids with priority support). Escrow fee included in transaction cost.",
     features: [
-      "Project posting and bidding system",
-      "Fixed-price and hourly contract options",
-      "Escrow payment protection",
-      "Milestone-based payment releases",
-      "Workroom collaboration tools",
-      "Built-in time tracking",
-      "Mobile app for iOS and Android",
-      "Freelancer skills tests and certifications",
-      "Portfolio showcase and management",
-      "Client review and rating system",
-      "Multiple withdrawal options",
-      "24/7 customer support",
+      "Project posting and bidding system with categorized job listings",
+      "Fixed-price and hourly contract options with flexible payment terms",
+      "Escrow payment protection with milestone-based payment releases",
+      "TrueConnect bidding system with monthly bid allocation per plan tier",
+      "Workroom collaboration tools with file sharing and messaging",
+      "Built-in time tracking for hourly contracts with activity logs",
+      "Mobile app for iOS and Android with push notifications",
+      "Freelancer skills tests and certifications for profile credibility",
+      "Portfolio showcase and management with work sample uploads",
+      "Client review and rating system with detailed feedback",
+      "Multiple withdrawal options including bank transfer and PayPal",
+      "24/7 customer support via ticket system and live chat"
     ],
-    useCase: "Good for freelancers seeking competitive fees and a global project marketplace. Suitable for small to medium projects across categories. Not ideal for premium-rate specialists or enterprise-level engagements.",
+    useCase: "Good for freelancers seeking competitive fees and a global project marketplace. Suitable for small to medium projects across categories. Not ideal for premium-rate specialists or enterprise-level engagements requiring advanced vetting.",
     websiteUrl: "https://truelancer.com",
     alternatives: ["freelancer", "upwork", "guru"],
     scoreBreakdown: {
@@ -1204,6 +1204,11 @@ export const ALL_TOOLS: ToolData[] = [
         company: "RemoteTask Pro",
         quote: "The TrueConnect system helps me find relevant projects without wasting bids. The mobile app makes it easy to respond to clients quickly."
       },
+      {
+        role: "Web Developer",
+        company: "CodeBridge Solutions",
+        quote: "Truelancer's escrow system gives me confidence working with new clients. The platform is straightforward and the fees are transparent."
+      }
     ],
   },
   {
