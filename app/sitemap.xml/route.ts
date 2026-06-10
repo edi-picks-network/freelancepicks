@@ -5,6 +5,7 @@ const BLOG_SLUGS = [
   "freelance-platforms-comparison-2026",
   "how-to-start-freelancing",
   "freelancing-tools-comparison-2026",
+  "build-freelance-portfolio-2026",
 ] as const;
 
 const TOOL_SLUGS = [

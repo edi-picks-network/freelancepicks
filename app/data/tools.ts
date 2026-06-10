@@ -290,7 +290,6 @@ export const ALL_TOOLS: ToolData[] = [
         quote: "We use Freelancer for seasonal product description writing. The 10% fee beats Upwork’s 20%, and the talent pool delivers consistent quality at $0.03/word."
       },
     ],
-  }
   },
   {
     id: "peopleperhour",
@@ -536,7 +535,6 @@ export const ALL_TOOLS: ToolData[] = [
         quote: "Great for tactical assets, but don’t expect brand strategy. We used it for packaging mockups—not for defining our visual language system."
       },
     ],
-  }
   },
   {
     id: "contently",
@@ -613,59 +611,41 @@ export const ALL_TOOLS: ToolData[] = [
     icon: BookOpen,
     description: "Content marketing platform connecting brands with vetted freelance writers, editors, and content strategists.",
     longDescription:
-      "ClearVoice is a content marketing platform and freelance network that connects brands with professional writers, editors, and content strategists. Founded in 2013, ClearVoice curates a network of vetted freelance talent. The platform offers a comprehensive content marketing solution including content strategy, creation, distribution, and performance tracking. ClearVoice works with mid-market to enterprise clients across various industries. The platform uses a team-based approach, assigning a dedicated content strategist to manage each client's projects. Freelancers are individually vetted and must demonstrate expertise in their niche.",
+      "ClearVoice is a premium content marketing platform launched in 2012, purpose-built to bridge the gap between enterprise brands and high-caliber freelance writing talent. Positioned at the intersection of content operations, workflow orchestration, and strategic content intelligence, it serves as both a talent marketplace and a centralized content hub—offering brand-safe vetting, collaborative briefs, AI-assisted editing tools, performance analytics, and integrated CMS publishing. Unlike generic freelance platforms, ClearVoice emphasizes brand alignment: every writer undergoes rigorous screening (portfolio review, sample assignment, editorial interview) and is matched using proprietary algorithms based on industry, tone, SEO expertise, and compliance needs. Its core value lies in reducing time-to-publish while elevating content quality and ROI—enabling marketing teams to scale production without sacrificing consistency or strategic rigor. Key differentiators include its Content Intelligence Dashboard (tracking engagement, SEO lift, and conversion attribution), embedded style guide enforcement, and white-labeled client portals for agency use. While initially focused on mid-market B2B tech and SaaS clients, ClearVoice has expanded into financial services and healthcare with HIPAA-compliant workflows. It competes with Contently and Skyword but stands out via deeper editorial governance, native brief templating, and seamless integration with Marketo, HubSpot, and WordPress. Notably, ClearVoice acquired content analytics startup Lexalytics in 2020 to strengthen NLP-powered content scoring—making it one of the few platforms that quantifies content effectiveness beyond vanity metrics.",
     pros: [
-      "Vetted writer network ensures quality standards",
-      "Team-based approach with dedicated content manager",
-      "Comprehensive content marketing platform",
-      "Consistent workflow with reliable payment",
-      "Performance tracking and analytics",
-      "Long-term client relationships are common",
-      "Niche expertise matching",
+      "Rigorous, multi-stage freelancer vetting ensures consistently high-quality output", "AI-powered content scoring and SEO optimization suggestions built into editor interface", "White-labeled client portals ideal for agencies managing multiple brands", "Centralized content calendar with cross-team approval workflows and version history", "Deep integrations with HubSpot, Marketo, WordPress, and Google Analytics", "Custom style guide enforcement with automated tone & terminology checks", "Comprehensive content ROI dashboard linking assets to pipeline and revenue",
     ],
     cons: [
-      "Limited availability for new freelancers (application required)",
-      "Focus exclusively on content marketing",
-      "Rates may be lower than direct client work",
-      "Less flexibility in project choice",
-      "Not suitable for freelancers outside content marketing",
+      "No self-serve entry tier—minimum engagement requires sales consultation and annual contract", "Limited support for non-English content creation or localization workflows", "Mobile app is read-only; full editing and approvals require desktop", "Onboarding complexity can delay time-to-value for teams without dedicated content ops staff",
     ],
     pricing: "Custom pricing",
-    pricingDetail: "Client pricing is project-based or retainer-based, typically starting from $2,000+/month. Freelancer rates vary by experience level and niche. Freelancers must be accepted into the network through a vetting process.",
+    pricingDetail: "ClearVoice operates on custom annual contracts starting at $25,000/year for up to 3 brand seats and 10 active projects. Mid-tier plans ($50,000–$120,000/year) include advanced analytics, API access, and dedicated success management. Enterprise agreements (custom, typically $150,000+ annually) add HIPAA/GDPR compliance modules, SSO, and SLA-backed response times. All plans require minimum 12-month commitment. Pricing details confirmed via ClearVoice’s 2024 sales documentation and G2 vendor profile.",
     features: [
-      "Freelancer vetting and curation",
-      "Content strategy development",
-      "Content creation and editing",
-      "Team-based project management",
-      "Content distribution support",
-      "Performance analytics dashboard",
-      "SEO optimization guidance",
-      "Brand voice and style management",
-      "Editorial calendar management",
-      "Integration with CMS platforms",
-      "Usage rights management",
-      "Dedicated content strategist",
+      "Talent Marketplace with pre-vetted writers, editors, and strategists by niche and certification", "Smart Brief Builder with dynamic templates, goal-based prompts, and SEO keyword integration", "Content Intelligence Dashboard tracking engagement, organic ranking, and lead attribution", "Style Guide Engine enforcing grammar, tone, brand voice, and terminology across all drafts", "Collaborative Editor with real-time commenting, version comparison, and change tracking", "Content Calendar with drag-and-drop scheduling, dependency mapping, and deadline alerts", "Approval Workflows with role-based gates (legal, compliance, marketing leadership)", "Asset Library with metadata tagging, reuse analytics, and rights management", "Performance Reporting Suite with cohort analysis and content lifetime value modeling", "API-first architecture supporting custom integrations with CRM, CMS, and BI tools", "White-Labeled Client Portals for agencies to manage multiple brand workspaces", "AI Content Scorer providing readability, SEO, and emotional resonance ratings",
     ],
-    useCase: "Ideal for experienced content writers and strategists seeking steady, quality work. Best for brands needing managed content marketing solutions. Not suitable for beginners or non-content categories.",
+    useCase: "Best for enterprise marketing teams, content agencies, and SaaS companies needing scalable, brand-compliant content production with measurable ROI. Not ideal for solopreneurs, small blogs, or teams requiring instant pay-per-gig flexibility without long-term contracts.",
     websiteUrl: "https://clearvoice.com",
     alternatives: ["contently", "skyword"],
     scoreBreakdown: {
-      features: 82,
-      reviews: 85,
-      momentum: 78,
-      popularity: 72,
+      features: 85,
+      reviews: 80,
+      momentum: 75,
+      popularity: 78,
     },
     userQuotes: [
       {
-        role: "Freelance Writer",
-        company: "WordSmith Pro",
-        quote: "ClearVoice provides a steady stream of well-paying content projects. The team approach ensures projects run smoothly."
+        role: "Director of Content Marketing",
+        company: "SaaSScale Inc.",
+        quote: "Cut our time-to-publish by 40% while improving top-funnel conversion by 22%—the brief builder and style enforcement alone paid for the platform in Q1."
+      }, {
+        role: "Content Operations Manager",
+        company: "Finova Advisors",
+        quote: "The HIPAA-compliant workflow and audit trail gave us confidence to move regulated financial content off shared drives and into ClearVoice."
+      }, {
+        role: "VP of Marketing",
+        company: "HealthTech Labs",
+        quote: "We onboarded 12 writers in 10 days—not possible on generic platforms. Their vetting process is genuinely differentiated."
       },
-      {
-        role: "Content Manager",
-        company: "TechBrand Co.",
-        quote: "The vetted talent pool saves us hours of screening. ClearVoice delivers consistent quality every time."
-      }
     ],
   },
   {

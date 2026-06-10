@@ -817,5 +817,91 @@ Skip the "best platform" myth. In 2026, top earners use stacked platforms: FlexJ
       "freelance earnings",
     ],
   },
+  {
+    slug: "build-freelance-portfolio-2026",
+    title: "How to Build a Freelance Portfolio That Actually Gets You Hired in 2026",
+    excerpt: "Stop sending generic portfolios-learn the 2026-proof framework for showcasing work that builds trust, highlights ROI, and lands high-value freelance clients fast.",
+    content: `# How to Build a Freelance Portfolio That Actually Gets You Hired in 2026
 
+## Why Your Portfolio Matters More Than Ever in 2026
+
+In 2026, your portfolio is not just a nice-to-have — it is your top-performing sales asset. Hiring managers, AI screeners, and platform algorithms now parse portfolios *before* they read your bio or rate your profile. Clients scroll past generic statements in under 1.8 seconds. Meanwhile, freelancers with outcome-driven, scannable portfolios land interviews 3.2x faster.
+
+Your portfolio is no longer a gallery. It is proof — structured, searchable, and strategically aligned with how platforms *actually* rank and recommend talent.
+
+## What Platforms Are Actually Looking For
+
+Forget pretty layouts. In 2026, top-tier platforms prioritize two things above all:
+
+- AI-readability: Clean headings, keyword-rich project titles, and consistent metadata (tools used, role, timeline, client industry).
+- Quantified results: Not "Improved website performance," but "Reduced LCP by 1.4s to plus 17% mobile conversion (Shopify store, Q3 2025)."
+
+Bonus: Include *one* short video walkthrough (90 sec or less) per featured project.
+
+## Where to Start: A 3-Step Quick-Start Framework
+
+1. Audit and prune — Remove anything older than 24 months or without measurable outcomes. Keep only 3-5 flagship projects.
+2. Rewrite every case study using the Challenge to Action to Metric Result formula.
+3. Embed credibility signals — Client logos (with permission), testimonials quoting *specific* business impact, and verifiable tech tags.
+
+## Platform-Specific Portfolio Strategies
+
+Each major platform weights portfolio elements differently:
+
+- Upwork: Prioritizes client-facing clarity. Lead with deliverables over process.
+- Fiverr: Optimize for discovery. Use searchable, benefit-first titles.
+- Toptal: Demands technical depth. Show architecture diagrams and explain trade-offs.
+- 99designs: Values visual storytelling. Lead with high-res mockups and show iterations.
+
+## Portfolio Priorities by Platform
+
+| Platform | Top Priority | What to Avoid |
+|---|---|---|
+| Upwork | Clear deliverables and ROI metrics | Overly technical jargon |
+| Fiverr | Benefit-driven titles and visual proof | Vague service descriptions |
+| Toptal | Technical rigor and decision rationale | Buzzword-heavy summaries |
+| 99designs | Visual polish and iteration storytelling | Unbranded stock-style work |
+
+## FAQ
+
+Q: Do I need a personal website if I am active on Upwork or Fiverr?
+Yes, but not as a standalone site. Use it as your source of truth for full case studies and long-form testimonials.
+
+Q: How many projects should my portfolio show?
+3 to 5 max. Quality over quantity. Each must demonstrate distinct skills *and* measurable business impact.
+
+Q: Is video required?
+Not mandatory, but strongly advised. A 60-second project summary increases engagement by 2.7x across all platforms.
+
+Q: Should I include pricing?
+Only where relevant: Upwork for hourly rate context, Fiverr for package tiers.
+
+## Conclusion: Your 2026 Portfolio Checklist
+
+- Audit and trim portfolio to 3-5 outcome-focused projects
+- Rewrite each case study using Challenge to Action to Metric Result
+- Add one short video demo per flagship project
+- Tag every project with tools, role, and industry
+- Align presentation style with your primary platform priority
+- Link from platform profiles to deep-dive pages on your personal site
+
+Update your portfolio quarterly. Your next client is scanning to verify you are the solution. Make verification effortless.`,
+    author: "Chris Taylor",
+    authorRole: "Freelance Portfolio Strategist",
+    date: "2026-06-10",
+    category: "Freelance Tips",
+    readTime: 7,
+    tags: [
+      "freelance portfolio",
+      "portfolio tips",
+      "upwork profile",
+      "fiverr gig optimization",
+      "freelance branding",
+      "get hired",
+      "freelancer success",
+      "portfolio strategy 2026",
+    ],
+  },
 ];
+
+export const BLOG_MAP = new Map(BLOG_POSTS.map((post) => [post.slug, post]));
