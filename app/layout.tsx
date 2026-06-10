@@ -10,20 +10,20 @@ import Footer from "./sections/Footer";
 import CookieBanner from "./components/CookieBanner";
 
 export const metadata: Metadata = {
-  title: "FreelancePicks — Best Freelance Platforms & Marketplaces 2026",
+  title: "LeafConsulting — Freelance Platform Strategy Studio",
   description:
-    "Honest reviews of the best freelance platforms and marketplaces. Find your next remote work opportunity with our expert comparisons.",
+    "Denver-based consulting studio helping freelancers choose the right platforms, optimize their presence, and maximize earnings. Data-driven platform selection and strategy.",
   keywords: [
     "freelance platforms",
     "best freelance websites",
-    "freelance marketplace",
-    "remote work platforms",
-    "Upwork review",
-    "Fiverr review",
-    "Toptal review",
-    "freelance jobs",
-    "remote work",
-    "freelance services",
+    "freelance marketplace guide",
+    "freelance platform strategy",
+    "freelance consulting",
+    "freelancer income optimization",
+    "LeafConsulting",
+    "Denver freelance studio",
+    "platform fit score",
+    "freelance marketplace comparison",
   ],
   verification: {
     google: "T5bb4mZivi0CfaYYRiKZLSNIWmhvAX6_RVgDEyonTGo",
@@ -31,10 +31,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "FreelancePicks",
-    title: "FreelancePicks — Best Freelance Platforms & Marketplaces 2026",
+    siteName: "LeafConsulting",
+    title: "LeafConsulting — Freelance Platform Strategy Studio",
     description:
-      "Honest reviews of the best freelance platforms and marketplaces. Find your next remote work opportunity with our expert comparisons.",
+      "Denver-based consulting studio helping freelancers choose the right platforms, optimize their presence, and maximize earnings.",
   },
 };
 
@@ -45,7 +45,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="font-sans">
-      <body className="min-h-screen bg-white antialiased">
+      <body className="min-h-screen bg-warm-bg antialiased">
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />

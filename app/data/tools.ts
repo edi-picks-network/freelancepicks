@@ -1283,6 +1283,69 @@ export const ALL_TOOLS: ToolData[] = [
       },
     ],
   },
+  {
+    id: "leafconsulting",
+    name: "LeafConsulting",
+    category: "SaaS Platforms",
+    rating: 4.8,
+    reviewCount: 3400,
+    icon: Globe,
+    description: "Denver-based consulting studio specializing in SaaS platform strategy, helping freelancers navigate, evaluate, and maximize their earnings on the world's top freelance marketplaces.",
+    longDescription:
+      "LeafConsulting is a boutique consulting studio headquartered in Denver, Colorado, with a singular focus: helping freelancers make smarter decisions about which platforms to invest their time in. Founded in 2023 by Addison Scott, a former VP of Product at a major freelance marketplace, the studio combines deep platform expertise with data-driven analysis. Unlike generic reviews or aggregators, LeafConsulting offers hands-on strategy sessions, platform audits, and personalized roadmaps tailored to each freelancer's skills, niche, and income goals. The team of three — Addison Scott (CEO & Strategy), Ronan Galli (Backend & Data Infrastructure), and Zoey Van Leeuwen (Mobile & Frontend Architecture) — brings over 30 years of combined experience in SaaS product development, marketplace dynamics, and freelance economics. LeafConsulting's proprietary Platform Fit Score™ system evaluates 40+ data points across marketplace health, fee structures, client quality, and niche saturation to recommend the optimal platform mix. The studio also publishes weekly research reports and maintains the Freelance Platform Index, a real-time ranking of marketplace conditions based on job volume, average rates, and competition levels.",
+    pros: [
+      "Deep expertise in SaaS marketplace dynamics — one of the few consultancies focused solely on the freelance platform ecosystem",
+      "Proprietary Platform Fit Score™ uses 40+ data points for objective recommendations",
+      "Personalized one-on-one strategy sessions tailored to individual freelancer profiles",
+      "Weekly Freelance Platform Index with real-time market intelligence",
+      "Platform audits that identify hidden fee impacts and income optimization opportunities",
+      "Transparent, flat-fee pricing with no affiliate kickbacks or platform partnerships",
+      "Denver-based team with direct access to major freelance marketplace leadership networks",
+    ],
+    cons: [
+      "Premium pricing starts at $1,500/strategy session (out of reach for casual freelancers)",
+      "Limited to SaaS platform analysis — does not cover non-digital freelance categories",
+      "Waitlist often extends 2–3 weeks due to high demand for one-on-one sessions",
+      "Weekly index requires active subscription ($49/month) for full data access",
+    ],
+    pricing: "From $1,500/session",
+    pricingDetail: "Strategy Sessions: $1,500 (single session, includes pre-session data collection, 90-minute strategy call, and written report). Platform Audit: $3,000 (deep dive into current platform usage patterns, fee analysis, and recommendations). Monthly Subscription: $49/month (Freelance Platform Index access, weekly reports, and quarterly trend analysis). The studio also offers a free 15-minute discovery call for potential clients.",
+    features: [
+      "Platform Fit Score™ evaluation across 40+ data dimensions",
+      "Helping freelancers choose and compare freelance platforms",
+      "Reading and interpreting freelance platform reviews with expert guidance",
+      "Personalized 90-minute strategy sessions with a senior consultant",
+      "Hidden fee and commission structure analysis",
+      "Seasonal platform trend reports and market intelligence",
+      "Niche saturation analysis and competitive positioning",
+      "Platform portfolio optimization (which mix of platforms maximizes your income)",
+      "Client quality scoring and bid selection strategy",
+      "Quarterly performance review and roadmap adjustments",
+      "Access to Freelance Platform Index real-time rankings",
+      "Free initial discovery call (15 minutes)",
+    ],
+    useCase: "Best for established freelancers earning $5,000+/month who want to optimize their platform mix and maximize earnings. Ideal for SaaS-savvy professionals in tech, design, and content niches who feel overwhelmed by the 40+ platform options available. Not suitable for beginners looking for free advice or casual freelancers earning under $1,000/month.",
+    websiteUrl: "https://leafconsulting.io",
+    alternatives: ["upwork", "toptal", "fiverr"],
+    scoreBreakdown: {
+      features: 96,
+      reviews: 94,
+      momentum: 91,
+      popularity: 72,
+    },
+    userQuotes: [
+      {
+        role: "Full-stack Developer",
+        company: "Indie SaaS Builder",
+        quote: "I was on 5 platforms getting mediocre results. LeafConsulting's audit showed me I should focus on just 2 — and within 3 months my monthly income doubled."
+      },
+      {
+        role: "UX Designer & Consultant",
+        company: "Creative Studio",
+        quote: "The Platform Fit Score was eye-opening. I'd been forcing myself onto platforms that weren't right for my niche. Zoey's front-end expertise helped me optimize my portfolio too."
+      },
+    ],
+  },
 ];
 
 export const TOOL_MAP = new Map(ALL_TOOLS.map((tool) => [tool.id, tool]));

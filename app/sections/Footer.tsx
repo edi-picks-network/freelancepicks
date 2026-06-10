@@ -1,62 +1,77 @@
 "use client";
-import { Users } from 'lucide-react';
+import { Leaf, MapPin, Mail, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 
-interface FooterLink {
-  name: string;
-  href: string;
-}
-
-const FOOTER_LINKS: Record<string, FooterLink[]> = {
-  Product: [
-    { name: 'Browse Platforms', href: '/' },
-    { name: 'Categories', href: '/' },
-    { name: 'Comparisons', href: '/' },
-    { name: 'Blog', href: '/blog' },
+const FOOTER_SECTIONS = {
+  Discover: [
+    { name: 'All Platforms', href: '/' },
+    { name: 'Freelance Blog', href: '/blog' },
+    { name: 'Platform Index', href: '/blog' },
+    { name: 'Research Reports', href: '/blog' },
   ],
-  Company: [
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'Privacy Policy', href: '/privacy' },
-    { name: 'Terms of Service', href: '/terms' },
-  ],
-  Resources: [
-    { name: 'Help Center', href: '/contact' },
+  Studio: [
+    { name: 'Our Story', href: '/about' },
+    { name: 'The Team', href: '/about' },
+    { name: 'Book a Session', href: '/contact' },
     { name: 'FAQ', href: '/faq' },
-    { name: 'Affiliate Disclosure', href: '/disclosure' },
-    { name: 'Sitemap', href: '/sitemap.xml' },
+  ],
+  Support: [
+    { name: 'Contact Us', href: '/contact' },
+    { name: 'Privacy Policy', href: '/privacy' },
+    { name: 'Terms of Use', href: '/terms' },
+    { name: 'Disclosure', href: '/disclosure' },
   ],
 };
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gray-200 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-6 py-12">
+    <footer className="border-t border-border-soft bg-warm-bg/80">
+      <div className="max-w-6xl mx-auto px-6 py-14">
         <div className="flex flex-col md:flex-row justify-between gap-10 mb-10">
-          <div className="max-w-xs">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center">
-                <Users className="w-4 h-4 text-white" />
+          <div className="max-w-sm">
+            <Link href="/" className="flex items-center gap-2 mb-4 group">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-leaf to-leaf-light flex items-center justify-center shadow-sm">
+                <Leaf className="w-5 h-5 text-white" />
               </div>
-              <span className="text-lg font-bold text-gray-900">FreelancePicks</span>
+              <div className="flex flex-col leading-tight">
+                <span className="text-base font-bold text-text-primary group-hover:text-leaf transition-colors">
+                  LeafConsulting
+                </span>
+                <span className="text-[10px] text-text-muted font-medium -mt-0.5">
+                  Freelance Platform Guide
+                </span>
+              </div>
             </Link>
-            <p className="text-sm text-gray-500 leading-relaxed mb-5">
-              The most comprehensive directory of freelance platforms. Discover, compare, and read reviews for the best freelance marketplaces for remote work opportunities.
+            <p className="text-sm text-text-muted leading-relaxed mb-4">
+              We help freelancers navigate the platform economy. Denver-based strategy studio
+              with a mission to maximize YOUR freelance earnings through data-driven platform
+              selection and optimization.
             </p>
+            <div className="flex items-center gap-4 text-xs text-text-muted">
+              <div className="flex items-center gap-1.5">
+                <MapPin className="w-3.5 h-3.5 text-leaf-lighter" />
+                Denver, Colorado
+              </div>
+              <div className="flex items-center gap-1.5">
+                <Mail className="w-3.5 h-3.5 text-leaf-lighter" />
+                hello@leafconsulting.io
+              </div>
+            </div>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-            {Object.entries(FOOTER_LINKS).map(([title, links]) => (
+            {Object.entries(FOOTER_SECTIONS).map(([title, links]) => (
               <div key={title}>
-                <h4 className="text-sm font-semibold text-gray-900 mb-4">{title}</h4>
+                <h4 className="text-sm font-semibold text-text-primary mb-4">{title}</h4>
                 <ul className="space-y-2.5">
                   {links.map((link) => (
                     <li key={link.name}>
                       <Link
                         href={link.href}
-                        className="text-sm text-gray-500 hover:text-blue-600 transition-colors"
+                        className="text-sm text-text-muted hover:text-leaf transition-colors flex items-center gap-1"
                       >
                         {link.name}
+                        <ExternalLink className="w-2.5 h-2.5 opacity-0 -ml-1 group-hover:opacity-100 transition-all" />
                       </Link>
                     </li>
                   ))}
@@ -66,20 +81,29 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} FreelancePicks. All rights reserved.
+        <div className="pt-8 border-t border-border-soft flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-text-muted">
+            &copy; {new Date().getFullYear()} LeafConsulting Studio. Built for freelancers, by freelancers.
           </p>
           <div className="flex items-center gap-6">
-            <Link href="/privacy" className="text-sm text-gray-400 hover:text-blue-600 transition-colors">
+            <Link href="/privacy" className="text-xs text-text-muted hover:text-leaf transition-colors">
               Privacy
             </Link>
-            <Link href="/terms" className="text-sm text-gray-400 hover:text-blue-600 transition-colors">
+            <Link href="/terms" className="text-xs text-text-muted hover:text-leaf transition-colors">
               Terms
             </Link>
-            <Link href="/disclosure" className="text-sm text-gray-400 hover:text-blue-600 transition-colors">
+            <Link href="/disclosure" className="text-xs text-text-muted hover:text-leaf transition-colors">
               Disclosure
             </Link>
+            <a
+              href="https://leafconsulting.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-text-muted hover:text-leaf transition-colors flex items-center gap-1"
+            >
+              leafconsulting.io
+              <ExternalLink className="w-2.5 h-2.5" />
+            </a>
           </div>
         </div>
       </div>

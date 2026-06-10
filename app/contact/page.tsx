@@ -1,14 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import type { Metadata } from "next";
-import { Mail, MapPin, Clock, Send } from "lucide-react";
+import { Leaf, MapPin, Clock, Send, Mail, Calendar, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    subject: "",
+    platform: "",
     message: "",
   });
   const [submitted, setSubmitted] = useState(false);
@@ -20,41 +20,43 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="relative pt-32 pb-20 px-6">
+    <div className="relative pt-28 pb-20 px-6">
       <div className="max-w-[1100px] mx-auto">
         <div className="text-center mb-12">
-          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#3B82F6] bg-[#162440] px-3 py-1.5 rounded-md mb-4">
-            Contact
-          </span>
-          <h1 className="text-3xl md:text-4xl font-extrabold text-[#F0F4F8] tracking-tight mb-3">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-medium mb-5 border border-border-soft bg-leaf-subtle/50 text-leaf">
+            <Leaf className="w-3.5 h-3.5" />
+            Let&apos;s Find Your Platform Fit
+          </div>
+          <h1 className="text-3xl md:text-4xl font-extrabold text-text-primary tracking-tight mb-3">
             Get in Touch
           </h1>
-          <p className="text-lg text-[#8BA3BE] max-w-xl mx-auto">
-            Have a question, suggestion, or want to list your tool? We&apos;d love to
-            hear from you.
+          <p className="text-lg text-text-secondary max-w-xl mx-auto">
+            Whether you&apos;re curious about our process, ready to book a session,
+            or just want to say hi — we&apos;d love to hear from you.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-[1000px] mx-auto">
           <div className="lg:col-span-2">
-            <div className="bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-8">
-              <h2 className="text-xl font-bold text-[#F0F4F8] mb-6">Send Us a Message</h2>
+            <div className="card-story-compact p-8">
+              <h2 className="text-xl font-bold text-text-primary mb-6">Send Us a Message</h2>
 
               {submitted ? (
-                <div className="bg-[#162440] border border-[#22D3EE]/30 rounded-lg p-6 text-center">
-                  <div className="w-12 h-12 rounded-full bg-[#22D3EE]/10 flex items-center justify-center mx-auto mb-3">
-                    <Send className="w-6 h-6 text-[#22D3EE]" />
+                <div className="bg-leaf-subtle border border-leaf-lighter/40 rounded-xl p-6 text-center">
+                  <div className="w-14 h-14 rounded-full bg-leaf-subtle flex items-center justify-center mx-auto mb-3">
+                    <Leaf className="w-7 h-7 text-leaf" />
                   </div>
-                  <p className="text-[#F0F4F8] font-semibold text-lg mb-1">Message Sent!</p>
-                  <p className="text-[#8BA3BE] text-sm">
-                    Thank you for reaching out. We&apos;ll get back to you within 24 hours.
+                  <p className="text-text-primary font-semibold text-lg mb-1">Message Received!</p>
+                  <p className="text-text-muted text-sm">
+                    Thanks for reaching out. We typically respond within 24 hours during business days.
+                    In the meantime, feel free to browse our research on the blog.
                   </p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-5">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
-                      <label className="block text-sm font-medium text-[#8BA3BE] mb-1.5">
+                      <label className="block text-sm font-medium text-text-secondary mb-1.5">
                         Your Name
                       </label>
                       <input
@@ -62,12 +64,12 @@ export default function ContactPage() {
                         required
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        className="w-full px-4 py-3 bg-[#0A1628] border border-[#1E3A5F] rounded-lg text-[#F0F4F8] placeholder:text-[#4A6380] focus:border-[#3B82F6] focus:outline-none transition-colors"
-                        placeholder="John Doe"
+                        className="w-full px-4 py-3 bg-warm-card border border-border-soft rounded-xl text-text-primary placeholder:text-text-muted focus:border-leaf focus:ring-1 focus:ring-leaf/20 focus:outline-none transition-all"
+                        placeholder="Alex Rivera"
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-[#8BA3BE] mb-1.5">
+                      <label className="block text-sm font-medium text-text-secondary mb-1.5">
                         Email Address
                       </label>
                       <input
@@ -75,49 +77,50 @@ export default function ContactPage() {
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full px-4 py-3 bg-[#0A1628] border border-[#1E3A5F] rounded-lg text-[#F0F4F8] placeholder:text-[#4A6380] focus:border-[#3B82F6] focus:outline-none transition-colors"
-                        placeholder="john@company.com"
+                        className="w-full px-4 py-3 bg-warm-card border border-border-soft rounded-xl text-text-primary placeholder:text-text-muted focus:border-leaf focus:ring-1 focus:ring-leaf/20 focus:outline-none transition-all"
+                        placeholder="alex@example.com"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-[#8BA3BE] mb-1.5">
-                      Subject
+                    <label className="block text-sm font-medium text-text-secondary mb-1.5">
+                      Which platforms are you currently using?
                     </label>
                     <select
-                      value={formData.subject}
-                      onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                      value={formData.platform}
+                      onChange={(e) => setFormData({ ...formData, platform: e.target.value })}
                       required
-                      className="w-full px-4 py-3 bg-[#0A1628] border border-[#1E3A5F] rounded-lg text-[#F0F4F8] focus:border-[#3B82F6] focus:outline-none transition-colors"
+                      className="w-full px-4 py-3 bg-warm-card border border-border-soft rounded-xl text-text-primary focus:border-leaf focus:ring-1 focus:ring-leaf/20 focus:outline-none transition-all"
                     >
-                      <option value="">Select a subject...</option>
-                      <option value="general">General Inquiry</option>
-                      <option value="tool-listing">List My Tool</option>
-                      <option value="bug">Report a Bug</option>
-                      <option value="suggestion">Feature Suggestion</option>
-                      <option value="advertising">Advertising / Partnership</option>
+                      <option value="">Select your main platform...</option>
+                      <option value="upwork">Upwork</option>
+                      <option value="fiverr">Fiverr</option>
+                      <option value="toptal">Toptal</option>
+                      <option value="freelancer">Freelancer</option>
+                      <option value="multiple">Multiple platforms</option>
+                      <option value="none">Not on any yet</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-[#8BA3BE] mb-1.5">
-                      Message
+                    <label className="block text-sm font-medium text-text-secondary mb-1.5">
+                      Tell us about your situation
                     </label>
                     <textarea
                       required
                       rows={5}
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      className="w-full px-4 py-3 bg-[#0A1628] border border-[#1E3A5F] rounded-lg text-[#F0F4F8] placeholder:text-[#4A6380] focus:border-[#3B82F6] focus:outline-none transition-colors resize-none"
-                      placeholder="Tell us how we can help..."
+                      className="w-full px-4 py-3 bg-warm-card border border-border-soft rounded-xl text-text-primary placeholder:text-text-muted focus:border-leaf focus:ring-1 focus:ring-leaf/20 focus:outline-none transition-all resize-none"
+                      placeholder="I've been on Upwork for 6 months but only made $2,000. I'm a React developer and I think I might be on the wrong platform..."
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full sm:w-auto px-8 py-3 bg-[#3B82F6] hover:bg-[#2563EB] text-white font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
+                    className="btn-primary w-full sm:w-auto"
                   >
                     <Send className="w-4 h-4" />
                     Send Message
@@ -128,56 +131,69 @@ export default function ContactPage() {
           </div>
 
           <div className="space-y-5">
-            <div className="bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-6">
-              <h3 className="text-sm font-semibold text-[#F0F4F8] mb-4 flex items-center gap-2">
-                <Mail className="w-4 h-4 text-[#3B82F6]" />
+            <div className="card-story-compact p-6">
+              <h3 className="text-sm font-semibold text-text-primary mb-4 flex items-center gap-2">
+                <Mail className="w-4 h-4 text-leaf" />
                 Email Us
               </h3>
-              <div className="space-y-2">
-                <p className="text-sm text-[#8BA3BE]">
-                  <strong className="text-[#F0F4F8]">Support:</strong>
-                  <br />
-                  <a href="mailto:support@freelancepicks.net" className="text-[#3B82F6] hover:underline">
-                    support@freelancepicks.net
+              <div className="space-y-3">
+                <div>
+                  <p className="text-xs text-text-muted">General Inquiries</p>
+                  <a href="mailto:hello@leafconsulting.io" className="text-sm text-leaf hover:underline font-medium">
+                    hello@leafconsulting.io
                   </a>
-                </p>
-                <p className="text-sm text-[#8BA3BE]">
-                  <strong className="text-[#F0F4F8]">General:</strong>
-                  <br />
-                  <a href="mailto:info@freelancepicks.net" className="text-[#3B82F6] hover:underline">
-                    info@freelancepicks.net
+                </div>
+                <div>
+                  <p className="text-xs text-text-muted">Book a Session</p>
+                  <a href="mailto:sessions@leafconsulting.io" className="text-sm text-leaf hover:underline font-medium">
+                    sessions@leafconsulting.io
                   </a>
-                </p>
-                <p className="text-sm text-[#8BA3BE]">
-                  <strong className="text-[#F0F4F8]">Press:</strong>
-                  <br />
-                  <a href="mailto:info@freelancepicks.net" className="text-[#3B82F6] hover:underline">
-                    info@freelancepicks.net
-                  </a>
-                </p>
+                </div>
               </div>
             </div>
 
-            <div className="bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-6">
-              <h3 className="text-sm font-semibold text-[#F0F4F8] mb-4 flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-[#3B82F6]" />
-                Office
+            <div className="card-story-compact p-6">
+              <h3 className="text-sm font-semibold text-text-primary mb-4 flex items-center gap-2">
+                <MapPin className="w-4 h-4 text-leaf" />
+                Studio
               </h3>
-              <p className="text-sm text-[#8BA3BE] leading-relaxed">
-                221B Baker Street
+              <p className="text-sm text-text-secondary leading-relaxed">
+                LoDo District
                 <br />
-                London, UK
+                Denver, CO 80202
+                <br />
+                United States
+              </p>
+              <p className="text-xs text-text-muted mt-2">
+                Remote-first team. In-person sessions available for Denver locals.
               </p>
             </div>
 
-            <div className="bg-[#0F1D32] border border-[#1E3A5F] rounded-xl p-6">
-              <h3 className="text-sm font-semibold text-[#F0F4F8] mb-4 flex items-center gap-2">
-                <Clock className="w-4 h-4 text-[#3B82F6]" />
+            <div className="card-story-compact p-6">
+              <h3 className="text-sm font-semibold text-text-primary mb-4 flex items-center gap-2">
+                <Calendar className="w-4 h-4 text-leaf" />
+                Quick Start
+              </h3>
+              <p className="text-sm text-text-secondary mb-4">
+                Ready to jump in? Book a free 15-minute discovery call and we&apos;ll help you figure out
+                your next move.
+              </p>
+              <Link
+                href="/"
+                className="text-sm text-leaf font-medium hover:underline flex items-center gap-1"
+              >
+                Learn about our process <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+
+            <div className="card-story-compact p-6">
+              <h3 className="text-sm font-semibold text-text-primary mb-4 flex items-center gap-2">
+                <Clock className="w-4 h-4 text-leaf" />
                 Response Time
               </h3>
-              <p className="text-sm text-[#8BA3BE]">
-                We typically respond within <strong className="text-[#F0F4F8]">24 hours</strong> during
-                business days.
+              <p className="text-sm text-text-secondary">
+                We typically respond within <strong className="text-text-primary">24 hours</strong> on
+                business days. Discovery calls are usually scheduled within the same week.
               </p>
             </div>
           </div>

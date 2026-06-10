@@ -64,9 +64,9 @@ export default function ToolDetailPage() {
     scripts.push(s1);
 
     const org = organizationSchema(
-      'FreelancePicks',
+      'LeafConsulting',
       'https://freelancepicks.net',
-      'Comprehensive freelance platform directory for remote work.'
+      'Freelance platform strategy studio helping freelancers maximize earnings.'
     );
     const s2 = document.createElement('script');
     s2.type = 'application/ld+json';

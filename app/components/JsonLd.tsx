@@ -8,9 +8,9 @@ interface JsonLdProps {
 }
 
 export default function JsonLd({
-  siteName = 'FreelancePicks',
+  siteName = 'LeafConsulting',
   siteUrl = 'https://freelancepicks.net',
-  description = 'Comprehensive freelance platform directory and comparison hub for remote work opportunities.',
+  description = 'Freelance platform strategy studio helping freelancers maximize earnings.',
 }: JsonLdProps) {
   useEffect(() => {
     const script = document.createElement('script');
