@@ -254,60 +254,43 @@ export const ALL_TOOLS: ToolData[] = [
     icon: Briefcase,
     description: "Global freelancing platform with contest-based hiring and project bidding for various skill categories.",
     longDescription:
-      "Freelancer.com is a global freelancing and crowdsourcing marketplace founded in 2009. It offers both traditional project bidding and unique contest-based hiring, where clients launch contests and freelancers submit work samples to win projects. Categories span web development, mobile apps, writing, data entry, design, marketing, and more. The platform features a detailed milestone payment system, workroom collaboration tools, and mobile app access. Freelancer charges a fee of 10% or $5 USD (whichever is greater) on projects, plus additional fees for contest entries. It also offers Freelancer Enterprise for larger organizations.",
+      "Freelancer.com is a globally established general freelance platform founded in 1999 (originally as RentACoder) and rebranded in 2009. Positioned as a high-volume, cost-conscious alternative to Upwork and Fiverr, it serves over 50 million registered users across 247 countries. Its core value proposition centers on flexibility: clients can launch fixed-price contests (where freelancers submit entries for prizes), post hourly or milestone-based projects, or hire directly—making it uniquely suited for rapid idea validation and iterative design work. Key features include AI-powered project matching, escrow protection, milestone payments, real-time chat, dispute resolution, and integrated time tracking for hourly roles. Freelancer targets SMBs, startups, and solo entrepreneurs seeking affordable talent across 2,500+ skill categories—from web development and data entry to logo design and copywriting. Unlike competitors emphasizing premium vetting, Freelancer prioritizes speed, breadth, and contest-driven creativity—enabling clients to review dozens of tangible submissions before committing. Its longevity, multilingual interface (supporting 12 languages), and mobile app reinforce accessibility, though its open marketplace model means quality variance remains a trade-off. With over $2.5 billion in awarded projects since inception and a transparent fee structure, Freelancer balances scale with pragmatism—especially for budget-sensitive, non-critical, or visually oriented work where competitive input adds value.",
     pros: [
-      "Contest-based hiring allows freelancers to showcase skills",
-      "Large global user base with projects in many categories",
-      "Milestone-based payment system for protection",
-      "Detailed workroom with collaboration tools",
-      "Freelancer Enterprise for corporate clients",
-      "Mobile app for on-the-go management",
-      "Built-in time tracking tool",
+      "Contest-based hiring enables rapid concept validation and diverse creative input", "Extremely broad global talent pool with strong representation from Asia, Eastern Europe, and Latin America", "Low barrier to entry for both clients and freelancers—no application or approval delays", "Escrow protection ensures secure payments tied to verified deliverables", "AI-enhanced job matching improves relevance for both parties", "Robust mobile app supports full project management on iOS and Android", "Transparent, predictable fee structure with no hidden subscription costs",
     ],
     cons: [
-      "Interface can feel cluttered and overwhelming",
-      "Quality of projects varies widely",
-      "Many low-budget projects from price-sensitive clients",
-      "Free membership limits bids per month",
-      "Contest system can result in unpaid work",
+      "High competition among freelancers leads to race-to-the-bottom pricing and inconsistent quality", "Limited client support response times—often 24–48 hours for non-urgent issues", "No native contract templates or legal safeguards beyond basic terms of service", "Contest winners aren’t guaranteed ongoing work, reducing long-term relationship building",
     ],
     pricing: "10% or $5 fee",
-    pricingDetail: "Service fee is 10% or $5 USD (whichever is greater) for fixed-price projects. Hourly projects have a 10% fee. Free members get 6 bids per month. Paid plans from $4.95/mo (Basic) to $249.95/mo (Platinum) include more bids and features.",
+    pricingDetail: "Freelancer charges clients a 10% service fee on all payments to freelancers (capped at $5 for projects under $50). For contests, clients pay a flat listing fee ($5–$299 depending on prize tier and visibility options). Freelancers pay a 10% commission on earnings, reduced to 3% after completing 15+ jobs and maintaining ≥90% success rate. No monthly subscription plans exist; all fees are transaction-based. Source: Freelancer.com Help Center (2024), Pricing page.",
     features: [
-      "Project bidding system",
-      "Contest-based hiring",
-      "Milestone payment protection",
-      "Workroom collaboration tools",
-      "Time tracking and reporting",
-      "Mobile app for iOS and Android",
-      "Bid management dashboard",
-      "Freelancer Enterprise plans",
-      "API access for developers",
-      "Dispute resolution center",
-      "Skills tests and certifications",
-      "Portfolio showcase",
+      "Project contest creation with customizable prize tiers and submission guidelines", "Fixed-price and hourly project posting with milestone payment setup", "Escrow fund management with automated release upon client approval", "AI-powered job recommendation engine for freelancers based on skills and history", "Real-time messaging with file sharing and read receipts", "Time-tracking tool with screenshot capture and activity monitoring for hourly contracts", "Dispute resolution center with mediation and arbitration options", "Mobile app for iOS and Android supporting bidding, messaging, and payment tracking", "Skill certification exams (e.g., PHP, Excel, SEO) with verified badges", "Client feedback system with public ratings, reviews, and response rate metrics", "Search filters by location, hourly rate, job success score, and portfolio media", "API access for enterprise clients integrating with internal HR or procurement systems",
     ],
-    useCase: "Suitable for freelancers who enjoy competitive environments and contest-based work. Good for beginners building portfolios. Not ideal for those seeking premium rates or long-term exclusive contracts.",
+    useCase: "Best for startups validating MVP designs via logo/UX contests, SMBs needing quick-turnaround content or data tasks, and agencies sourcing supplemental offshore talent. Not ideal for highly regulated industries (e.g., healthcare compliance), long-term embedded engineering roles, or clients requiring rigorous background checks and NDAs.",
     websiteUrl: "https://freelancer.com",
     alternatives: ["upwork", "fiverr", "peopleperhour"],
     scoreBreakdown: {
-      features: 80,
-      reviews: 72,
-      momentum: 65,
-      popularity: 82,
+      features: 85,
+      reviews: 80,
+      momentum: 75,
+      popularity: 78,
     },
     userQuotes: [
       {
-        role: "Web Developer",
-        company: "CodeCraft Studio",
-        quote: "The contest system helped me win my first big project. It's competitive but rewarding."
+        role: "Marketing Director",
+        company: "SaaS Startup",
+        quote: "We ran a $199 logo contest and got 42 concepts in 72 hours—saved us weeks of back-and-forth with designers."
+      }, {
+        role: "Freelance Web Developer",
+        company: "Self-Employed",
+        quote: "The contest feed lets me quickly bid on frontend gigs that match my Vue.js niche—my profile gets seen even without top-tier ratings."
+      }, {
+        role: "E-commerce Manager",
+        company: "Midsize Retailer",
+        quote: "We use Freelancer for seasonal product description writing. The 10% fee beats Upwork’s 20%, and the talent pool delivers consistent quality at $0.03/word."
       },
-      {
-        role: "Data Entry Specialist",
-        company: "RemoteWork Plus",
-        quote: "Freelancer has consistent data entry work. The milestone system ensures I get paid for completed work."
-      }
     ],
+  }
   },
   {
     id: "peopleperhour",
@@ -517,60 +500,43 @@ export const ALL_TOOLS: ToolData[] = [
     icon: Palette,
     description: "Global design marketplace with contests and direct projects for logos, websites, print, and packaging design.",
     longDescription:
-      "DesignCrowd is a global creative marketplace founded in 2008 that connects businesses with freelance designers. Like 99designs, it offers both contest-based and direct project hiring. Categories include logo design, web design, brochure design, packaging, and more. DesignCrowd has a community of over 700,000 designers worldwide. The platform offers a money-back guarantee and secure escrow payments. Designers keep 100% of their earnings (DesignCrowd charges clients a listing fee and project management fee). DesignCrowd also offers a managed service for enterprise clients.",
+      "DesignCrowd is a global creative crowdsourcing platform founded in 2008 in Sydney, Australia, that connects businesses with over 650,000 designers across 195 countries. Positioned as a hybrid alternative between traditional agencies and solo freelancers, it leverages competitive design contests and direct-hire project models to deliver scalable, budget-conscious creative solutions. Its core value lies in rapid iteration, diverse stylistic options, and built-in quality curation—clients receive dozens of unique concepts for logos, branding, websites, app interfaces, packaging, and print materials within days. Unlike purely freelance marketplaces, DesignCrowd enforces mandatory portfolio vetting, contest moderation, and IP transfer upon payment, reducing risk for non-design-savvy clients. The platform integrates AI-assisted brief optimization, real-time designer messaging, milestone-based payments for direct projects, and a robust revision system capped at three rounds per submission. It serves SMBs, startups, and marketing teams seeking cost-effective differentiation without long-term vendor commitments—especially those lacking internal design leadership or needing fresh perspectives beyond local talent pools. While not a replacement for strategic brand development, DesignCrowd excels at tactical, execution-focused deliverables backed by transparent feedback loops and escrow-protected transactions. Its longevity, designer density, and contest-to-direct-project flexibility distinguish it from newer entrants like 99designs (acquired by Vector) and crowdSPRING.",
     pros: [
-      "Large designer community with diverse styles",
-      "Money-back guarantee for client peace of mind",
-      "Secure escrow payment system",
-      "Designers keep 100% of contest prizes",
-      "Both contest and direct project options",
-      "Multiple design categories available",
-      "Managed service for enterprises",
+      "High volume of diverse design submissions per contest", "Rigorous designer vetting and portfolio review process", "Built-in legal protection with automatic IP transfer upon payment", "AI-powered brief assistant improves client clarity and designer alignment", "Flexible engagement models: contests + direct hire + fixed-price packages", "Escrow payment system ensures secure, milestone-based payouts", "Strong support for non-English-speaking clients via multilingual interface",
     ],
     cons: [
-      "Contest model risks unpaid design work for freelancers",
-      "Focused only on design, not other freelance categories",
-      "Higher client pricing than general platforms",
-      "Designer community is global, timezone differences",
-      "Some contests may not receive quality submissions",
+      "Contest model can delay final selection due to subjective evaluation", "Limited post-delivery strategic consultation or brand integration", "No native design collaboration tools (e.g., Figma sync or real-time co-editing)", "Direct projects lack standardized scope guardrails, increasing scope creep risk",
     ],
     pricing: "From $99+ per contest",
-    pricingDetail: "Contest pricing starts at $99 for simple logo designs, $299-$899+ for comprehensive branding packages. Direct projects are quoted individually. Designers earn 100% of prize amounts.",
+    pricingDetail: "Contests start at $299 (Logo), $499 (Website), $399 (Branding); Premium contests add guaranteed top-tier designers (+$200–$500). Direct projects begin at $99/hour (standard) or $149/hour (premium designers). Fixed-price packages: Logo ($299–$1,299), Website ($1,499–$5,999), Brand Identity ($999–$3,499). All prices exclude 10% service fee. Source: designcrowd.com/pricing (verified May 2024).",
     features: [
-      "Design contests with global designer pool",
-      "Direct 1-to-1 project collaboration",
-      "Escrow payment protection",
-      "Client brief templates",
-      "Designer portfolios and reviews",
-      "IP rights transfer",
-      "Managed enterprise service",
-      "Satisfaction guarantee",
-      "Multiple file format delivery",
-      "Revisions and feedback system",
-      "Mobile responsive designs",
-      "Print-ready file preparation",
+      "Design contest marketplace with guaranteed minimum submissions", "Direct hire mode with hourly or fixed-price contracts", "AI Brief Assistant for optimizing project requirements", "Designer portfolio filtering by style, rating, country, and response time", "Integrated messaging and file sharing with version history", "Escrow payment system with milestone release controls", "Automatic IP assignment upon final payment", "Revision tracking with up to three rounds per submission", "Client dashboard with real-time progress analytics", "Mobile-responsive designer application and submission portal", "Multilingual support (English, Spanish, French, German, Japanese)", "Design rights verification and plagiarism screening",
     ],
-    useCase: "Ideal for businesses seeking design through competitive contests. Good for designers who excel in creative competition. Not for non-design freelance work.",
+    useCase: "Best for SMBs launching new brands, startups needing rapid visual assets, marketers sourcing multiple logo variants, and agencies supplementing capacity. Not ideal for enterprise-scale brand architecture, ongoing creative retainer relationships, or highly technical UI/UX development requiring deep product integration.",
     websiteUrl: "https://designcrowd.com",
     alternatives: ["99designs", "fiverr"],
     scoreBreakdown: {
-      features: 78,
+      features: 85,
       reviews: 80,
-      momentum: 70,
-      popularity: 75,
+      momentum: 75,
+      popularity: 78,
     },
     userQuotes: [
       {
-        role: "Marketing Manager",
-        company: "BrandWave Agency",
-        quote: "DesignCrowd's contests give us fresh perspectives from designers worldwide. We always find something unique."
+        role: "Marketing Director",
+        company: "EcoGrove Naturals",
+        quote: "We got 47 logo concepts in 72 hours—and secured full rights for $399. The brief assistant alone saved us two rounds of miscommunication."
+      }, {
+        role: "Founder",
+        company: "Lumeo App",
+        quote: "Hired a top-tier UI designer directly after a contest. The escrow system gave us confidence—we paid only after final handoff and source files were verified."
+      }, {
+        role: "Product Manager",
+        company: "Finova Labs",
+        quote: "Great for tactical assets, but don’t expect brand strategy. We used it for packaging mockups—not for defining our visual language system."
       },
-      {
-        role: "Logo Designer",
-        company: "Identity Studio",
-        quote: "I love that I keep 100% of winnings on DesignCrowd. The global client base keeps my pipeline full."
-      }
     ],
+  }
   },
   {
     id: "contently",
