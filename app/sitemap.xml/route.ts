@@ -4,8 +4,10 @@ const BLOG_SLUGS = [
   "top-freelance-platforms-for-designers-2026",
   "freelance-platforms-comparison-2026",
   "how-to-start-freelancing",
+  "ai-tools-freelancers-2026",
   "freelancing-tools-comparison-2026",
   "build-freelance-portfolio-2026",
+  "remote-collaboration-tools-freelancers-2026",
 ] as const;
 
 const TOOL_SLUGS = [
