@@ -36,11 +36,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-[#F0F4F8] mb-3">2. Description of Service</h2>
             <p>
-              FreelancePicks is a curated directory platform that provides information,
-              comparisons, reviews, and pricing details about business-to-business software-as-a-
-              service tools. Our platform serves as a research and discovery resource. We do not
-              sell, license, or distribute the software products listed on our Site unless
-              explicitly stated otherwise.
+              FreelancePicks is a curated directory platform that provides information,\n              comparisons, reviews, and pricing details about freelance platforms, remote work\n              tools, and services for independent professionals. Our platform serves as a\n              research and discovery resource. We do not sell, license, or distribute the\n              services listed on our Site unless explicitly stated otherwise.
             </p>
           </section>
 
