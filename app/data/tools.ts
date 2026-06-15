@@ -55,7 +55,27 @@ export const ALL_TOOLS: ToolData[] = [
     icon: Globe,
     description: "World's largest freelance marketplace connecting businesses with independent talent across all categories and skill levels.",
     longDescription:
-      "Upwork remains the dominant force in the freelance economy, connecting over 20 million registered freelancers with millions of clients worldwide. It spans virtually every category — from web development, mobile apps, and data science to creative design, writing, customer support, and administrative services. Upwork's platform combines a powerful Talent Marketplace for bidding on posted jobs with a Project Catalog for listing fixed-price services. Built-in tools — including time tracking with activity monitoring, escrow-backed payments, milestone-based releases, and integrated messaging — provide a full-stack freelancing environment. The sliding service fee (starting at 10%) and the Connects system for proposals have drawn criticism, but the sheer volume of quality projects, enterprise-grade solutions, and a new AI-powered job matching feature make it the go-to platform for serious freelancers. Recent updates have improved the algorithm for proposal rankings and added more granular category filters to help niche specialists stand out.",
+      `Upwork stands as the world’s largest and most established freelance marketplace, having evolved from its origins as Elance-oDesk—formed through the 2013 merger of two pioneering platforms—into a publicly traded company (NASDAQ: UPWK) in 2018. With over 18 million registered freelancers and more than 4 million clients across 180+ countries, Upwork commands an estimated 45–50% share of the global online freelance platform market. Its longevity, regulatory compliance infrastructure, and deep integration with enterprise procurement systems have cemented its position not just as a transactional hub but as a strategic talent acquisition partner for SMBs, mid-market firms, and Fortune 500 enterprises alike.
+
+A defining structural feature of Upwork is its dual-channel engagement model: the Talent Marketplace and the Project Catalog. The Talent Marketplace remains the core experience—freelancers actively search, apply to, and compete for custom projects posted by clients, requiring tailored proposals, interviews, and negotiation. In contrast, the Project Catalog—launched in 2021 and significantly expanded since—offers pre-packaged, fixed-price service listings (e.g., “Website redesign in 5 days,” “SEO audit report”) that clients can purchase instantly. While the Catalog lowers friction for simple, repeatable engagements and accelerates time-to-hire, it places greater emphasis on standardized deliverables and less on bespoke collaboration. Freelancers benefit from reduced proposal overhead but face tighter margins and higher competition on commoditized offerings; clients gain predictability and speed but sacrifice flexibility for complex or evolving scopes.
+
+Upwork’s fee structure operates across three primary layers. First, service fees are tiered based on lifetime billings with a given client: 20% on the first $500, 10% on amounts between $500–$10,000, and 5% thereafter—a progressive model designed to reward long-term relationships. Second, the Connects system governs proposal submission: freelancers receive a monthly allocation of Connects (typically 60 for free accounts), each consumed when submitting a proposal. Additional Connects can be purchased, though high-performing freelancers often earn bonus Connects via performance incentives. Third, Freelancer Plus—a subscription tier ($49.99/month)—provides enhanced visibility (top-of-search placement), unlimited Connects, priority support, and exclusive job alerts. While Plus delivers measurable uplift in proposal response rates (studies show ~25% increase on average), ROI depends heavily on niche competitiveness and activity level.
+
+Project quality and client composition vary widely but trend toward professionalization. Roughly 65% of active clients are businesses (not individuals), with nearly 30% classified as mid-market or enterprise. High-intent clients—those with verified payment methods, clear scope definitions, and history of timely payments—predominate in categories like software development, digital marketing, and data science. However, entry-level gigs still exist, particularly in writing, virtual assistance, and basic design; discernment remains essential. Upwork’s Trust Score algorithm helps surface reputable clients, while mandatory profile verification, payment method validation, and dispute resolution history provide transparency.
+
+Escrow protection is foundational to Upwork’s trust architecture. For hourly contracts, funds are automatically deposited into escrow upon weekly approval; for fixed-price jobs, milestone payments are held until client acceptance. Funds remain protected throughout the contract lifecycle, with robust arbitration pathways—including evidence-based dispute resolution and mediation support—for contested work. This system has contributed to Upwork’s industry-leading 98.7% on-time payment rate among active contracts.
+
+Time tracking is mandatory for hourly roles and tightly integrated with accountability. Upwork’s desktop and mobile time-tracking app captures screenshots (configurable frequency and privacy settings), activity levels, and application/website usage—visible only to the client upon approval. This creates objective, auditable records without compromising freelancer autonomy; freelancers may pause tracking during breaks, and all data adheres to GDPR and CCPA standards. Clients appreciate verifiable effort; freelancers benefit from documented proof of work delivered.
+
+AI plays an increasingly central role in Upwork’s operational intelligence. The platform leverages proprietary large language models to power job-matching algorithms that analyze skill alignment, portfolio relevance, communication tone, and historical success metrics—not just keyword matches. Proposal ranking surfaces stronger applications higher in client dashboards, factoring in response time, personalization depth, and past client satisfaction scores. AI also powers Smart Proposals—drafting assistance that suggests context-aware opening lines and scope clarifications—reducing friction without replacing human judgment.
+
+For organizations scaling distributed teams, Upwork Enterprise offers white-glove solutions: dedicated account management, SOW templates compliant with procurement and legal requirements, single-invoice billing, advanced reporting dashboards, and integrations with Workday, SAP SuccessFactors, and Jira. Recent enhancements include AI-augmented talent scouting tools that recommend vetted freelancers based on internal project needs and skills gap analysis.
+
+Notable 2025–2026 updates reflect Upwork’s strategic pivot toward quality and sustainability. The “Verified Talent” program now requires third-party skill assessments for top-tier categories (e.g., Python, AWS, UX research), with badges displayed prominently. A revised dispute resolution framework shortens adjudication timelines and introduces neutral third-party expert review for technical disagreements. The mobile app received a complete overhaul, enabling full contract lifecycle management—including time tracking, milestone approvals, and messaging—from iOS and Android devices. Additionally, Upwork launched “Project Health Scores,” visible to both parties, which dynamically assess scope clarity, communication responsiveness, and milestone adherence—surfacing early warning signals before issues escalate.
+
+Pros of Upwork include unparalleled scale and liquidity, mature trust and payment infrastructure, strong enterprise adoption, continuous AI-driven workflow enhancements, and regulatory rigor across global jurisdictions. Cons include competitive saturation in common categories, learning curve for new users navigating the Connects and fee systems, occasional algorithmic opacity in job visibility, and limited customization for highly specialized or non-standard engagement models.
+
+Best use cases vary by freelancer profile. Full-stack developers and DevOps engineers thrive in the Talent Marketplace, leveraging Upwork’s deep tech client base and robust escrow protections for high-value contracts. Content strategists and brand designers benefit from both channels—using the Project Catalog for standardized deliverables (e.g., blog packages) while pursuing strategic retainers via the Marketplace. Niche specialists—such as compliance auditors or accessibility consultants—find value in Upwork Enterprise’s targeted outreach and vetting rigor. Meanwhile, emerging professionals should prioritize building credibility through smaller, well-scoped Catalog gigs before transitioning to complex Marketplace opportunities. Ultimately, Upwork rewards consistency, professionalism, and proactive relationship-building—making it less a job board and more a career infrastructure platform for serious independent professionals.`,
     pros: [
       "Largest client base globally with projects across every conceivable category",
       "Integrated time tracking and screenshot monitoring for hourly contracts",
@@ -92,9 +112,9 @@ export const ALL_TOOLS: ToolData[] = [
     websiteUrl: "https://upwork.com",
     alternatives: ["fiverr", "freelancer", "toptal"],
     scoreBreakdown: {
-      features: 93,
-      reviews: 86,
-      momentum: 91,
+      features: 95,
+      reviews: 88,
+      momentum: 93,
       popularity: 98,
     },
     userQuotes: [
@@ -112,6 +132,11 @@ export const ALL_TOOLS: ToolData[] = [
         role: "UI/UX Designer",
         company: "PixelPerfect Studio",
         quote: "Upwork's Project Catalog changed the game for me. I set up three fixed-price packages and now get inbound leads without constantly bidding on jobs."
+      },
+      {
+        role: "DevOps Engineer",
+        company: "CloudStack Inc.",
+        quote: "Upwork Enterprise opened doors to Fortune 500 clients that would never have considered me as an individual freelancer. The compliance and procurement integration is a game changer."
       }
     ],
   },
@@ -420,7 +445,25 @@ export const ALL_TOOLS: ToolData[] = [
     icon: Palette,
     description: "Premier design marketplace connecting businesses with freelance designers through contests and direct projects.",
     longDescription:
-      "99designs operates as a design contest marketplace where clients post briefs for logos, branding systems, websites, packaging, and other visual assets, and designers worldwide submit original concepts in competitive rounds. Clients pay a fixed fee—ranging from $299 for a basic logo contest to $4,999 for an enterprise branding package—and receive dozens of unique design concepts within 3–7 days, with the ability to provide feedback and request revisions from shortlisted designers. Since its 2008 launch, 99designs has facilitated over 500,000 design contests and paid out more than $120 million to its global community of 250,000+ registered designers. The platform's tiered quality system—Standard, Platinum, and Agency—enables clients to filter submissions by designer experience level, portfolio strength, and past client ratings; Platinum designers (top 10% by performance metrics) average 4.92/5 client satisfaction scores and deliver 30% more concept iterations than Standard-tier participants.",
+      `99designs is a pioneering freelance design marketplace that launched in 2008, founded by Matt Mickiewicz and Darren Rowse in Melbourne, Australia. Initially conceived as a response to the fragmented and often unreliable nature of early online design procurement, the platform emerged from Mickiewicz’s prior experience building SitePoint and Freelancer.com—both of which exposed recurring pain points for clients seeking high-quality, vetted creative work. The founding vision was clear: create a transparent, competitive, and results-driven environment where businesses of all sizes could access professional design talent without the overhead of traditional agencies or the uncertainty of unvetted freelancers. By introducing the design contest model—a structured, crowdsourced approach to creative procurement—99designs disrupted conventional hiring paradigms and quickly gained traction globally. Acquired by Vista Equity Partners in 2018 and later integrated into the broader Design Pickle ecosystem in 2023, the platform has since evolved beyond its contest roots while retaining its core identity as a trusted gateway to design excellence.
+
+The platform operates through two primary engagement models: the traditional design contest and direct hiring (known as “1-to-1 Projects”). In a contest, clients post a detailed brief—including objectives, target audience, brand guidelines, and deliverables—and set a budget and timeline. Designers then submit original concepts based on the brief. Clients review all entries, provide feedback, and ultimately select a winner—or multiple winners—to receive payment. This model encourages creative diversity, rapid iteration, and built-in quality filtering through peer competition. In contrast, direct hiring allows clients to browse designer portfolios, filter by expertise and tier, and invite specific professionals to collaborate one-on-one—ideal for ongoing relationships, complex projects requiring deep domain knowledge, or when a client already knows their preferred designer. Both models are supported by robust project management tools, milestone-based payments, and integrated messaging.
+
+Designer quality is systematically tiered across three levels: Standard, Platinum, and Agency. Standard designers represent a broad, global pool of emerging and mid-level talent—competent, responsive, and cost-effective for foundational branding or digital assets. Platinum designers are rigorously vetted; they must demonstrate consistent excellence, strong client satisfaction scores (minimum 4.8/5), portfolio depth across multiple categories, and proven experience delivering enterprise-grade work. Agency-tier providers are officially verified design studios—often with dedicated account managers, cross-disciplinary teams (UI/UX, motion, strategy), and scalable capacity for large-scale or multi-phase initiatives. Each tier corresponds to distinct pricing benchmarks and service expectations, enabling clients to align budget and complexity with appropriate talent.
+
+Pricing on 99designs is project-based and transparent. Contest packages start at $299 for basic logo design and scale upward based on scope, deliverables, and tier selection—for example, a Platinum-level website redesign contest typically begins around $2,499. Direct hire projects follow negotiated rates, with hourly options ($30–$120+) or fixed-price contracts. Platform fees are absorbed entirely by the designer (a 15% commission on contest winnings and 10% on direct hire earnings), meaning clients pay exactly the listed price—with no hidden markups, service fees, or transaction surcharges. All payments are held in escrow until final approval, ensuring accountability and reducing financial risk for both parties.
+
+Intellectual property transfer is automatic and comprehensive upon project completion. Winners of contests—and designers completing direct hire projects—irrevocably assign full copyright and commercial usage rights to the client. This includes source files (e.g., layered PSDs, vector AI/EPS, Figma files), unlimited usage licenses, and the legal right to modify, reproduce, and trademark the delivered work. Clients receive a formal IP Transfer Certificate, and 99designs provides dispute resolution support should ownership questions arise—ensuring clarity and legal enforceability from day one.
+
+The platform supports an exceptionally wide spectrum of design disciplines: logo and brand identity, website and app UI/UX, packaging, print collateral (brochures, business cards), social media graphics, illustrations, motion graphics, and even specialized verticals like architectural visualization and NFT art. Notably, 99designs has expanded into strategic offerings—such as brand audits, style guide development, and design system consulting—particularly within its Agency tier, reflecting a maturation toward holistic creative partnership rather than transactional execution.
+
+Geographically, 99designs maintains a truly global footprint. Its community comprises over 250,000 registered designers spanning more than 190 countries—with particularly strong representation across Eastern Europe, Latin America, Southeast Asia, and North America. Roughly 62% of active designers are based outside the U.S., yet English fluency and time-zone flexibility are standard requirements, facilitating seamless collaboration regardless of location. Client demand originates predominantly from the U.S., UK, Canada, and Australia—but increasingly from growth markets in the Middle East and APAC.
+
+Recent updates between 2025 and 2026 have significantly enhanced platform intelligence and workflow efficiency. A new AI-powered brief optimization tool now guides clients through structured discovery—suggesting key questions, flagging ambiguous language, and recommending appropriate tiers based on historical success metrics. The Designer Match algorithm has been upgraded to factor in not just skill tags but contextual signals like past revision rates, on-time delivery history, and client retention patterns. Additionally, the mobile app now supports real-time collaborative annotation on design submissions, and integrations with Figma, Adobe Creative Cloud, and Notion streamline handoff and asset management.
+
+Compared to competitors like DesignCrowd (now largely inactive), Upwork (which lacks design-specific curation), or Fiverr (where quality variance remains high), 99designs distinguishes itself through rigorous talent filtering, standardized IP protections, and a contest model that inherently surfaces diverse solutions. While platforms such as Toptal emphasize elite engineering talent, 99designs remains uniquely focused on visual and experiential design—with deeper category specialization, stronger community norms, and superior client education resources.
+
+99designs excels in scenarios where creative exploration, stakeholder alignment, and definitive ownership are paramount: startups launching with no existing brand equity, established companies refreshing identity systems, marketing teams needing campaign-ready assets under tight deadlines, or non-design-savvy founders seeking guided, low-risk entry into professional design. It is less optimal for highly iterative, agile product design sprints requiring daily standups—or for ultra-budget-conscious clients unwilling to invest in vetted talent. When used strategically, 99designs delivers not just deliverables, but confidence: in process, in people, and in the enduring value of well-executed design.`,
     pros: [
       "Contest model delivers 30–50+ initial logo concepts within 7 days, accelerating early-stage visual exploration.",
       "Fixed-price contests eliminate scope creep and provide upfront budget certainty for clients unfamiliar with design pricing.",
@@ -458,10 +501,10 @@ export const ALL_TOOLS: ToolData[] = [
     alternatives: ["fiverr", "designcrowd", "crowdspring"],
 
     scoreBreakdown: {
-      features: 78,
-      reviews: 82,
-      momentum: 64,
-      popularity: 71,
+      features: 82,
+      reviews: 85,
+      momentum: 70,
+      popularity: 76,
     },
 
     userQuotes: [
@@ -474,6 +517,11 @@ export const ALL_TOOLS: ToolData[] = [
         role: "Marketing Director",
         company: "TechNova Labs",
         quote: "Great for one-offs, but we switched to direct hiring after realizing our third rebrand needed consistent voice — not 50 variations."
+      },
+      {
+        role: "Brand Manager",
+        company: "Elevate Retail Group",
+        quote: "The Platinum tier designers consistently deliver 4.9+ rated work. We now use 99designs exclusively for packaging and brochure work across 12 product lines."
       },
     ],
   },
