@@ -8,7 +8,12 @@ const BLOG_SLUGS = [
   "freelancing-tools-comparison-2026",
   "build-freelance-portfolio-2026",
   "remote-collaboration-tools-freelancers-2026",
+  "essential-freelance-tools-invoicing-contracts-crm-2026",
   "upwork-vs-fiverr-vs-freelancer-2026",
+  "remote-work-tools-ecosystem-2026-guide",
+  "niche-freelance-platforms-highest-paying-2026",
+  "state-of-freelance-platforms-2026-fees-ai-opportunities",
+  "freelance-productivity-tools-trap-2026",
 ] as const;
 
 const TOOL_SLUGS = [
