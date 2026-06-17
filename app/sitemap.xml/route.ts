@@ -14,6 +14,7 @@ const BLOG_SLUGS = [
   "niche-freelance-platforms-highest-paying-2026",
   "state-of-freelance-platforms-2026-fees-ai-opportunities",
   "freelance-productivity-tools-trap-2026",
+  "fiverr-upwork-toptal-payout-truth-2026",
 ] as const;
 
 const TOOL_SLUGS = [
