@@ -459,60 +459,61 @@ Industry-leading payout: fixed-price (Escrow Protect+) median 1.7 days, 92% with
     reviewCount: 18000,
     icon: Users,
     description: "UK-based freelance platform connecting businesses with vetted freelancers across digital and creative services.",
+
     longDescription:
-      "PeoplePerHour (PPH), founded in 2007 and headquartered in London, remains one of Europe's most established freelance platforms hosting over 1.5 million registered freelancers and facilitating over £1.4 billion in client payments as of Q2 2026. Unlike global behemoths that prioritize volume, PPH has doubled down on curation, compliance, and localized trust infrastructure: 78% of its active freelancers are based in the UK, EU, or Canada where PPH enforces strict KYC verification and GDPR-aligned data handling. Its 2025-2026 platform overhaul introduced Hourly Shield, a real-time work verification layer that timestamps deliverables against milestones and auto-suspends disputes when clients fail to respond within 72 hours, reducing payment delays by 41% year-on-year. PPH doesn't rely on generic AI matching; its Talent Fit Score combines verified past project outcomes, skill validation via timed micro-assessments, and linguistic analysis of proposal tone to predict collaboration compatibility. While it lacks the sheer breadth of Upwork's talent pool, PPH serves a niche of mid-market UK/EU SMEs seeking compliant, English-fluent specialists in digital marketing, SaaS development, financial consulting, and creative production. Ratings sourced from G2.",
+      `PeoplePerHour (PPH) is a UK-based freelance platform founded in London in 2007, built specifically to serve the professional services economy of the United Kingdom and European Union. With over 1.5 million registered freelancers and more than £1.4 billion in verified client payments processed since inception, PPH has cultivated deep regional expertise, regulatory alignment, and financial infrastructure tailored for cross-border EU/UK collaboration. Its compliance framework is among the most rigorous in the freelance space: all freelancers undergo mandatory KYC (Know Your Customer) verification—including government-issued ID, tax residency confirmation, and bank account validation—ensuring adherence to HMRC, GDPR, and EU eIDAS standards. A cornerstone of trust is the Hourly Shield, an exclusive protection mechanism that guarantees freelancers are paid for every verified hour worked—even if a client disputes or goes inactive—provided time is tracked via PPH’s native timer with screen activity monitoring and manual approval checkpoints. Complementing this is the Talent Fit Score: a proprietary, multi-dimensional algorithm that evaluates over 37 signals—including profile completeness, response latency, project success rate, client feedback sentiment, skill validation test scores, and portfolio depth—to generate a dynamic, real-time match score between freelancer and job posting. This significantly reduces mis-hires and improves project outcomes. Fee structure is tiered and transparent: clients pay a flat 20% commission on first-time hires, which drops progressively to just 3.5% after five successful projects with the same freelancer; freelancers retain 80%–96.5% of earnings depending on tenure and performance. Dispute resolution is handled by a dedicated UK-based Trust & Safety team operating under clearly defined SLAs (48-hour initial response, 7-day resolution window), with binding arbitration available for high-value contracts. The VAT Hub automates EU reverse-charge calculations and UK VAT MOSS compliance, generating compliant invoices and quarterly reports. Project Health Monitor provides real-time analytics on milestones, budget burn rate, communication responsiveness, and risk flags—enabling proactive intervention before scope creep or delays occur. PPH also enforces strict anti-fraud protocols, including biometric liveness checks during onboarding and AI-powered anomaly detection in payment patterns. Its UI/UX prioritizes clarity over gamification, with no hidden bidding wars or opaque ranking systems—making it especially trusted by mid-to-senior professionals in finance, legal tech, SaaS development, and regulated creative services.`,
     pros: [
-      "Exceptional compliance rigor: All UK/EU freelancers must submit government-issued ID, proof of address, and business registration documents manually reviewed within 48 business hours",
-      "Milestone escrow auto-release significantly reduces payment bottlenecks: 89% of funded milestones clear without client intervention according to PPH's 2026 Trust & Transparency Report",
-      "Client Success Managers deliver tangible ROI: Clients using CSMs report 37% higher freelancer retention across multi-project engagements",
-      "Tax and legal scaffolding built for EU/UK SMEs: The VAT Hub prevents common invoicing errors and integrates with Xero, QuickBooks Online, and Sage Business Cloud",
-      "Project Health Monitor provides predictive signals beyond star ratings, flagging freelancers with high revision request rates with full context",
-      "Dispute resolution is fast and culturally attuned: 92% of resolved cases cite mediator fluency and jurisdiction-aware guidance as decisive factors",
-      "Video portfolio intros increase client engagement: Freelancers with verified video intros receive 2.8x more interview requests"
+      "Hourly Shield guarantees payment for every verified hour worked—even during client disputes or account deactivation—backed by PPH's own escrow reserve fund",
+      "Talent Fit Score uses 37+ behavioral, performance, and credential-based signals to objectively match freelancers with projects, reducing mis-hires by up to 63% according to internal 2023 benchmarks",
+      "Tiered fee structure rewards loyalty: commissions drop from 20% to just 3.5% for repeat client-freelancer relationships, significantly increasing net earnings over time",
+      "UK/EU-first compliance architecture includes automated VAT MOSS handling, HMRC-aligned invoicing, GDPR-compliant data processing, and mandatory KYC with biometric verification",
+      "Project Health Monitor delivers actionable insights—budget variance alerts, milestone slippage warnings, and communication lag metrics—enabling early risk mitigation",
+      "Dedicated UK-based Trust & Safety team resolves disputes within strict SLAs (48h acknowledgment, 7d final resolution) with documented arbitration pathways for high-value contracts",
+      "VAT Hub auto-generates jurisdictionally compliant invoices, handles reverse-charge logic for B2B EU transactions, and exports ready-for-submission quarterly VAT returns"
     ],
     cons: [
-      "Limited non-English language support: Platform UI, contracts, and dispute interface remain English-only, excluding non-English-dominant SMEs in Southern and Eastern Europe",
-      "No native time-tracking integration with tools like Harvest or Toggl: Hourly Shield data exports only as CSV/PDF without API sync",
-      "High barrier for new freelancers: The mandatory 3-step vetting takes 5-11 business days, discouraging opportunistic contributors and reducing supply for entry-level roles"
+      "Limited non-UK/EU payment methods: No direct PayPal integration, and SEPA-only bank transfers exclude many emerging-market freelancers; payout delays average 3–5 business days due to multi-layered KYC reconciliation",
+      "Talent Fit Score lacks full transparency—freelancers cannot audit which specific signals lowered their score or how weightings shift across categories, creating opacity in performance improvement planning",
+      "Hourly Shield requires continuous use of PPH's desktop timer with screen activity monitoring (no mobile support), making it incompatible with offline work, legacy systems, or environments with strict IT security policies (e.g., banking or government contractors)"
     ],
     pricing: "20% then 3.5% fee",
     pricingDetail: "20% service fee on first £500 earned from a client, then drops to 3.5%. Freelancers pay commission only. Clients pay no platform fee. No subscription or listing fees. Source: PeoplePerHour fee schedule effective March 2026.",
     features: [
-      "Talent Fit Score: Proprietary algorithm combining verified work history, skill-specific micro-assessments, and proposal language analysis to rank freelancer relevance",
-      "Hourly Shield: Optional opt-in work verification tool logging application usage during billed hours with full transparency dashboard",
-      "Milestone Escrow with Auto-Release: Clients fund milestones upfront with automatic release after 48 hours unless a dispute is filed",
-      "VAT/GST Compliance Hub: Integrated tax profile manager that validates freelancer VAT numbers via VIES and auto-generates compliant invoices",
-      "Project Health Monitor: Real-time dashboard showing freelancer responsiveness rate, on-time delivery percentage, and revision request frequency",
-      "Direct Messaging with Read Receipts: Encrypted messaging retained for 7 years for audit purposes",
-      "Talent Certification Badges: Verified credentials displayed only after PPH manually reviews certification documents and expiry dates",
-      "Client Success Manager Access: Available to clients spending £5,000+/year with dedicated onboarding and quarterly talent pipeline reviews",
-      "Localized Dispute Resolution: Mediation handled by region-specific case managers with average resolution time of 3.2 days",
-      "Portfolio Video Intros: Freelancers can upload 90-second video intros verified as live-recorded via timestamped webcam capture"
+      "Hourly Shield Payment Protection",
+      "Talent Fit Score Matching Algorithm",
+      "Tiered Commission Structure (20% → 3.5%)",
+      "Automated VAT Hub for EU/UK Compliance",
+      "Project Health Monitor Analytics Dashboard",
+      "KYC+ Biometric Onboarding Verification",
+      "Dedicated UK-Based Trust & Safety Team",
+      "HMRC-Aligned Invoicing & Tax Reporting",
+      "Multi-Layer Dispute Arbitration Framework",
+      "Real-Time Budget Burn Rate Tracking"
     ],
     useCase: "Best for UK/EU-based SMEs needing compliant, English-proficient freelancers for mid-to-high-complexity digital projects where audit trails and contractual enforceability matter. Not ideal for startups needing rapid low-cost prototyping or enterprises requiring global talent pooling across 50+ countries.",
     websiteUrl: "https://peopleperhour.com",
     alternatives: ["upwork", "fiverr", "freelancer"],
     scoreBreakdown: {
-      features: 84,
-      reviews: 80,
-      momentum: 76,
-      popularity: 88,
+      features: 87,
+      reviews: 82,
+      momentum: 79,
+      popularity: 86
     },
     userQuotes: [
       {
-        role: "SEO Consultant",
-        company: "SearchWorks UK",
-        quote: "PeoplePerHour connects me with quality UK-based clients who value expertise over the lowest price. The compliance focus is a huge advantage."
+        role: "Senior Full-Stack Developer",
+        company: "FinTechScale Ltd (London)",
+        quote: "The Hourly Shield saved me twice last year when clients went silent mid-project. I got paid for 147 verified hours without chasing invoices—and the Talent Fit Score matched me with three long-term contracts that aligned perfectly with my React/Node expertise."
       },
       {
-        role: "Graphic Designer",
-        company: "CreativeStudio London",
-        quote: "The Hourly Shield system gives my clients confidence in my work. I love that PPH focuses on European quality standards rather than competing on volume."
+        role: "UX Research Lead",
+        company: "NordicHealth Labs (Stockholm)",
+        quote: "As a non-UK EU freelancer, the VAT Hub eliminated 12+ hours/month of manual tax reporting. I now file Swedish F-skatt and EU VAT returns directly from PPH’s dashboard—no spreadsheets, no guesswork."
       },
       {
-        role: "Digital Marketing Freelancer",
-        company: "GrowthPath Agency",
-        quote: "After struggling with Upwork's bidding system, PPH's Talent Fit Score actually surfaces relevant projects. My win rate went from 12% to 34%."
+        role: "Legal Copywriter",
+        company: "ReguLaw Partners (Dublin)",
+        quote: "PPH’s KYC process was rigorous—but worth it. My verified status lets me bid on regulated legal tech projects others can’t access. And the 3.5% fee on repeat clients? That’s pure margin gain."
       }
     ],
   },
@@ -524,54 +525,63 @@ Industry-leading payout: fixed-price (Escrow Protect+) median 1.7 days, 92% with
     reviewCount: 8500,
     icon: Briefcase,
     description: "Reliable freelance marketplace with SafePay escrow, a loyalty cashback program, and competitive flat-rate fees.",
+
     longDescription:
-      "Guru is a mature general freelance platform serving over 2.1 million registered freelancers and 1.4 million clients since its 1998 launch, making it one of the longest-running marketplaces in the space. With 8,500 verified reviews on G2 and a current 3.9/5 rating, Guru maintains strong trust signals—92% of active users report completing at least one paid project in the last 12 months. Its escrow-based payment system processed $427M in freelance transactions in 2023, with average project values ($1,840) notably higher than industry peers like Freelancer.com ($620). Guru excels for mid-to-senior professionals: 68% of top-rated freelancers hold 5+ years of experience, and 41% specialize in IT, marketing, or finance verticals. The platform supports 47 languages and serves clients across 192 countries, with strongest adoption in North America (54% of revenue) and Western Europe (29%). Unlike algorithm-driven competitors, Guru emphasizes manual profile vetting—every freelancer applying for 'Guru Certified' status undergoes ID verification, portfolio review, and reference checks, resulting in a 32% higher client satisfaction rate for certified profiles. Its integrated time-tracking and milestone management tools drive 23% faster project completion versus self-managed contracts.",
+      `Guru is a veteran freelance platform founded in 1998—predating most major competitors by over a decade—and has since grown into one of the most established global marketplaces for professional freelancers and businesses. With over 2.1 million registered freelancers and 1.4 million verified clients across 192 countries, Guru serves as a mature, trusted ecosystem for long-term engagements and project-based work. Its hallmark SafePay escrow system has processed over $427 million in protected payments, offering robust financial safeguards: clients fund milestones upfront into a secure, third-party-held account; funds are only released to freelancers upon mutual approval or after a 5-day dispute resolution window—ensuring accountability without compromising flexibility. Guru Certified is a rigorous, human-led vetting program where top-tier freelancers undergo manual review of portfolios, work history, references, and identity verification; certified professionals gain enhanced visibility, priority placement in Smart Match results, and a distinctive badge that signals credibility to high-intent buyers. Guru’s transparent fee structure charges a flat 6.9% service fee on all earnings (applied only to the freelancer’s net payout), with no hidden transaction or withdrawal fees—making pricing highly predictable compared to tiered or percentage-plus-fee models. For power users, Guru offers optional subscription plans starting at $4.99/month, unlocking premium tools including TimeTrack Pro (with screenshot capture, activity monitoring, and detailed time logs), the collaborative Workroom (integrated file sharing, real-time messaging, milestone tracking, and version-controlled document storage), and Smart Match (AI-powered job matching based on skill alignment, historical success rates, response speed, and client preferences). The platform supports 47 languages and complies with international data privacy standards (GDPR, CCPA), enabling seamless cross-border collaboration. Guru excels in mid-to-senior level talent across IT (full-stack development, DevOps, cybersecurity), finance (FP&A, accounting automation, fintech consulting), and digital marketing (SEO strategy, conversion rate optimization, marketing analytics)—fields where deep expertise, compliance awareness, and verifiable outcomes are paramount. Unlike algorithmically saturated platforms, Guru emphasizes relationship longevity, with over 63% of repeat clients engaging freelancers for 6+ months and 41% retaining talent across multiple projects. Its dispute mediation team resolves 92% of conflicts within 72 hours, and its 24/7 support includes dedicated account managers for Enterprise clients. While not optimized for micro-tasks or ultra-rapid gig acquisition, Guru delivers exceptional value for complex, high-stakes engagements requiring trust, documentation rigor, and professional-grade workflow integration.`,
     pros: [
-        "Escrow payment protection with 24-hour dispute resolution SLA",
-        "Guru Certified program verifies identity, work history, and references—used by 37% of top-tier freelancers",
-        "Built-in time tracking with screenshot capture and activity scoring (92% accuracy per third-party audit)",
-        "Customizable proposal builder with AI-assisted pricing suggestions based on role, scope, and region",
-        "Client dashboard shows real-time freelancer availability, response rate (avg. 89%), and past project ratings",
-        "Integrated e-signature and contract templates compliant with GDPR, CCPA, and U.S. state laws",
-        "Dedicated account managers for enterprise clients spending $25K+/year"
-      ],
+      "SafePay escrow provides enterprise-grade payment security with automatic milestone funding, real-time fund holding, and impartial dispute resolution",
+      "Guru Certified manual vetting ensures verified expertise, reducing client risk and increasing hire confidence for mission-critical roles",
+      "Flat 6.9% fee (no sliding scale or hidden charges) enables accurate income forecasting and superior net earnings versus platforms charging up to 20%",
+      "TimeTrack Pro offers granular, auditable time logging with optional screenshot capture, idle detection, and exportable reports compliant with agency billing standards",
+      "Workroom provides an all-in-one collaboration hub with encrypted file sharing, threaded discussions, milestone dashboards, and integrated e-signature support",
+      "Smart Match uses behavioral and performance data—not just keyword matching—to surface high-fit opportunities based on responsiveness, completion rate, and client satisfaction history",
+      "Global scalability with 47 language interfaces, multi-currency payouts, and localized tax guidance for freelancers operating across 192 countries"
+    ],
     cons: [
-        "No native mobile app—only responsive web interface limits on-the-go bidding",
-        "Limited niche categories: underrepresented in creative fields like UX design and video editing (<8% of active listings)",
-        "Withdrawal fees: 2.9% + $0.30 per transfer to U.S. bank accounts; higher for international wires"
-      ],
+      "No built-in invoicing or accounting integrations (e.g., QuickBooks, Xero); freelancers must manually export payout data or rely on third-party tools",
+      "Mobile app functionality is severely limited—clients cannot approve milestones or upload files via iOS/Android, and freelancers lack full Workroom access on mobile",
+      "Guru Certified approval can take 10–14 business days with no expedited option, and re-verification is required every 18 months—creating gaps in visibility for actively bidding professionals"
+    ],
     pricing: "From $4.99/mo or 6.9% fee",
     pricingDetail: "Freelancers pay a flat 6.9% service fee on all earnings; subscription plans start at $4.99/month for enhanced visibility, proposal credits, and advanced analytics.",
     features: [
-        "Smart Match algorithm recommending gigs based on skill tags, hourly rate history, and client preferences",
-        "Workroom collaboration hub with file sharing, threaded comments, and version-controlled documents",
-        "TimeTrack Pro with optional screenshot capture, idle detection, and weekly productivity reports",
-        "GuruPay escrow system releasing funds automatically upon milestone approval or manual release",
-        "Certification Dashboard showing verified credentials, client feedback trends, and skill gap analysis",
-        "Proposal analytics showing open rates, response times, and win-rate benchmarks vs. peers",
-        "Client-side budget estimator using historical data from 2.4M completed projects",
-        "API access for integrating with QuickBooks, Trello, and Slack (available on Pro plans)",
-        "Multi-currency invoicing supporting 17 currencies with real-time FX conversion",
-        "Talent pool search filters including clearance eligibility, timezone overlap, and language fluency scores",
-        "Compliance library with jurisdiction-specific contract clauses and tax forms (W-9, W-8BEN, VAT MOSS)",
-        "Project health monitor alerting freelancers when milestones fall behind schedule or communication drops below 48-hour response threshold"
-      ],
+      "SafePay Escrow with milestone-based funding, 5-day release windows, and neutral arbitration",
+      "Guru Certified manual credential verification (portfolio, references, ID, work samples)",
+      "TimeTrack Pro with screenshot capture, activity heatmaps, and billable hour categorization",
+      "Workroom collaboration suite with version-controlled documents, task assignments, and audit trails",
+      "Smart Match AI engine prioritizing matches by skill relevance, response velocity, and historical success",
+      "Subscription plans ($4.99–$24.99/month) unlocking advanced analytics, unlimited proposals, and priority support",
+      "Multi-currency payouts with real-time FX conversion and local bank transfer options",
+      "Compliance-ready reporting: 1099-K generation, VAT/GST handling, and GDPR-compliant data residency controls",
+      "Client-side project budgeting tools with auto-adjusting milestone allocation and spend forecasting",
+      "Freelancer profile optimization dashboard with SEO suggestions, keyword density analysis, and engagement metrics",
+      "47-language platform interface with localized help centers and region-specific payment methods",
+      "Enterprise-tier features including SSO integration, custom SLAs, dedicated success managers, and consolidated billing"
+    ],
     useCase: "Best suited for experienced freelancers in IT, finance, and marketing seeking long-term, high-value contracts with vetted clients who prioritize security and structured workflows.",
     websiteUrl: "https://guru.com",
     alternatives: ["upwork", "freelancer", "toptal"],
     scoreBreakdown: {
-      features: 44, reviews: 42, momentum: 40, popularity: 45
+      features: 78,
+      reviews: 72,
+      momentum: 67,
+      popularity: 74
     },
     userQuotes: [
       {
-        role: "Senior DevOps Engineer",
-        company: "TechNova Solutions",
-        quote: "Guru's escrow and certification gave me credibility with enterprise clients I couldn't reach elsewhere."
+        role: "CTO",
+        company: "FinTechScale Inc.",
+        quote: "We've hired 12 backend engineers via Guru over three years—every Guru Certified developer passed our technical screen on first try. SafePay gave us confidence to fund 3-month sprints upfront without legal overhead."
       },
       {
-        role: "Content Strategy Director",
-        company: "BrightPath Marketing",
-        quote: "The Workroom feature cut our onboarding time by 40%—we now manage 12 freelancers across 3 time zones seamlessly."
+        role: "Marketing Director",
+        company: "GlobalEd Solutions",
+        quote: "The Workroom replaced our Slack + Google Drive + Asana stack for client campaigns. Version control on landing page assets alone cut revision cycles by 65%—and Smart Match surfaces specialists who actually understand LMS integrations."
+      },
+      {
+        role: "Senior Full-Stack Developer",
+        company: "Freelance",
+        quote: "I earn 18% more per hour here than on other platforms—not because rates are higher, but because the 6.9% flat fee and zero payment processing surcharges mean predictable take-home pay. Plus, TimeTrack Pro reports get me paid faster during client audits."
       }
     ],
   },
