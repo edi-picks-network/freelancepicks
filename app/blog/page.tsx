@@ -24,6 +24,7 @@ export default function BlogPage() {
             <Leaf className="w-3.5 h-3.5" />
             FreelancePicks Research
           </div>
+          <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-5">
             Freelance Platform{" "}
             <span className="text-gradient-leaf">Research</span>
           </h1>
