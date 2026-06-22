@@ -10,9 +10,9 @@ import Footer from "./sections/Footer";
 import CookieBanner from "./components/CookieBanner";
 
 export const metadata: Metadata = {
-  title: "LeafConsulting — Freelance Platform Strategy Studio",
+  title: "FreelancePicks — Freelance Platform & Tool Reviews",
   description:
-    "Denver-based consulting studio helping freelancers choose the right platforms, optimize their presence, and maximize earnings. Data-driven platform selection and strategy.",
+    "Independent freelance platform reviews and comparisons. Data-driven platform selection and strategy for freelancers.",
   keywords: [
     "freelance platforms",
     "best freelance websites",
@@ -20,8 +20,6 @@ export const metadata: Metadata = {
     "freelance platform strategy",
     "freelance consulting",
     "freelancer income optimization",
-    "LeafConsulting",
-    "Denver freelance studio",
     "platform fit score",
     "freelance marketplace comparison",
   ],
@@ -31,10 +29,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "LeafConsulting",
-    title: "LeafConsulting — Freelance Platform Strategy Studio",
+    siteName: "FreelancePicks",
+    title: "FreelancePicks — Freelance Platform & Tool Reviews",
     description:
-      "Denver-based consulting studio helping freelancers choose the right platforms, optimize their presence, and maximize earnings.",
+      "Independent freelance platform reviews and comparisons. Data-driven platform selection and strategy.",
   },
 };
 

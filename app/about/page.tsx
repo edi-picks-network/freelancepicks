@@ -3,9 +3,9 @@ import Link from "next/link";
 import { Leaf, MapPin, TrendingUp, Users, BarChart3, Award, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Our Story — LeafConsulting Studio",
+  title: "Our Story — FreelancePicks Studio",
   description:
-    "LeafConsulting is a Denver-based freelance platform strategy studio. We help freelancers maximize earnings through data-driven platform selection and optimization.",
+    "FreelancePicks is a Denver-based freelance platform strategy studio. We help freelancers maximize earnings through data-driven platform selection and optimization.",
 };
 
 const TEAM = [
@@ -13,19 +13,19 @@ const TEAM = [
     name: "Addison Scott",
     role: "CEO & Strategy Lead",
     initials: "AS",
-    bio: "Former VP of Product at a major freelance marketplace. Addison spent 12 years building platform-side tools for millions of freelancers before realizing the biggest gap wasn't on the platform side — it was helping freelancers themselves navigate the ecosystem. She founded LeafConsulting in 2023 to bridge that gap. Her framework for Platform Fit Scoring has helped over 200 freelancers optimize their income.",
+    bio: "Former VP of Product at a major freelance marketplace. Addison spent 12 years building platform-side tools for millions of freelancers before realizing the biggest gap wasn't on the platform side — it was helping freelancers themselves navigate the ecosystem. She founded FreelancePicks in 2023 to bridge that gap. Her framework for Platform Fit Scoring has helped over 200 freelancers optimize their income.",
   },
   {
     name: "Ronan Galli",
     role: "Backend & Data Infrastructure",
     initials: "RG",
-    bio: "Systems architect with a decade of experience building data pipelines at scale. Ronan designed the Freelance Platform Index — a real-time ranking engine that tracks job volume, average rates, and competition across 40+ platforms. His infrastructure processes over 2 million data points weekly, delivering actionable market intelligence to LeafConsulting clients.",
+    bio: "Systems architect with a decade of experience building data pipelines at scale. Ronan designed the Freelance Platform Index — a real-time ranking engine that tracks job volume, average rates, and competition across 40+ platforms. His infrastructure processes over 2 million data points weekly, delivering actionable market intelligence to FreelancePicks clients.",
   },
   {
     name: "Zoey Van Leeuwen",
     role: "Mobile & Frontend Architecture",
     initials: "ZV",
-    bio: "Mobile-first engineer who built platform tools used by 500K+ freelancers worldwide. Zoey brings deep expertise in how platform UX affects freelancer success rates. She developed LeafConsulting's Portfolio Optimization System, which analyzes how freelancers present themselves across platforms and recommends profile changes that consistently improve win rates by 30%+.",
+    bio: "Mobile-first engineer who built platform tools used by 500K+ freelancers worldwide. Zoey brings deep expertise in how platform UX affects freelancer success rates. She developed FreelancePicks's Portfolio Optimization System, which analyzes how freelancers present themselves across platforms and recommends profile changes that consistently improve win rates by 30%+.",
   },
 ];
 
@@ -74,8 +74,8 @@ export default function AboutPage() {
             <span className="text-gradient-leaf">Your Success</span>
           </h1>
           <p className="text-lg text-text-secondary leading-relaxed max-w-2xl mx-auto">
-            LeafConsulting was born from a simple realization: freelancers have 40+ platform options,
-            endless review sites, and almost no real guidance. We started LeafConsulting to change that.
+            FreelancePicks was born from a simple realization: freelancers have 40+ platform options,
+            endless review sites, and almost no real guidance. We started FreelancePicks to change that.
           </p>
         </div>
 
@@ -113,7 +113,7 @@ export default function AboutPage() {
             </p>
             <p>
               Addison teamed up with Ronan Galli (data infrastructure) and Zoey Van Leeuwen (platform UX
-              architecture), and LeafConsulting was born. We don&apos;t compare software tools. We help
+              architecture), and FreelancePicks was born. We don&apos;t compare software tools. We help
               <strong> you</strong> — the freelancer — choose which freelance platform deserves your time,
               and how to maximize every hour you spend there.
             </p>
@@ -123,7 +123,7 @@ export default function AboutPage() {
         {/* Team */}
         <div className="mb-16">
           <h2 className="text-2xl font-bold text-text-primary mb-8 text-center">
-            Meet the LeafConsulting Team
+            Meet the FreelancePicks Team
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {TEAM.map((member) => (

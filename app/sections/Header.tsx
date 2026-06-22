@@ -35,7 +35,7 @@ export default function Header() {
           </div>
           <div className="flex flex-col leading-tight">
             <span className="text-base font-bold text-text-primary group-hover:text-leaf transition-colors">
-              LeafConsulting
+              FreelancePicks
             </span>
             <span className="text-[10px] text-text-muted font-medium -mt-0.5">
               Freelance Platform Guide

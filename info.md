@@ -1,6 +1,6 @@
 # freelancepicks-hub
 
-**LeafConsulting Studio** — a freelance platform strategy site with a warm green / nature-inspired color scheme.
+**FreelancePicks Studio** — a freelance platform strategy site with a warm green / nature-inspired color scheme.
 
 Built with Next.js 15, Tailwind CSS v3.4, and TypeScript.
 
@@ -19,5 +19,5 @@ Color palette (Warm Green / Nature):
 - Accent earth: #8D6E63 (earth)
 - Accent gold: #D4A843 (earth-gold)
 
-Studio: LeafConsulting (Denver, CO)
+Studio: FreelancePicks (Denver, CO)
 Team: Addison Scott (CEO), Ronan Galli (Backend), Zoey Van Leeuwen (Mobile)

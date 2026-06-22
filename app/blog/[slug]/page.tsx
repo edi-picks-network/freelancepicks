@@ -20,7 +20,7 @@ export async function generateMetadata({
   const post = BLOG_POSTS.find((p) => p.slug === slug);
   if (!post) return { title: "Post Not Found" };
   return {
-    title: `${post.title} — LeafConsulting Studio`,
+    title: `${post.title} — FreelancePicks Studio`,
     description: post.excerpt,
   };
 }
@@ -166,11 +166,11 @@ export default async function BlogPostPage({
     post.title,
     post.author,
     post.date,
-    'LeafConsulting Studio',
+    'FreelancePicks Studio',
     post.excerpt
   );
   const orgJsonLd = organizationSchema(
-    'LeafConsulting',
+    'FreelancePicks',
     'https://freelancepicks.net',
     'Freelance platform strategy studio helping freelancers maximize platform earnings.'
   );
@@ -256,7 +256,7 @@ export default async function BlogPostPage({
                     <p className="font-bold text-text-primary">{post.author}</p>
                     <p className="text-sm text-text-muted">{post.authorRole}</p>
                     <p className="text-xs text-text-muted mt-2">
-                      LeafConsulting independently researches and verifies all platform data.
+                      FreelancePicks independently researches and verifies all platform data.
                     </p>
                   </div>
                 </div>

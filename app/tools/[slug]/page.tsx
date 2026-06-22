@@ -64,7 +64,7 @@ export default function ToolDetailPage() {
     scripts.push(s1);
 
     const org = organizationSchema(
-      'LeafConsulting',
+      'FreelancePicks',
       'https://freelancepicks.net',
       'Freelance platform strategy studio helping freelancers maximize earnings.'
     );

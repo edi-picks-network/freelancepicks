@@ -35,7 +35,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="text-base font-bold text-text-primary group-hover:text-leaf transition-colors">
-                  LeafConsulting
+                  FreelancePicks
                 </span>
                 <span className="text-[10px] text-text-muted font-medium -mt-0.5">
                   Freelance Platform Guide
@@ -54,7 +54,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-1.5">
                 <Mail className="w-3.5 h-3.5 text-leaf-lighter" />
-                hello@leafconsulting.io
+                hello@freelancepicks.io
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-border-soft flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-text-muted">
-            &copy; {new Date().getFullYear()} LeafConsulting Studio. Built for freelancers, by freelancers.
+            &copy; {new Date().getFullYear()} FreelancePicks Studio. Built for freelancers, by freelancers.
           </p>
           <div className="flex items-center gap-6">
             <Link href="/privacy" className="text-xs text-text-muted hover:text-leaf transition-colors">
@@ -96,12 +96,12 @@ export default function Footer() {
               Disclosure
             </Link>
             <a
-              href="https://leafconsulting.io"
+              href="https://freelancepicks.io"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs text-text-muted hover:text-leaf transition-colors flex items-center gap-1"
             >
-              leafconsulting.io
+              freelancepicks.io
               <ExternalLink className="w-2.5 h-2.5" />
             </a>
           </div>

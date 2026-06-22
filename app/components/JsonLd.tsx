@@ -8,7 +8,7 @@ interface JsonLdProps {
 }
 
 export default function JsonLd({
-  siteName = 'LeafConsulting',
+  siteName = 'FreelancePicks',
   siteUrl = 'https://freelancepicks.net',
   description = 'Freelance platform strategy studio helping freelancers maximize earnings.',
 }: JsonLdProps) {

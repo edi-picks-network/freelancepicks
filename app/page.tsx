@@ -11,7 +11,7 @@ import Link from "next/link";
 import { ALL_TOOLS } from "@/data/tools";
 import { BLOG_POSTS } from "@/data/blog-posts";
 
-const SITE_NAME = "LeafConsulting";
+const SITE_NAME = "FreelancePicks";
 
 export default function HomePage() {
   const categories = useMemo(() => {
@@ -54,7 +54,7 @@ export default function HomePage() {
             <div className="md:col-span-3">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-medium mb-6 border border-border-soft bg-warm-card/80 text-leaf shadow-sm">
                 <Sparkles className="w-3.5 h-3.5" />
-                From the LeafConsulting Studio — Denver, CO
+                From the FreelancePicks Studio — Denver, CO
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-text-primary leading-tight mb-4 tracking-tight">
                 You Don&apos;t Need{" "}
@@ -294,7 +294,7 @@ export default function HomePage() {
             <div className="relative z-10 max-w-2xl mx-auto text-center">
               <p className="text-lg md:text-xl text-text-primary font-medium leading-relaxed mb-6">
                 &ldquo;I was jumping between three platforms every day, making a few hundred dollars here and
-                there. LeafConsulting&apos;s Platform Fit Score showed me I was a perfect match for Toptal&apos;s
+                there. FreelancePicks&apos;s Platform Fit Score showed me I was a perfect match for Toptal&apos;s
                 model — three months later I was earning six figures.&rdquo;
               </p>
               <div className="flex items-center justify-center gap-3">
@@ -320,7 +320,7 @@ export default function HomePage() {
             <div className="flex items-center justify-between mb-6">
               <div>
                 <h2 className="text-2xl font-bold text-text-primary">Latest Research</h2>
-                <p className="text-sm text-text-muted mt-1">Data-driven insights from the LeafConsulting team.</p>
+                <p className="text-sm text-text-muted mt-1">Data-driven insights from the FreelancePicks team.</p>
               </div>
               <Link href="/blog" className="text-sm text-leaf font-medium hover:underline flex items-center gap-1">
                 View all <ArrowRight className="w-3 h-3" />

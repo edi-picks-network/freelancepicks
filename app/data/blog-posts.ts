@@ -1185,7 +1185,7 @@ Now go build your stack. Not the one that looks impressive on a screenshot—but
     title: "The 7 Essential Tools Every Freelancer Needs for Invoicing, Contracts & Client Management in 2026",
     excerpt: "A field-tested, infrastructure-aware evaluation of seven essential tools for invoicing, contract management, and client relationship management—with real pricing, integration testing, and specific recommendations for every freelance scenario.",
     content: `# The 7 Essential Tools Every Freelancer Needs for Invoicing, Contracts & Client Management in 2026  
-*By Ronan Galli -- Backend & Data Infrastructure Specialist, LeafConsulting (Denver, CO)  
+*By Ronan Galli -- Backend & Data Infrastructure Specialist, FreelancePicks (Denver, CO)  
 Published: 2026-06-12*
 
 Let me be clear from the outset: I do not build SaaS products. I don't sell subscriptions. And I don't get referral fees. What I *do* build -- and have built for over 14 years -- is the infrastructure that keeps financial data consistent across systems, ensures contract metadata flows reliably into accounting ledgers, and guarantees client interaction histories survive CRM migrations without corruption or silent truncation.
@@ -1498,8 +1498,8 @@ The tools I've covered here meet those criteria -- not perfectly, but with enoug
 
 -- Ronan Galli  
 Backend & Data Infrastructure Specialist  
-LeafConsulting | Denver, CO  
-ronan.galli@leafconsulting.com  
+FreelancePicks | Denver, CO  
+ronan.galli@freelancepicks.com  
 
 *This analysis reflects verified product capabilities as of June 2026. Pricing and features subject to change. Always test integrations in staging before production deployment.*`,
     author: "Ronan Galli",
@@ -1807,7 +1807,7 @@ The difference between a freelancer earning $35,000/year and one earning $135,00
 
 It's **infrastructure**.
 
-Over the past 18 months, the LeafConsulting research team analyzed the tool stacks of 7,400 active freelancers across 63 countries, segmented by income bracket. We tracked over 430 distinct tools—from the obvious (Slack, Zoom, Notion) to the obscure (specialized invoicing platforms, AI-assisted proposal writers, cross-border payroll orchestrators). What emerged wasn't just a list of "best tools"—it was a *pattern of behavior* that separates the top 1% from everyone else.
+Over the past 18 months, the FreelancePicks research team analyzed the tool stacks of 7,400 active freelancers across 63 countries, segmented by income bracket. We tracked over 430 distinct tools—from the obvious (Slack, Zoom, Notion) to the obscure (specialized invoicing platforms, AI-assisted proposal writers, cross-border payroll orchestrators). What emerged wasn't just a list of "best tools"—it was a *pattern of behavior* that separates the top 1% from everyone else.
 
 This guide is that pattern, distilled.
 
@@ -1897,9 +1897,9 @@ Audit your tool stack the same way you audit your time. Ask every subscription: 
 
 ---
 
-*Methodology Note: Data draws from LeafConsulting's 2026 Freelancer Infrastructure Survey tracking 7,400 active freelancers across 63 countries. Tool pricing verified as of June 2026.*`,
+*Methodology Note: Data draws from FreelancePicks's 2026 Freelancer Infrastructure Survey tracking 7,400 active freelancers across 63 countries. Tool pricing verified as of June 2026.*`,
     author: "Addison Scott",
-    authorRole: "CEO & Strategy, LeafConsulting Studio",
+    authorRole: "CEO & Strategy, FreelancePicks Studio",
     date: "2026-06-14",
     category: "Freelance Strategy",
     readTime: 10,
@@ -1994,9 +1994,9 @@ Or if you're earlier in your career: **Hubstaff Talent** (zero fee, build relati
 
 The common thread? These five platforms all reject the race-to-the-bottom model. They reward skill, curation, and professionalism—exactly what the 2026 freelance economy demands.
 
-*Data sourced from platform disclosures, user surveys, and LeafConsulting's 2026 Freelancer Platform Audit tracking 4,200 active freelancers across 37 countries. Platform pricing and features verified as of June 2026.*`,
+*Data sourced from platform disclosures, user surveys, and FreelancePicks's 2026 Freelancer Platform Audit tracking 4,200 active freelancers across 37 countries. Platform pricing and features verified as of June 2026.*`,
     author: "Addison Scott",
-    authorRole: "CEO & Strategy, LeafConsulting Studio",
+    authorRole: "CEO & Strategy, FreelancePicks Studio",
     date: "2026-06-15",
     category: "Platform Comparisons",
     readTime: 8,
@@ -2084,9 +2084,9 @@ June 16, 2026`,
     excerpt: "After a controlled 90-day experiment with matched freelancer profiles across Fiverr, Upwork, and Toptal, we tracked every dollar earned, every fee deducted, and every hour spent. Here's which platform actually pays better in 2026 — and the specific strategies that maximize net take-home income on each.",
     content: `# Fiverr vs Upwork vs Toptal in 2026: We Tested All Three — The Payout Truth
 
-*By Zoey Van Leeuwen — Mobile & Frontend Architecture, LeafConsulting Studio | June 18, 2026*
+*By Zoey Van Leeuwen — Mobile & Frontend Architecture, FreelancePicks Studio | June 18, 2026*
 
-Let me start with an honest confession: before we ran this experiment, I had a strong opinion about which platform paid best. I'd spent two years building data pipelines at LeafConsulting that tracked platform economics across 14 marketplaces. I'd read the fee schedules, analyzed the payout data, interviewed dozens of freelancers.
+Let me start with an honest confession: before we ran this experiment, I had a strong opinion about which platform paid best. I'd spent two years building data pipelines at FreelancePicks that tracked platform economics across 14 marketplaces. I'd read the fee schedules, analyzed the payout data, interviewed dozens of freelancers.
 
 I was wrong about almost everything.
 
@@ -2103,7 +2103,7 @@ For 90 days (March–May 2026), we created and operated three parallel freelance
 Critical methodology choices:
 - **Matched service offerings**: On each platform, we listed identical services (API development, database optimization, React component library builds) at identical base rates ($85/hr or project-equivalent)
 - **Controlled effort**: We allocated exactly 25 hours per week per platform to active work (billable + admin), tracked via Toggl
-- **Same freelancer, different identities**: With consent, three freelancers from our LeafConsulting network — each with equivalent skill profiles — operated one account each, using identical proposal templates
+- **Same freelancer, different identities**: With consent, three freelancers from our FreelancePicks network — each with equivalent skill profiles — operated one account each, using identical proposal templates
 - **Full financial tracking**: Every fee, every payout delay, every Connects purchase, every Bid Boost charge was logged
 
 We tracked 14 metrics across 3,847 data points. Here's what mattered most.
@@ -2276,12 +2276,12 @@ The platforms aren't converging — they're diverging. Each is optimizing for a 
 Do the math. Run your own experiment. The numbers don't lie, but they do require interpretation — and that interpretation is where strategy lives.
 
 *— Zoey Van Leeuwen*
-*Mobile & Frontend Architecture | LeafConsulting Studio, Denver*
-*zoey.vanleeuwen@leafconsulting.com*
+*Mobile & Frontend Architecture | FreelancePicks Studio, Denver*
+*zoey.vanleeuwen@freelancepicks.com*
 
-*Methodology: All data from LeafConsulting's 2026 Platform Earnings Audit (March-May 2026, n=3 matched profiles, 3,847 tracked transactions). Platform fees verified via Terms of Service as of June 1, 2026. Full raw data available on request.*`,
+*Methodology: All data from FreelancePicks's 2026 Platform Earnings Audit (March-May 2026, n=3 matched profiles, 3,847 tracked transactions). Platform fees verified via Terms of Service as of June 1, 2026. Full raw data available on request.*`,
     author: "Zoey Van Leeuwen",
-    authorRole: "Mobile & Frontend Architecture, LeafConsulting Studio",
+    authorRole: "Mobile & Frontend Architecture, FreelancePicks Studio",
     date: "2026-06-18",
     category: "Freelance Platforms",
     readTime: 11,

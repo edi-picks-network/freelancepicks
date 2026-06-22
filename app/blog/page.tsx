@@ -4,9 +4,9 @@ import { BLOG_POSTS } from "@/data/blog-posts";
 import { Calendar, Clock, User, ArrowRight, Leaf } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Research — LeafConsulting Studio",
+  title: "Research — FreelancePicks Studio",
   description:
-    "Data-driven insights, platform comparisons, and freelance strategy guides from the LeafConsulting team. Expert analysis for serious freelancers.",
+    "Data-driven insights, platform comparisons, and freelance strategy guides from the FreelancePicks team. Expert analysis for serious freelancers.",
 };
 
 const CATEGORIES = Array.from(new Set(BLOG_POSTS.map((post) => post.category)));
@@ -22,15 +22,14 @@ export default function BlogPage() {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-medium mb-5 border border-border-soft bg-leaf-subtle/50 text-leaf">
             <Leaf className="w-3.5 h-3.5" />
-            LeafConsulting Research
+            FreelancePicks Research
           </div>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-text-primary tracking-tight mb-3">
             Freelance Platform{" "}
             <span className="text-gradient-leaf">Research</span>
           </h1>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
             Data-driven platform comparisons, strategy guides, and market intelligence
-            from the LeafConsulting team. Built for freelancers who take their income seriously.
+            from the FreelancePicks team. Built for freelancers who take their income seriously.
           </p>
         </div>
 
