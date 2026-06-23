@@ -20,6 +20,7 @@ const BLOG_SLUGS = [
   "freelance-taxes-financial-management-2026",
   "freelance-client-onboarding-contract-management-2026",
   "freelance-proposal-writing-2026",
+  "freelance-platform-fees-hidden-costs-2026",
 ] as const;
 
 const TOOL_SLUGS = [
