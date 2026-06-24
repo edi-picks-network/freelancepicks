@@ -21,6 +21,7 @@ const BLOG_SLUGS = [
   "freelance-client-onboarding-contract-management-2026",
   "freelance-proposal-writing-2026",
   "freelance-platform-fees-hidden-costs-2026",
+  "how-to-negotiate-rates-freelancer-2026",
 ] as const;
 
 const TOOL_SLUGS = [
