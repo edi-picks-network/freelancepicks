@@ -139,14 +139,14 @@ export default function ContactPage() {
               <div className="space-y-3">
                 <div>
                   <p className="text-xs text-text-muted">General Inquiries</p>
-                  <a href="mailto:hello@leafconsulting.io" className="text-sm text-leaf hover:underline font-medium">
-                    hello@leafconsulting.io
+                  <a href="mailto:info@freelancepicks.net" className="text-sm text-leaf hover:underline font-medium">
+                    info@freelancepicks.net
                   </a>
                 </div>
                 <div>
                   <p className="text-xs text-text-muted">Book a Session</p>
-                  <a href="mailto:sessions@leafconsulting.io" className="text-sm text-leaf hover:underline font-medium">
-                    sessions@leafconsulting.io
+                  <a href="mailto:info@freelancepicks.net" className="text-sm text-leaf hover:underline font-medium">
+                    info@freelancepicks.net
                   </a>
                 </div>
               </div>
