@@ -25,6 +25,8 @@ const BLOG_SLUGS = [
   "remote-collaboration-tools-freelancers-2026",
   "remote-work-tools-ecosystem-2026-guide",
   "state-of-freelance-platforms-2026-fees-ai-opportunities",
+  "freelance-pricing-strategies-2026-hourly-value-based",
+  "top-freelance-niches-highest-demand-2026",
   "top-freelance-platforms-for-designers-2026",
   "upwork-vs-fiverr-vs-freelancer-2026",
   "upwork-vs-toptal-vs-fiverr-which-freelance-platform",
