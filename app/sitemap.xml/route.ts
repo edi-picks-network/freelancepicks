@@ -30,6 +30,10 @@ const BLOG_SLUGS = [
   "top-freelance-platforms-for-designers-2026",
   "upwork-vs-fiverr-vs-freelancer-2026",
   "upwork-vs-toptal-vs-fiverr-which-freelance-platform",
+  "freelance-pricing-value-based-2026-practical",
+  "freelance-contract-negotiation-2026-data-driven-guide",
+  "first-freelance-client-platform-strategies-2026",
+  "freelance-niche-strategy-specialist-2026",
 ] as const;
 
 const TOOL_SLUGS = [
