@@ -4615,7 +4615,6 @@ Start with *one* platform. Master its rhythm. Land that first client. Then scale
 Ready to launch? Pick your platform, open your profile, and rewrite your headline *today*---using the exact formula above. Your first client isn't waiting for perfection. They're waiting for clarity.`,
     author: "Sarah Mitchell",
     authorRole: "Freelance Career Coach",
-    authorAvatar: "/avatars/sarah.jpg",
     date: "2026-07-08",
     category: "Freelancing",
     readTime: 4,
@@ -5017,7 +5016,7 @@ Time management for freelancers isn't about squeezing more in. It's about protec
 
 And honestly? That sticky note on my monitor hasn't moved in 1,242 days. It just says: 'Ship the thing.'`,
     author: "Maya Chen",
-    authorRole: "Freelance UX Designer & Systems Coach`",
+    authorRole: "Freelance UX Designer & Systems Coach",
     date: "2026-07-11",
     category: "Freelance Life",
     readTime: 6,
