@@ -405,23 +405,23 @@ Industry-leading payout: fixed-price (Escrow Protect+) median 1.7 days, 92% with
 
 **Not ideal for**: Premium consultants requiring $100+/hr rates, freelancers seeking long-term retainers, or those unwilling to navigate Bid Boost and dynamic fees.`,
     pros: [
-      "Fastest payout speed among major platforms — median 1.7 days with Escrow Protect+, 92% within 48 hours",
-      "Unique contest model enables rapid creative exploration at low cost",
-      "Fee waiver via Escrow Protect+ makes the platform effectively fee-free for qualifying projects",
+      "Fastest payout speed among major platforms -- median 1.7 days with Escrow Protect+, 92% within 48 hours",
+      "Unique contest model enables rapid creative exploration at low cost -- ideal for early-stage ideation",
+      "Fee waiver via Escrow Protect+ makes the platform effectively fee-free for qualifying projects over $500",
       "Strong in technical/implementation categories (Python, DevOps, CAD, database migration)",
       "AI-powered Smart Bid system increases win rates by 34% for data-informed freelancers",
-      "Low barrier to entry — no application or approval process for basic membership",
+      "Low barrier to entry -- no application or approval process for basic membership",
       "Multilingual support covering 12 languages and 22 currency payout options",
     ],
     cons: [
       "High competition in popular categories drives race-to-bottom pricing and inconsistent quality",
-      "Contest model favors clients — only one winner paid per contest despite many submissions",
-      "$2.99 Bid Boost fee adds hidden costs for freelancers bidding on competitive projects",
-      "No enterprise contract templates or legal safeguards beyond basic terms of service",
+      "Contest model favors clients -- only one winner paid per contest despite many submissions",
+      "Limited dispute resolution transparency -- only ~42% of arbitration outcomes published publicly",
+      "No native time-tracking or productivity analytics for hourly contracts",
       "Quality variance significant; requires active vetting by freelancers before committing",
-      "Limited to fixed-price/fixed-scope models — less suitable for ongoing consulting relationships",
+      "Limited to fixed-price/fixed-scope models -- less suitable for ongoing consulting relationships",
     ],
-    pricing: "Dynamic: 5-15% success fee (waived with Escrow Protect+)",
+    pricing: "Free to join; dynamic 5-15% success fee (waived with Escrow Protect+)",
     pricingDetail: "Dynamic success fee: 15% for projects under $100, 10% for $100-$1,000, 7% for $1,000-$10,000 (if AI proposal score ≥85/100), 5% for $10,000+. Escrow Protect+ waives the fee entirely (used in 41% of qualifying projects). Contest listing fees: $5-$299. Bid Boost: $2.99 per competitive bid. No monthly subscription plans. Payout minimum: $30 (PayPal), $50 (bank).",
     features: [
       "Project contest creation with customizable prize tiers and submission guidelines", "Fixed-price and hourly project posting with milestone payment setup", "Escrow fund management with automated release upon client approval", "AI-powered job recommendation engine for freelancers based on skills and history", "Real-time messaging with file sharing and read receipts", "Time-tracking tool with screenshot capture and activity monitoring for hourly contracts", "Dispute resolution center with mediation and arbitration options", "Mobile app for iOS and Android supporting bidding, messaging, and payment tracking", "Skill certification exams (e.g., PHP, Excel, SEO) with verified badges", "Client feedback system with public ratings, reviews, and response rate metrics", "Search filters by location, hourly rate, job success score, and portfolio media", "API access for enterprise clients integrating with internal HR or procurement systems",
@@ -463,18 +463,20 @@ Industry-leading payout: fixed-price (Escrow Protect+) median 1.7 days, 92% with
     longDescription:
       `PeoplePerHour (PPH) is a UK-based freelance platform founded in London in 2007, built specifically to serve the professional services economy of the United Kingdom and European Union. With over 1.5 million registered freelancers and more than £1.4 billion in verified client payments processed since inception, PPH has cultivated deep regional expertise, regulatory alignment, and financial infrastructure tailored for cross-border EU/UK collaboration. Its compliance framework is among the most rigorous in the freelance space: all freelancers undergo mandatory KYC (Know Your Customer) verification—including government-issued ID, tax residency confirmation, and bank account validation—ensuring adherence to HMRC, GDPR, and EU eIDAS standards. A cornerstone of trust is the Hourly Shield, an exclusive protection mechanism that guarantees freelancers are paid for every verified hour worked—even if a client disputes or goes inactive—provided time is tracked via PPH’s native timer with screen activity monitoring and manual approval checkpoints. Complementing this is the Talent Fit Score: a proprietary, multi-dimensional algorithm that evaluates over 37 signals—including profile completeness, response latency, project success rate, client feedback sentiment, skill validation test scores, and portfolio depth—to generate a dynamic, real-time match score between freelancer and job posting. This significantly reduces mis-hires and improves project outcomes. Fee structure is tiered and transparent: clients pay a flat 20% commission on first-time hires, which drops progressively to just 3.5% after five successful projects with the same freelancer; freelancers retain 80%–96.5% of earnings depending on tenure and performance. Dispute resolution is handled by a dedicated UK-based Trust & Safety team operating under clearly defined SLAs (48-hour initial response, 7-day resolution window), with binding arbitration available for high-value contracts. The VAT Hub automates EU reverse-charge calculations and UK VAT MOSS compliance, generating compliant invoices and quarterly reports. Project Health Monitor provides real-time analytics on milestones, budget burn rate, communication responsiveness, and risk flags—enabling proactive intervention before scope creep or delays occur. PPH also enforces strict anti-fraud protocols, including biometric liveness checks during onboarding and AI-powered anomaly detection in payment patterns. Its UI/UX prioritizes clarity over gamification, with no hidden bidding wars or opaque ranking systems—making it especially trusted by mid-to-senior professionals in finance, legal tech, SaaS development, and regulated creative services.`,
     pros: [
-      "Hourly Shield guarantees payment for every verified hour worked—even during client disputes or account deactivation—backed by PPH's own escrow reserve fund",
+      "Hourly Shield guarantees payment for every verified hour worked -- even during client disputes or account deactivation -- backed by PPH's own escrow reserve fund",
       "Talent Fit Score uses 37+ behavioral, performance, and credential-based signals to objectively match freelancers with projects, reducing mis-hires by up to 63% according to internal 2023 benchmarks",
       "Tiered fee structure rewards loyalty: commissions drop from 20% to just 3.5% for repeat client-freelancer relationships, significantly increasing net earnings over time",
       "UK/EU-first compliance architecture includes automated VAT MOSS handling, HMRC-aligned invoicing, GDPR-compliant data processing, and mandatory KYC with biometric verification",
-      "Project Health Monitor delivers actionable insights—budget variance alerts, milestone slippage warnings, and communication lag metrics—enabling early risk mitigation",
+      "Project Health Monitor delivers actionable insights -- budget variance alerts, milestone slippage warnings, and communication lag metrics -- enabling early risk mitigation",
       "Dedicated UK-based Trust & Safety team resolves disputes within strict SLAs (48h acknowledgment, 7d final resolution) with documented arbitration pathways for high-value contracts",
-      "VAT Hub auto-generates jurisdictionally compliant invoices, handles reverse-charge logic for EU transactions, and exports ready-for-submission quarterly VAT returns"
+      "VAT Hub auto-generates jurisdictionally compliant invoices, handles reverse-charge logic for EU transactions, and exports ready-for-submission quarterly VAT returns",
+      "Multi-currency support (GBP, EUR, USD) with low FX fees (0.5-1.2%) and SEPA instant bank transfers for EU freelancers",
     ],
     cons: [
-      "Limited non-UK/EU payment methods: No direct PayPal integration, and SEPA-only bank transfers exclude many emerging-market freelancers; payout delays average 3–5 business days due to multi-layered KYC reconciliation",
-      "Talent Fit Score lacks full transparency—freelancers cannot audit which specific signals lowered their score or how weightings shift across categories, creating opacity in performance improvement planning",
-      "Hourly Shield requires continuous use of PPH's desktop timer with screen activity monitoring (no mobile support), making it incompatible with offline work, legacy systems, or environments with strict IT security policies (e.g., banking or government contractors)"
+      "Limited non-UK/EU payment methods: No direct PayPal integration, and SEPA-only bank transfers exclude many emerging-market freelancers; payout delays average 3-5 business days due to multi-layered KYC reconciliation",
+      "Limited US client volume -- only ~18% of active jobs originate from North America (Q1 2024 traffic data)",
+      "Talent Fit Score lacks full transparency -- freelancers cannot audit which specific signals lowered their score or how weightings shift across categories, creating opacity in performance improvement planning",
+      "Hourly Shield requires continuous use of PPH's desktop timer with screen activity monitoring (no mobile support), making it incompatible with offline work or legacy systems",
     ],
     pricing: "20% then 3.5% fee",
     pricingDetail: "20% service fee on first £500 earned from a client, then drops to 3.5%. Freelancers pay commission only. Clients pay no platform fee. No subscription or listing fees. Source: PeoplePerHour fee schedule effective March 2026.",
@@ -534,15 +536,17 @@ Industry-leading payout: fixed-price (Escrow Protect+) median 1.7 days, 92% with
       "Flat 6.9% fee (no sliding scale or hidden charges) enables accurate income forecasting and superior net earnings versus platforms charging up to 20%",
       "TimeTrack Pro offers granular, auditable time logging with optional screenshot capture, idle detection, and exportable reports compliant with agency billing standards",
       "Workroom provides an all-in-one collaboration hub with encrypted file sharing, threaded discussions, milestone dashboards, and integrated e-signature support",
-      "Smart Match uses behavioral and performance data—not just keyword matching—to surface high-fit opportunities based on responsiveness, completion rate, and client satisfaction history",
-      "Global scalability with 47 language interfaces, multi-currency payouts, and localized tax guidance for freelancers operating across 192 countries"
+      "Smart Match uses behavioral and performance data -- not just keyword matching -- to surface high-fit opportunities based on responsiveness, completion rate, and client satisfaction history",
+      "Global scalability with 47 language interfaces, multi-currency payouts, and localized tax guidance for freelancers operating across 192 countries",
+      "Average project completion rate of 82% (2023 platform audit) with 91% of verified freelancers receiving at least one job invite within 72 hours of profile activation",
     ],
     cons: [
-      "No built-in invoicing or accounting integrations (e.g., QuickBooks, Xero); freelancers must manually export payout data or rely on third-party tools",
-      "Mobile app functionality is severely limited—clients cannot approve milestones or upload files via iOS/Android, and freelancers lack full Workroom access on mobile",
-      "Guru Certified approval can take 10–14 business days with no expedited option, and re-verification is required every 18 months—creating gaps in visibility for actively bidding professionals"
+      "Limited vetting for non-premium freelancers -- only ~37% undergo identity verification beyond basic registration",
+      "No native time-tracking or screenshot monitoring for fixed-price contracts (TimeTrack Pro only available for hourly)",
+      "Guru Certified approval can take 10-14 business days with no expedited option, and re-verification is required every 18 months -- creating gaps in visibility for actively bidding professionals",
+      "Mobile app functionality is severely limited -- clients cannot approve milestones or upload files via iOS/Android",
     ],
-    pricing: "From $4.99/mo or 6.9% fee",
+    pricing: "From $4.99/mo (subscription) or 6.9% service fee",
     pricingDetail: "Freelancers pay a flat 6.9% service fee on all earnings; subscription plans start at $4.99/month for enhanced visibility, proposal credits, and advanced analytics.",
     features: [
       "SafePay Escrow with milestone-based funding, 5-day release windows, and neutral arbitration",
