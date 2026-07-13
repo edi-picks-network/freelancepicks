@@ -38,6 +38,7 @@ const BLOG_SLUGS = [
   "freelance-time-management-daily-system-2026",
   "freelance-client-communication-mastery-2026",
   "freelance-platforms-comparison-2026-upwork-fiverr-toptal-guru-peopleperhour",
+  "freelance-contracts-legal-protection-2026",
 ] as const;
 
 const TOOL_SLUGS = [
