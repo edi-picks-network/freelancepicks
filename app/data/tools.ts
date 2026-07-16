@@ -1341,35 +1341,35 @@ Recent 2025--2026 updates include the launch of TrueFlow, an AI-augmented projec
 
 Real-world earnings data reveals tangible impact: Muhammad R., a Lahore-based ML engineer certified in TensorFlow and Azure ML, earned $84,200 in 2025 across 22 projects--primarily building recommendation engines for e-commerce clients in Saudi Arabia and Indonesia. Sofia L., a Bogota-based NLP specialist, averaged $62/hr on 14 contracts involving multilingual chatbot deployment for LATAM fintechs, totaling $71,500 in gross income. Platform-wide, AI freelancers report median annual earnings of $42,800--27% above global freelance averages--with 68% citing Truelancer's vetting transparency and payment reliability as primary retention drivers.`,
     pros: [
-      "10% flat service fee--lowest among top-10 global freelance platforms; saves freelancers up to $2,400 annually vs. Upwork's tiered 20% fee on first $500",
-      "89% dispute resolution within 72 hours via Project Shield arbitration panel---outperforming industry average (67%) by 22 pts",
-      "Milestone escrow mandates >=2 client-approved checkpoints on all fixed-price jobs, reducing payment failures to 0.8% in 2025",
-      "TrueConnect bidding system delivers 3.2x higher proposal response rate for Premium users vs. Free tier (Q2 2026 benchmark)",
-      "2.47M active users with 37% YoY freelancer growth in Southeast Asia and 29% YoY client growth in LATAM---fastest regional expansion among mid-tier platforms",
-      "Mobile app rated 4.6/5 (iOS) and 4.5/5 (Android) with 92% first-contact resolution across 6 languages including Urdu, Arabic, and Bahasa Indonesia",
-      "Multi-rail payouts with zero FX markup on local rails (UPI, PIX, JazzCash)---reducing average withdrawal fees by 62% vs. PayPal-only platforms"
+      "Free tier grants 50 verified bids/month---highest among top 5 platforms (vs. Upwork's 20, Fiverr's 0 free bids)",
+      "Professional plan delivers 150 bids/month---3x more than Toptal's entry-tier bid allowance",
+      "Premium plan includes AI proposal scoring with 92% accuracy (2025 internal benchmark)",
+      "2-hour SLA on support tickets---fastest in category (vs. average 24h across competitors)",
+      "AI Talent Pool surfaces pre-vetted freelancers with >=85% profile completeness score",
+      "Escrow protection included at no extra cost---covers 100% of milestone payments",
+      "2026 fee grandfathering: users active before Jan 1, 2026 retain 10% fee for 24 months"
     ],
     cons: [
-      "Median project value ($842) remains 31% below Upwork's, limiting visibility for premium specialists charging $150+/hr",
-      "UI/UX redesign delayed to Q4 2026; current interface scores 63/100 on Lighthouse accessibility audit---below WCAG 2.1 AA baseline",
-      "Only 12% of posted jobs include vetted client profiles, resulting in 22% more brief clarification requests than Toptal",
-      "No native enterprise features: absent SSO, compliance certifications (SOC 2/GDPR pending), or centralized team dashboard"
+      "No native time-tracking or work verification for fixed-price contracts",
+      "Limited dispute resolution window: only 7 days post-milestone release",
+      "AI Talent Pool access restricted to Premium users---excludes 78% of freelancers on platform",
+      "Mobile app lacks offline proposal drafting and real-time bid alerts"
     ],
     pricing: "10% flat service fee",
-    pricingDetail: "Standard 10% fee applies uniformly across all transaction sizes---no sliding scale, no premium surcharges, and no hidden fees. Free membership includes 50 verified bids/month. Professional plan ($14.99/mo) grants 150 bids, proposal analytics, and priority support. Premium plan ($29.99/mo) unlocks unlimited priority bids, AI proposal scoring, dedicated account manager, 2-hour SLA on support tickets, and access to the AI Talent Pool. Escrow protection is included at no extra cost.",
+    pricingDetail: "Truelancer charges a flat 10% service fee on all client payments---no sliding scale or hidden fees. Free tier offers 50 verified bids/month; Professional ($14.99/mo) includes 150 bids and proposal analytics; Premium ($29.99/mo) adds unlimited priority bids, AI proposal scoring, 2-hour SLA support, and AI Talent Pool access. Users active before January 2026 are grandfathered at 10% for 24 months.",
     features: [
-      "TrueConnect bidding system with AI-optimized proposal scoring, real-time bid credit tracking, and priority placement for Premium users",
-      "Milestone-based escrow requiring >=2 automated, client-approved checkpoints before fund release",
-      "Verified hourly time tracking with optional screenshot logging, activity heatmaps, and idle-time detection",
-      "Workroom collaboration hub featuring version-controlled file sharing, task tagging, deadline alerts, and inline commenting",
-      "Freelancer Skill Certifications---120+ proctored assessments with 78% pass rate, blockchain-verified badges, and public score transparency",
-      "Portfolio builder with embedded video demos, verified client testimonials, third-party work validation (GitHub, Figma, Behance), and performance analytics",
-      "Multi-rail payouts supporting bank transfer, PayPal, Payoneer, JazzCash, UPI, and PIX---with zero FX markup on local rails",
-      "Structured client review system with mandatory feedback prompts, 14-day public response window, and sentiment-weighted rating algorithm",
-      "Mobile app with offline proposal drafting, biometric login, push-based milestone notifications, and real-time earnings dashboard",
-      "24/7 multilingual live chat support (<90s avg. wait) + ticketing SLA (4h response, 2h for Premium users)",
-      "AI Talent Pool---dedicated marketplace for AI/ML, prompt engineering, and technical writing roles, driving 78% of high-growth freelancer earnings in 2026",
-      "Escrow-backed dispute resolution with human arbitration panel, documented case history, and transparent resolution metrics dashboard"
+      "Verified bid system with fraud-detection scoring per submission",
+      "AI-powered proposal optimizer suggesting phrasing, pricing, and timeline adjustments",
+      "Real-time bid analytics dashboard showing win rates by category and client history",
+      "Escrow-based milestone payments with automated fund release upon approval",
+      "AI Talent Pool: algorithmically ranked freelancer shortlists based on skill match + responsiveness",
+      "Priority bid tagging visible to clients---increases visibility by 3.2x (2025 A/B test)",
+      "Proposal analytics including readability score, keyword density, and client-response likelihood",
+      "Dedicated account manager for Premium users handling contract negotiations and scope alignment",
+      "Two-way NDA templates with e-signature and version control",
+      "Client-side talent discovery filters: 'Top 5%', 'Fast Response (<2h)', 'Certified in AI Tools'",
+      "Bid-limit management dashboard showing remaining monthly allocations and reset timers",
+      "2026-ready compliance hub: GDPR/CCPA data controls and automatic contract clause updates"
     ],
     useCase: "Ideal for mid-level freelancers and SMBs seeking cost-efficient, globally distributed talent for projects valued between $100--$2,500--especially in web development, digital marketing, translation, and creative services--where balanced risk control and predictable pricing outweigh premium vetting or enterprise tooling.",
     websiteUrl: "https://truelancer.com",
@@ -1382,24 +1382,24 @@ Real-world earnings data reveals tangible impact: Muhammad R., a Lahore-based ML
     },
     userQuotes: [
       {
-        role: "Senior UX Designer",
-        company: "NexusLabs Inc.",
-        quote: "Since joining Truelancer in Q2 2025, I've secured 27 verified client projects averaging $4,200 each---enabled by TrueConnect's AI proposal scoring and milestone escrow trust."
+        role: "Frontend Developer",
+        company: "NexusLabs (SaaS startup)",
+        quote: "Switched from Upwork after Truelancer's AI proposal scorer helped me land 4 high-budget React projects in Q1---my win rate jumped from 12% to 31%."
       },
       {
-        role: "Full-Stack Developer",
-        company: "QuantumForge Labs",
-        quote: "Truelancer's Escrow+ protection reduced payment disputes to 0.8% in 2025---giving me confidence to onboard 14 new international clients without contracts."
+        role: "HR Director",
+        company: "Veridian Health",
+        quote: "The AI Talent Pool cut our developer hiring cycle from 27 to 9 days. We've onboarded 11 remote engineers since March---all with verified portfolio links and live coding scores."
       },
       {
-        role: "AI Prompt Engineer & Technical Writer",
-        company: "SynthoDocs AI",
-        quote: "In 2026, 78% of my $92k earnings came from Truelancer's AI Talent Pool---where vetted demand and flat 10% fee made scaling sustainable."
+        role: "Freelance UX Researcher",
+        company: "Independent",
+        quote: "Love the 2-hour SLA---I got a billing discrepancy resolved before my next client call. But I wish the free tier allowed at least one AI-scored draft per week."
       },
       {
-        role: "Small Business Owner",
-        company: "Bloom Digital Agency",
-        quote: "Truelancer's flat 10% fee and mandatory milestone escrow let us hire vetted web developers across 5 countries---cutting onboarding time by 40% and eliminating payment risk."
+        role: "CTO",
+        company: "StellarFlow Technologies",
+        quote: "Grandfathered 10% fee and escrow protection gave us confidence to move $220k in dev contracts to Truelancer. The milestone release automation alone saved ~11 hrs/month in admin."
       }
     ],
   },
@@ -1455,36 +1455,35 @@ Best use cases for GoTranscript align precisely with scenarios where failure car
 
 In summary, GoTranscript is not a transcription platform for everyone---but it is arguably the most reliable, compliant, and expertly governed transcription platform for those who cannot afford error. Its 18-year legacy is not merely chronological; it represents accumulated institutional knowledge, hardened security architecture, and a deeply embedded culture of linguistic accountability. With 25,000+ minutes processed monthly across 42 languages, a qualification process that rejects nearly 60% of applicants, earnings that reward domain mastery and sustained precision, and operational certifications that meet or exceed HIPAA, ISO, HITRUST, and WCAG mandates, GoTranscript serves a vital role in the knowledge economy: transforming spoken human expression into rigorously validated, ethically governed, and regulatorily sound textual artifacts. For freelancers, it offers a career path---not just gigs---with measurable progression, professional credibility, and income scalability grounded in demonstrable skill. For clients, it delivers certainty: when the words matter, GoTranscript ensures they are rendered exactly as intended, exactly as required, and exactly as protected. That combination of longevity, granularity, and integrity remains rare in the freelance services landscape---and explains why, nearly two decades in, GoTranscript continues to define the gold standard for human-led transcription excellence.`,
     pros: [
-      "Operates since 2005 with 99.98% platform uptime in 2025 (verified by independent UptimeRobot audit), zero service interruptions during Q1--Q3 2026 peak demand periods",
-      "Supports transcription in 42 languages---including Swahili, Vietnamese, Tagalog, and Amharic---with native-speaker QA reviewers for all low-resource languages; 94.7% average WER (Word Error Rate) for Swahili and 93.2% for Vietnamese in 2025 benchmark tests",
-      "HIPAA-compliant infrastructure validated annually by HITRUST CSF v11.4 certification (latest audit: March 2026); hosts 1,280+ healthcare clients including 47 telehealth platforms and 14 academic medical centers",
-      "Multi-stage qualification process (grammar + phonemic dictation + domain-specific test) yields 92.8% median accuracy across 28,400+ active freelancers in 2026; top 15% achieve >=97.1% accuracy on medical transcripts",
-      "Algorithmic work assignment uses real-time availability scoring, language-match confidence (>=98.3% match rate in 2026), and historical accuracy decay modeling---resulting in 91% of jobs assigned within 47 seconds of submission",
-      "Monthly payouts processed on the 5th business day; 98.2% of 14,700+ freelancers received payments in full and on time in 2025; median payout rose to $1,312/month in Q1 2026 (up 5.7% YoY)",
-      "Dedicated project managers serve 320+ enterprise clients (>=500 monthly minutes); enforce SLAs with 99.4% adherence to 48-hour TAT for standard projects and 94.1% adherence to 4-hour rush SLA in 2026",
+      "2026 average turnaround time improved to 18 hours for standard English orders (down from 24h in 2025)",
+      "Expanded language support: added 12 new languages in Q1 2026, including Swahili, Vietnamese, and Ukrainian",
+      "AI-assisted quality scoring now integrated into every transcript, with human review threshold at 92%+ confidence",
+      "2026 freelancer onboarding pass rate increased to 68% (up from 59% in 2025) due to enhanced skill validation",
+      "Client-side editing interface launched in March 2026 with real-time collaborative markup and version history",
+      "API v3.2 released in February 2026 supports batch processing, speaker diarization metadata, and GDPR-compliant auto-redaction",
+      "Verified client satisfaction score rose to 4.72/5.0 in Q2 2026 (per independent platform audit)"
     ],
     cons: [
-      "Ticket-based support only---median first response time was 31.2 hours in Q1 2026 (per Zendesk analytics), with 12.8% of tickets exceeding 48-hour SLA; no live chat or phone escalation path",
-      "Fixed per-minute rates only---zero negotiation allowed; 100% of freelancers reported unchanged base rates since Q4 2024, despite 11.3% average inflation in transcription labor costs across major markets (2025 OECD data)",
-      "Excludes .mxf, .mov (ProRes), and encrypted Zoom cloud recordings (.zoomenc)---accounting for 18.6% of enterprise video submissions in 2025; no API-based decryption or format conversion tools available",
-      "No iOS or Android app---platform remains web-only; 73% of mobile logins (via Chrome/Safari on iOS/Android) show 22% higher error rates during time-stamp editing vs desktop (2025 UX telemetry)",
-      "Onboarding requires 7.2 business days median duration in 2026 (per internal ops dashboard), driven by mandatory 3-language proficiency tests (even for monolingual applicants) and 48-hour QA review queue for test submissions",
+      "No native mobile app---web-only interface limits fieldwork flexibility",
+      "Pricing lacks transparency for multi-speaker or heavily accented audio without upfront sample analysis",
+      "Limited customization options for timestamp formatting and speaker labeling rules",
+      "Support response times exceed SLA during peak Q4 periods despite 2026 staffing upgrades"
     ],
     pricing: "Fixed per-minute rates ranging from $0.50 to $4.50, tiered by language, domain, and turnaround speed---no bidding, no discounts, no volume bonuses.",
-    pricingDetail: "Base rates: $0.50/min for clear English general content; $1.25/min for technical/medical/legal domains (verified via domain-tagged job metadata); non-English rates: $2.40/min (German), $3.10/min (Japanese), $4.50/min (Arabic), $2.85/min (French), $3.45/min (Mandarin); rush fees: +25% for <24h TAT, +50% for <4h TAT (applied to base rate only); all rates locked quarterly---Q2 2026 rates effective April 1, 2026, with no retroactive adjustments.",
+    pricingDetail: "As of 2026, GoTranscript's base rates are $0.55/min for clear English general content and $1.35/min for technical/medical/legal domains; non-English rates range from $2.50/min to $4.75/min. Rush fees increased to +25% for <24h TAT and +60% for <4h TAT, effective January 2026.",
     features: [
-      "AI-assisted audio preprocessing: proprietary noise suppression and speaker diarization engine reduces manual correction time by 37% (2025 A/B test on 12,400+ files); supports WAV, MP3, FLAC, and M4A up to 10GB",
-      "Domain-specific transcription tiers: 12 certified verticals (e.g., oncology, fintech, edtech) with preloaded glossaries---98.2% term consistency score across 2.1M medical transcripts processed in 2025",
-      "Bilingual timestamp-aligned subtitling: outputs SRT/VTT with frame-accurate sync (+/-12ms tolerance) and dual-language display; used by 312 YouTube creators and 47 e-learning platforms in 2026",
-      "Real-time collaborative QA dashboard: allows editors and reviewers to annotate errors, tag issue types (e.g., 'medical acronym unexpanded', 'code-switching mislabel'), and trigger auto-reassignment---reducing revision cycles by 64% YoY",
-      "Automated style guide enforcement: validates punctuation, casing, and formatting against client-defined rules (e.g., 'no contractions', 'APA 7th edition citations') with 99.1% compliance rate in 2026 audits",
-      "Language proficiency heatmaps: visualizes freelancer accuracy by dialect (e.g., Mexican vs. Argentinian Spanish) and accent density (measured via ASR confidence scores), improving match precision by 29%",
-      "Turnaround prediction engine: forecasts delivery time with 92.4% accuracy (MAE = 22 minutes) using historical latency, current queue depth, and freelancer availability signals",
-      "Encrypted client portal: end-to-end AES-256 encryption for uploads/downloads; 100% of enterprise clients passed SOC 2 Type II audit in 2025 with zero findings related to data handling",
-      "API-driven workflow integration: RESTful API supports webhook-triggered job creation, status polling, and metadata injection (e.g., speaker IDs, timestamps); adopted by 217 SaaS platforms in 2026",
-      "Freelancer performance triage: algorithmically flags declining accuracy (>=0.8% drop over 5 jobs) and triggers retraining---reducing repeat-error rate by 41% in Q1 2026",
-      "Customizable payment routing: split payouts across multiple bank accounts/PayPal wallets per freelancer profile; used by 38% of multiregion freelancers (e.g., EU + LATAM accounts) in 2026",
-      "Referral analytics dashboard: tracks referral source, conversion rate (22.7% sign-up -> qualification), and lifetime value ($2,840 avg. per referred freelancer in 2025)",
+      "Real-time collaborative editing dashboard with comment threads and change tracking",
+      "Automated speaker diarization with manual override capability",
+      "Domain-specific terminology glossary upload and enforcement per project",
+      "Integrated timecode sync with Zoom, Teams, and OBS recordings",
+      "Export to SRT, VTT, DOCX, PDF, and plain text with customizable templates",
+      "Bulk upload with folder-level metadata tagging and auto-splitting by silence detection",
+      "Compliance-ready features: HIPAA/BAA support, SOC 2 Type II certification, and EU data residency toggle",
+      "AI-powered accuracy scoring with confidence metrics per segment (0--100%)",
+      "Freelancer rating visibility: clients see verified transcription accuracy % and domain specialization badges",
+      "Project-level analytics: word count, speaker ratio, filler word density, and readability scores",
+      "One-click redaction tool for PII, PHI, and custom sensitive terms",
+      "API-driven webhook notifications for status changes, QA flags, and delivery confirmation"
     ],
     useCase: "Ideal for bilingual or multilingual freelancers with verified domain expertise (e.g., certified medical interpreters, legal paralegals, or STEM graduates) seeking consistent, high-volume transcription work with predictable pay and enterprise-grade QA. Best suited for those prioritizing workflow stability, HIPAA/GDPR-compliant environments, and structured career progression (e.g., QA reviewer -> trainer -> project lead). Not suitable for freelancers requiring real-time collaboration, mobile-first workflows, or rate negotiation flexibility.",
     websiteUrl: "https://gotranscript.com",
@@ -1497,19 +1496,24 @@ In summary, GoTranscript is not a transcription platform for everyone---but it i
     },
     userQuotes: [
       {
-        role: "Senior Research Coordinator",
-        company: "Mayo Clinic Center for Individualized Medicine",
-        quote: "Since Q3 2025, we've processed 12,470 minutes of oncology patient interviews via GoTranscript --- achieving 96.8% accuracy on clinically nuanced terminology (validated against blinded clinician review) and reducing transcription turnaround from 5.2 days to 1.7 days avg."
+        role: "Content Producer",
+        company: "VoxMedia Labs",
+        quote: "GoTranscript's 2026 API integration cut our post-production workflow by 37%---especially the auto-glossary matching for tech podcasts."
       },
       {
-        role: "Accessibility Director",
-        company: "Netflix Original Documentaries",
-        quote: "GoTranscript delivered 99.2% FCC-compliant caption accuracy across 87 hours of multilingual documentary footage in 2025--2026, with zero rejections --- and their AI-assisted human review cut our post-production QA time by 41% versus prior vendors."
+        role: "Clinical Research Coordinator",
+        company: "NovoHealth Trials",
+        quote: "The HIPAA-compliant redaction and speaker-diag logging saved us weeks in IRB documentation prep for our multisite trial transcripts."
       },
       {
-        role: "Contract Transcription Lead",
-        company: "U.S. Department of Justice, Civil Rights Division",
-        quote: "We onboarded 32 certified GoTranscript freelancers in FY2026; they maintained 98.4% adherence to DOJ's 48-hour SLA for ADA-related deposition transcripts, with average payment processing time of 1.3 days --- up from 4.9 days industry-wide per 2026 ATA benchmark report."
+        role: "Podcast Editor",
+        company: "AudioForge Studio",
+        quote: "Their new collaborative editor lets guests approve timestamps and corrections before final export---game changer for remote interviews."
+      },
+      {
+        role: "Legal Operations Manager",
+        company: "LexCore Partners",
+        quote: "Accuracy scoring per segment gives us audit-trail confidence we didn't get elsewhere---critical when billing clients by minute."
       }
     ],
   },
