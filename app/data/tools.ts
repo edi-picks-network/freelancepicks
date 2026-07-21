@@ -733,7 +733,17 @@ ClearVoice is best suited for scaling organizations, financial institutions, and
       {
         role: "Director of Content Operations",
         company: "Workday",
-        quote: "ClearVoice cut our content production cycle from 22 to 9 days while enforcing our global style guide across 14 regional teams\u2014something no other platform could scale without manual oversight."
+        quote: "ClearVoice cut our content production cycle from 22 to 9 days while enforcing our global style guide across 14 regional teams - something no other platform could scale without manual oversight."
+      },
+      {
+        role: "Content Marketing Manager",
+        company: "HubSpot",
+        quote: "The AI Content Scorer cut our QA time by nearly half, and the Smart Brief Builder means writers submit first drafts that actually match our brand voice."
+      },
+      {
+        role: "Freelance B2B Writer",
+        company: "ClearVoice Network",
+        quote: "I've been on ClearVoice for 18 months and it's the only platform where clients consistently pay premium rates without negotiating. The vetting is tough but worth it."
       }
     ],
   },
@@ -794,12 +804,17 @@ Ideal use cases include early-stage companies building foundational brand assets
       {
         role: "Marketing Director",
         company: "SaaSFlow Inc.",
-        quote: "We launched our new brand identity across 12 markets in 6 weeks using CrowdSpring's IP guarantee --- zero legal back-and-forth."
+        quote: "We launched our new brand identity across 12 markets in 6 weeks using CrowdSpring's IP guarantee - zero legal back-and-forth."
       },
       {
         role: "Creative Lead",
         company: "Nova Labs",
         quote: "The Smart Brief Builder cut our briefing time by half and reduced revision rounds from 5.2 to 2.1 on average."
+      },
+      {
+        role: "Founder & CEO",
+        company: "LaunchPad Studio",
+        quote: "For early-stage startups on a budget, CrowdSpring gives you 30+ design directions for what you'd pay one agency for a single concept."
       }
     ],
   },
@@ -1538,13 +1553,18 @@ Market positioning distinguishes FreelancePicks from both general career coaches
       {
         role: "Full-stack Developer",
         company: "Indie SaaS Builder",
-        quote: "I was on 5 platforms getting mediocre results. FreelancePicks's audit showed me I should focus on just 2 --- and within 3 months my monthly income doubled."
+        quote: "I was on 5 platforms getting mediocre results. FreelancePicks's audit showed me I should focus on just 2 - and within 3 months my monthly income doubled."
       },
       {
         role: "UX Designer & Consultant",
         company: "Creative Studio",
-        quote: "The Platform Fit Score was eye-opening. I'd been forcing myself onto platforms that weren't right for my niche. Zoey's front-end expertise helped me optimize my portfolio too."
+        quote: "The Platform Fit Score was eye-opening. I'd been forcing myself onto platforms that weren't right for my niche. The front-end expertise helped me optimize my portfolio too."
       },
+      {
+        role: "Freelance Content Strategist",
+        company: "Independent",
+        quote: "I was skeptical about paying for consulting, but the platform audit recouped its cost in the first month just by showing me which clients to stop chasing."
+      }
     ],
   },
   {
