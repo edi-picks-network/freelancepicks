@@ -47,6 +47,7 @@ const BLOG_SLUGS = [
   "freelance-rejection-bounce-back-2026",
   "freelancer-tool-stack-2026-essential-tools",
   "freelance-time-tracking-tools-toggl-vs-harvest-vs-clockify-2026",
+  "freelance-platforms-compared-upwork-vs-fiverr-vs-freelancer-2026",
 ] as const;
 
 const TOOL_SLUGS = [
