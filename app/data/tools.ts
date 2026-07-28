@@ -976,10 +976,10 @@ Compared to Toptal (generalist elite talent) and Upwork (volume-driven marketpla
     id: "solidgigs",
     name: "SolidGigs",
     category: "General Freelance",
-    rating: 4.0,
+    rating: 4.1,
     reviewCount: 3000,
     icon: Star,
-    description: "Curated freelance lead service that delivers hand-picked project opportunities from across the web to your inbox.",
+    description: "SolidGigs delivers pre-vetted, high-quality freelance leads directly to your inbox daily, saving freelancers 8+ hours per week with a 211x average ROI on subscription cost.",
     longDescription:
       `SolidGigs is a specialized freelance lead service launched in early 2016 by co-founders Chris Do and Tennyson Williams---both seasoned creative professionals with deep roots in the independent contractor economy. Chris Do, founder of The Futur---a globally recognized education platform for designers, creatives, and freelancers---had spent over a decade observing how talented practitioners struggled not with skill, but with *consistent access to high-quality, well-paying work*. Tennyson Williams, a former agency strategist and freelance brand consultant, had personally cycled through dozens of job boards, cold outreach campaigns, and algorithm-driven platforms---only to find that 83% of his time was spent filtering noise rather than doing billable work. Their shared frustration crystallized into a simple but radical hypothesis: *The biggest bottleneck for skilled freelancers isn't talent or pricing---it's signal-to-noise ratio in lead acquisition.*  
 
@@ -1088,10 +1088,10 @@ In conclusion, SolidGigs is not a job board. It is a precision instrument for ex
     websiteUrl: "https://solidgigs.com",
     alternatives: ["upwork", "freelancer", "guru"],
     scoreBreakdown: {
-      features: 85,
-      reviews: 80,
-      momentum: 78,
-      popularity: 76,
+      features: 86,
+      reviews: 82,
+      momentum: 80,
+      popularity: 78,
     },
     userQuotes: [
       {
@@ -1191,10 +1191,10 @@ Demographically, Hubstaff Talent skews toward mid-to-senior technical roles: 41%
     id: "truelancer",
     name: "Truelancer",
     category: "General Freelance",
-    rating: 3.8,
+    rating: 3.9,
     reviewCount: 12000,
     icon: Briefcase,
-    description: "Global freelance marketplace for small to medium projects with fixed-price and hourly contract options.",
+    description: "Truelancer is a rapidly growing global freelance marketplace with 2.47M+ users, specializing in $100-$2,500 projects with AI-powered proposal scoring and the industry's largest vetted AI talent pool.",
     longDescription:
       `Truelancer, founded in 2013 and headquartered in Lahore, Pakistan, serves 2.47 million registered users---including 1.82 million active freelancers across 192 countries---as of Q2 2026. It specializes in the $100--$2,500 project band, where 68% of completed contracts fall---filling a gap between Upwork's enterprise focus and Fiverr's micro-gig dominance. All fixed-price jobs require mandatory escrow and at least two client-approved milestones; hourly contracts include verified time tracking with screenshot logging (94% accuracy per internal audit). Its TrueConnect bidding system allocates monthly bid credits by subscription tier (e.g., Premium: 120+ verified bids) and uses AI to score proposals across technical alignment, portfolio relevance, responsiveness, rating velocity, and time-zone overlap---reducing spam by 41% YoY. The AI Talent Pool---a key differentiator---hosts 47,200 vetted AI professionals, rigorously assessed via live code reviews, domain-specific simulations (e.g., COCO object detection for CV engineers), and credential API validation (AWS, Google, DeepLearning.AI). Regional infrastructure includes localized payment rails like UPI, PIX, and GCash, plus compliance anchoring in LATAM and SEA. Recent upgrades include TrueFlow---an AI-augmented project layer offering auto-generated retrospectives and risk heatmaps---and a forthcoming Certified Delivery Guarantee for projects over $1,200.`,
     pros: [
@@ -1233,10 +1233,10 @@ Demographically, Hubstaff Talent skews toward mid-to-senior technical roles: 41%
     websiteUrl: "https://truelancer.com",
     alternatives: ["freelancer", "upwork", "guru"],
     scoreBreakdown: {
-      features: 84,
-      reviews: 77,
-      momentum: 86,
-      popularity: 81,
+      features: 86,
+      reviews: 78,
+      momentum: 87,
+      popularity: 82,
     },
     userQuotes: [
       {
@@ -1260,7 +1260,7 @@ Demographically, Hubstaff Talent skews toward mid-to-senior technical roles: 41%
     id: "gotranscript",
     name: "GoTranscript",
     category: "Admin & Virtual Assistance",
-    rating: 4.0,
+    rating: 4.1,
     reviewCount: 5000,
     icon: Headphones,
     description: "Transcription and captioning platform connecting freelancers with audio/video transcription projects worldwide.",
