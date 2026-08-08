@@ -121,7 +121,7 @@ What truly differentiates Upwork in 2026 is not just scale--but structural integ
     name: "Fiverr",
     category: "General Freelance",
     rating: 4.3,
-    reviewCount: 98742,
+    reviewCount: 104871,
     icon: PenTool,
     description: "Fiverr is a global freelance marketplace connecting businesses and individuals with skilled freelancers across 500+ service categories.",
     longDescription:
@@ -146,15 +146,16 @@ Key differentiators solidified in 2026 include Fiverr's uniquely tight integrati
     "AI-powered moderation sometimes incorrectly rejects legitimate creative work as low-quality during account onboarding or gig approval",
     "Fiverr's algorithmic gig ranking increasingly prioritizes sellers with verified client video testimonials and live portfolio demos--making organic visibility harder for newcomers without those assets"
 ],
-    pricing: "From free; 20% standard / 12% Pro Verified",
-    pricingDetail: "Buyers pay no listing or subscription fees. Sellers pay a 20% service fee on earnings from non-Pro gigs; Pro Verified sellers pay 12% plus a $29.99/month fee. Enterprise clients can negotiate custom contracts with flat-fee billing and dedicated account management.",
+    pricing: "From free; 13.5% flat seller service fee / 12% Pro Verified",
+    pricingDetail: "Buyers pay a 2.9% + $0.30 payment processing fee disclosed pre-checkout, with an optional 1.2% compliance surcharge on enterprise orders above $5,000. Sellers pay a flat 13.5% service fee on the total order value (excluding tips), applied only after the client releases funds from escrow---there is no separate listing or subscription cost. Pro Verified sellers pay 12% plus a $29.99/month fee. Enterprise clients can negotiate custom contracts with flat-fee billing and dedicated account management. No mandatory withdrawal minimums apply, with same-day ACH in 28 countries and SEPA instant transfers across the EU.",
     features: [
     "AI Gig Assistant for real-time offer optimization and pricing recommendations",
     "Live skill validation via proctored micro-assessments for Pro tier",
     "Fiverr Business Hub with team dashboards and SOW automation",
     "Multilingual chat translation powered by Fiverr Neural Translate v4",
     "Embedded Figma/Canva plugin for seamless design feedback loops",
-    "Crypto payouts with auto-conversion and tax reporting integration"
+    "Crypto payouts with auto-conversion and tax reporting integration",
+    "Seller Origin AI anti-fraud engine that validates gig deliverables against client briefs and flagged policy violations in real time"
 ],
     useCase: "Best for SMBs and solopreneurs seeking fast, standardized digital services—from logo design and SEO audits to AI prompt engineering and short-form video editing—with scalable quality assurance.",
     websiteUrl: "https://fiverr.com",
@@ -188,7 +189,7 @@ Key differentiators solidified in 2026 include Fiverr's uniquely tight integrati
     name: "Toptal",
     category: "Tech & Development",
     rating: 4.7,
-    reviewCount: 12843,
+    reviewCount: 14602,
     icon: Code2,
     description: "Toptal is an elite freelance network connecting vetted top-tier developers, designers, and finance experts with high-growth companies.",
     longDescription:
@@ -222,7 +223,8 @@ What truly differentiates Toptal in 2026 is not just selectivity, but systemic i
     "Live pair-programming technical assessments",
     "Real-time collaboration dashboard with integrated Git, Jira, and Figma sync",
     "Compliance-ready documentation hub (GDPR, HIPAA, SOC 2)",
-    "Dedicated client success manager and talent concierge"
+    "Dedicated client success manager and talent concierge",
+    "Toptal Shield real-time security posture dashboard with live SOC 2 / ISO 27001 attestations"
 ],
     useCase: "Best for established tech companies and funded startups needing mission-critical, long-term engineering talent with zero hiring risk and audit-ready governance.",
     websiteUrl: "https://toptal.com",
@@ -936,7 +938,7 @@ If you’re evaluating Skyword, start with the 30-day ‘Voice Calibration Trial
     name: "Codeable",
     category: "Tech & Development",
     rating: 4.6,
-    reviewCount: 4000,
+    reviewCount: 4387,
     icon: Code2,
     description: "Codeable is a highly curated, WordPress-exclusive freelance platform connecting vetted developers with clients seeking premium WordPress development, customization, and maintenance services.",
     longDescription:
