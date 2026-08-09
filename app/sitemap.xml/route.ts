@@ -62,6 +62,7 @@ const BLOG_SLUGS = [
   "freelance-upselling-cross-selling-playbook-2026",
   "freelance-testimonials-social-proof-playbook-2026",
   "freelance-full-time-transition-90-day-2026",
+  "freelance-client-boundaries-workload-protocols-2026",
 ] as const;
 
 const TOOL_SLUGS = [
