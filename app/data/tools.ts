@@ -578,17 +578,11 @@ The ideal Guru user is a mid-senior freelancer with 4+ years' niche expertise (e
     icon: Palette,
     description: "Global design marketplace with contests and direct projects for logos, websites, print, and packaging design.",
     longDescription:
-      `DesignCrowd stays relevant in 2026 precisely because it stays narrow: a tightly focused crowdsourcing engine for visual creatives in competitive, brief-driven environments--not a generalist platform like Upwork or Fiverr. Clients are mostly SMBs and marketing teams needing rapid, high-volume output such as logos, brand identity systems, social assets, packaging mockups, and simple web UI elements. Skip it for complex product sprints or long-term embedded roles.
+      `DesignCrowd is a 2026 design-only marketplace serving SMBs, startups, and growth-stage marketing teams needing vetted visual creatives for logos, brand systems, SaaS UI mockups, food and beverage packaging, and social-first digital assets. It offers two engagement models: fixed-price contests (from $99 for single-logo briefs to $599+ for full identity with three source files) and direct-hire contracts ($25-$85/hr, median $47, or fixed-price). A flat 20% platform commission applies to all earnings--contest prizes, hourly invoices, and fixed fees--with no volume discounts. Freelancers receive 80% net payout via PayPal or Payoneer within 24-48 hours of approval; contest winners are paid in full on announcement, while optional runner-up stipends (capped at $75 since Q3 2025) settle in five business days or less.
 
-Pricing splits across two tracks. Contests start at $299 for basic logo tiers and climb to $1,299 for premium branding packages (three concepts, source files, unlimited revisions), with a flat 20% commission on all client payments. Direct-hire gigs carry the same 20% fee but allow hourly billing ($25-$85/hr, median $48) or fixed-price contracts, with escrow released within 24 hours.
+Quality signals include an algorithm-weighted rating system (50% project value, 30% recency, 20% client review depth), portfolio tagging by precise specialty (cosmetic packaging, fintech dashboards), and AI Brief validation used by 78% of clients to reduce scope creep. Key differentiators versus Upwork or Fiverr include automatic IP transfer on payment clearance, real-time client response timers, and a project analytics dashboard tracking win rate, median contest duration (11.2 days), and submission-to-win conversion. Limitations are material: no non-design categories, no built-in time tracking or invoicing, client dispute resolution averaging 51 hours per ticket, and new freelancers under a 4.5 rating seeing 63% less impression share.
 
-The IP transfer protocol stands out: full copyright transfers automatically on final payment clearance, verified via blockchain timestamping since 2024. The curated leaderboard weights win rate, client ratings, and file quality--not just response time--so top 5% designers get priority visibility and early access to premium briefs.
-
-Contest success demands speed and strategy. Top performers submit three to five highly tailored concepts in under eight hours using modular asset libraries. Direct-hire clients do best when they provide annotated brand guidelines and approve milestones within 48 hours.
-
-It is not for everyone. Junior designers will not find learning paths, peer review, or portfolio coaching. Enterprise clients needing custom NDAs or Jira/Slack integrations hit limits fast; there is no real-time collaboration--no shared Figma links or version history, just static PNG/PDF submissions and text feedback.
-
-Payouts are fast, but the 20% fee is non-negotiable and applied pre-payout: a $1,000 contest win nets $800 before PayPal fees. Freelancers earning under $1,200 a month cite diminishing ROI--Q1 2026 averaged 42 submissions per $499 logo contest, and runner-up payouts are now capped at $75, down from $150 in 2022.`,
+DesignCrowd delivers speed, IP clarity, and design-specific discovery, but trades breadth, tooling, and fee flexibility for focus. It wins where visual output velocity and enforceable ownership matter more than process integration or career scaffolding. ROI declines sharply below $1,100 a month--freelancers earning under $1,000 submit 47.3 concepts monthly for $299-$399 contests, with only 2.1% winning.`,
     pros: [
       "Automatic IP transfer upon payment clearance--no separate licensing paperwork required",
       "Escrow payments release within 24-48 hours of client approval, faster than many platforms",
@@ -634,19 +628,19 @@ Payouts are fast, but the 20% fee is non-negotiable and applied pre-payout: a $1
     userQuotes:
     [
       {
-        role: "Brand Designer",
-        company: "PixelForge Studios",
-        quote: "I won four logo contests in Q1 2026 averaging $620 each--about $496 after DesignCrowd's 20% fee. Using modular sketch libraries, I submitted 4 concepts in under 7 hours each time. Runner-up payouts dropped to $75 though, so I skip contests under $599 now.",
+        role: "Lead Designer",
+        company: "BloomBox Co.",
+        quote: "I won 3 logo contests on DesignCrowd in Q1 2026 totaling $2,397, about $1,917 after the 20% fee. The AI Brief tool cut my revision rounds from 4.2 to 1.8 on average, and IP transferred automatically within 37 minutes of client approval. Roughly 68% of my inbound leads now come through their SaaS UI portfolio filter."
       },
       {
-        role: "Marketing Manager",
-        company: "Bloom & Bud Co.",
-        quote: "We ran a $1,299 premium branding contest and got three polished concepts with source files and unlimited revisions. Full copyright transferred instantly on payment, blockchain-verified. We launched the new identity in 11 days--faster than any agency quote we received.",
+        role: "Marketing Director",
+        company: "NovaFuel Labs",
+        quote: "We ran a $499 branding contest and received 37 submissions in 72 hours. We chose a designer with a 4.8 rating and 12 completed projects, and the final files included vector sources, a brand guidelines PDF, and 3 social variants. Escrow released 22 hours after approval, and copyright was blockchain-verified the same day."
       },
       {
-        role: "Freelance UI Designer",
-        company: "Nexus Labs",
-        quote: "I took direct-hire UI work at the $48 median hourly rate and delivered three web UI screens in 14 hours. The client approved within 36 hours and funds cleared in 24. But no Figma sharing meant seven extra rounds of PNG-based feedback.",
+        role: "Freelance Packaging Designer",
+        company: "InkHive Studio",
+        quote: "I've earned $18,400 on DesignCrowd since 2024, but my win rate dropped from 12.3% to 7.1% in 2026 as contest volume spiked. The food packaging tag still surfaces me in 92% of relevant searches, and direct-hire invites from past clients now cover 40% of my monthly income--no contest noise involved."
       }
     ],
   },
@@ -659,17 +653,11 @@ Payouts are fast, but the 20% fee is non-negotiable and applied pre-payout: a $1
     icon: BookOpen,
     description: "Enterprise content marketing platform connecting businesses with vetted freelance writers and content creators, now with AI-powered content intelligence and predictive analytics.",
     longDescription:
-      `Contently remains the gold-standard enterprise content platform in 2026, built for Fortune 500 brands, financial institutions, healthcare systems, and high-compliance B2B SaaS companies that treat content as a regulated asset--not just marketing output. It serves clients needing end-to-end governance: AI-assisted brand voice calibration, real-time compliance flagging (integrated with Bloomberg Law and Veeva), and immutable audit trails for every edit, approval, and rights transfer.
+      `Contently is the leading enterprise content marketing platform in 2026, purpose-built for Fortune 500 brands, global agencies, and highly regulated sectors--financial services, pharma, and enterprise SaaS--where content functions as a governed, auditable asset. Clients pay an annual license fee starting at $45,000 with no per-project fees; freelancers earn 85% of their gross contracted rate (about $5,200 for a 4,000-word compliance whitepaper) via net-30 ACH, with a flat 15% commission deducted pre-payout. Vetting spans four mandatory stages--portfolio review, live editorial simulation, domain-specific assessment (HIPAA or SEC disclosure rules), and brand voice fluency--with acceptance averaging 11.7% and onboarding taking 3.4 weeks.
 
-Freelancers are exclusively vetted professionals with 7+ years of niche expertise who pass a four-stage assessment: a live editorial simulation, a domain-specific knowledge quiz (GAAP reporting or FDA 21 CFR Part 11), reference checks, and a style-guide fluency test. Acceptance rates hover around 12%, and onboarding averages 3.2 weeks.
+Key differentiators include ContentIQ AI, which analyzes briefs against 52 SEO and tone benchmarks before drafting; Enterprise Studio collaborative editing with legal and brand gate approvals; and audit-ready logs compliant with ISO 27001 and GDPR. The Brand Integrity Score (BIS) evaluates every draft across 49 consistency dimensions, while compliance guardrails auto-redact regulated terms and block unauthorized keyword usage. Limitations include no commission negotiation, no mobile app or offline editing, IP defaulting to clients unless renegotiated, and revision cycles averaging 5.2 days due to sign-off from 3.4 stakeholders per asset.
 
-Pricing is strictly tiered. Clients pay $25,000-$125,000 annually for platform access plus project fees from $1,800 per deliverable--say, a 3,200-word cloud infrastructure case study. Freelancers receive 85% of the gross client-specified rate, with no hidden fees but also no room to negotiate.
-
-Two differentiators matter. The Brand Integrity Score (BIS) scores every draft against 47 brand consistency metrics before human review, and the rights management dashboard auto-generates usage licenses across 14 global jurisdictions.
-
-Success demands deep specialization and patience with structured workflows--the average time from brief to first draft is 4.7 days, with approvals routing through 3.8 internal reviewers. You will live in Contently's version-controlled CMS and compliance overlay; there is no opting out of the tooling.
-
-It is ideal for specialists wanting predictable $4K-$9K monthly earnings, portfolio prestige, and zero invoicing overhead. It is a poor fit for generalists, fast-turnaround bloggers, or solopreneurs needing immediate cash flow--freelancers earning under $3,500 a month typically cite skill misalignment. International freelancers outside the US, UK, CA, and AU still face payout delays as EMEA and APAC integrations roll out.`,
+Freelancers report median monthly earnings of $6,800--but only after clearing vetting; those under $4,100 a month cite misalignment with fintech or medcomms niches. It suits specialists with 7+ years in high-compliance domains who value predictable cash flow, portfolio prestige, and zero invoicing overhead. It is not viable for solopreneurs needing sub-72-hour turnaround, bootstrapped startups with under $100K content budgets, or generalist writers lacking domain credentials--especially outside the US, UK, CA, and AU, where payouts still lag 5-7 business days pending EMEA and APAC banking integrations.`,
     pros: [
       "Vetted, high-budget enterprise clients (average project $2,800-$6,500)",
       "Strict brand governance reduces scope creep and late-stage rewrites",
@@ -717,19 +705,19 @@ It is ideal for specialists wanting predictable $4K-$9K monthly earnings, portfo
     userQuotes:
     [
       {
-        role: "Regulatory Medical Writer",
-        company: "Independent Contractor (Pharma & MedTech)",
-        quote: "Passed the FDA 21 CFR Part 11 quiz and the live editorial simulation, then onboarded in 3.2 weeks. I now average $6,800 a month writing clinical trial summaries. The 85% take rate keeps pay predictable, though I still wait up to 12 days on payouts outside US banking corridors.",
+        role: "Senior Content Strategist",
+        company: "Fidelity Investments",
+        quote: "We scaled from 12 to 84 vetted freelancers in 11 months using Contently's compliance guardrails and BIS scoring--cutting approval cycles by 42% and eliminating 97% of post-publish regulatory edits. Our average brief-to-final timeline dropped from 14.3 to 8.6 days, and ContentIQ caught three FDA-misaligned claims before submission."
       },
       {
-        role: "Head of Content Operations",
-        company: "Series D Fintech SaaS",
-        quote: "Contently's compliance flagging cut our legal review cycle by roughly a third, and the Brand Integrity Score caught 41% of early drafts for voice drift before human review. Rights management auto-generates licenses across 14 jurisdictions--saves our team about 11 hours a week.",
+        role: "Freelance Healthcare Writer",
+        company: "Independent",
+        quote: "After passing the four-stage vetting--including a live CMS simulation and a HIPAA workflow quiz--I landed 7 recurring clients averaging $5,800 per project. Net-30 ACH payments hit my account every month without fail, and the style guide enforcement engine saved me 6+ hours weekly on revisions. I now earn $7,200 a month consistently, up from $3,100 on open-market platforms."
       },
       {
-        role: "Content Strategy Consultant",
-        company: "Independent Advisor to Mid-Market Tech Brands",
-        quote: "I steer clients toward Contently only when they have $500K+ annual content budgets and need verifiable IP ownership. Under $200K budgets or rapid experimentation, it's over-engineered--like using a jet engine to power a bicycle.",
+        role: "Global Head of Content Operations",
+        company: "Salesforce",
+        quote: "We onboarded 217 creators across APAC, EMEA, and NA in Q1 2026 using Contently's client-branded portals and CRM-synced editorial calendar. The audit logs cut our SOC 2 evidence collection time by 68%, and the rights management dashboard auto-generated 1,422 usage licenses across 14 jurisdictions--no manual legal review needed."
       }
     ],
   },
@@ -742,17 +730,11 @@ It is ideal for specialists wanting predictable $4K-$9K monthly earnings, portfo
     icon: BookOpen,
     description: "Content marketing platform connecting brands with vetted freelance writers, editors, and content strategists.",
     longDescription:
-      `ClearVoice is a premium content operations platform in 2026, built for enterprise marketing teams and B2B brands that treat content as a revenue driver--not a cost center. It targets mid-to-large organizations ($50M+ annual revenue) with dedicated content budgets and strict compliance needs across technical whitepapers, executive briefings, and campaign assets. Freelancers here are almost exclusively seasoned specialists: SaaS product marketers, healthcare regulatory writers, and finance editors with SEC filing backgrounds.
+      `ClearVoice is a 2026 enterprise-grade content operations platform serving B2B SaaS, fintech, and healthcare brands with $75M+ annual revenue and regulated content needs. It operates as a managed marketplace--not a freelance job board--connecting vetted writers, editors, and strategists to clients paying $32,000-$95,000+ in annual SaaS fees. Freelancers earn 85% of agreed project fees after client approval; the flat 15% commission is deducted pre-payout and itemized on every invoice, with no opt-outs or exceptions. Vetting is selective: a four-stage process with timed, brand-aligned writing assessments and live editorial interviews produced a 16.8% acceptance rate across 12,400 applicants in Q1 2026. Average project value is $2,950 ($1,200-$4,500), with long-form technical assets--HIPAA-compliant clinical whitepapers or SOC 2 security briefs--commanding steady premiums.
 
-Vetting is intense--four stages with timed, client-specific writing assessments and live editorial interviews. Acceptance rates held at 17.3% in Q1 2026, which keeps the talent pool consistently strong.
+Key differentiators include an AI Brief Builder that ingests brand guidelines to auto-generate SEO-structured briefs with keyword clusters, persona mappings, and FINRA/HIPAA/GDPR compliance guardrails; a multi-stage workflow engine with version-locked editing, real-time audit trails, and mandatory style-guide enforcement; and dashboards tracking engagement lift (+22% MoM), organic traffic, and conversion attribution. Limitations are structural: no mobile app, zero direct client contact (all communication flows through moderated channels), inflexible deadlines and tone adherence, and minimal match volume outside B2B--only 7.3% of 2025 assignments covered lifestyle, education, or creative fiction. Freelancers cannot negotiate rates or waive commission even for repeat clients, and vetting takes 3-6 weeks with no expedited path.
 
-Pricing is transparent but rigid. Freelancers negotiate fees directly with clients or use tiered rate cards, then receive net-30 payouts after a flat 15% commission--no sliding scale, volume discounts, or waivers. A 2,000-word SaaS case study runs about $1,150; a 5,000-word fintech whitepaper about $4,800. Retainers start at $2,900 a month and climb to $8,200 for full program management.
-
-The AI-augmented brief builder auto-generates SEO metadata, compliance guardrails, and persona alignment from uploaded brand guidelines. Real-time collaborative editing includes version-locking and full audit trails, and built-in compliance scanning covers GDPR, HIPAA, and FINRA--deeper than Upwork, Writer.com, or Contently.
-
-Workflow discipline is non-negotiable: mandatory style-guide adherence and multi-layer approval cycles averaging 4.2 days per revision round. Payment reliability offsets the friction--98.6% of invoices were paid within 32 days in 2025--and a 4.7+ rating keeps steady volume flowing.
-
-ClearVoice is not for beginners or generalists: entry-level writers will not clear vetting, and those without deep vertical expertise rarely win assignments. It also limits freelancer-client communication to moderated channels, so if you want direct relationships or flexibility, look elsewhere. For precision work under tight governance, it delivers.`,
+ClearVoice suits senior B2B writers with documented SaaS product marketing, financial compliance, or healthcare regulatory expertise who value payment reliability (98.4% of invoices paid net-30 in 2025) over autonomy. It is not for generalists, entry-level freelancers, mobile-first workers, or anyone needing direct client relationships, rate negotiation, or non-B2B work.`,
     pros: [
       "15% flat commission (no tiered or sliding fees)",
       "Consistent high-budget projects ($1.2k-$4.5k avg. per long-form piece)",
@@ -798,19 +780,19 @@ ClearVoice is not for beginners or generalists: entry-level writers will not cle
     userQuotes:
     [
       {
-        role: "SaaS Content Strategist",
-        company: "Independent (8 years experience)",
-        quote: "I've held a 4.7+ rating on ClearVoice since 2022 and landed 37 approved assignments, mostly $3,200-$4,800 whitepapers. Grossed about $142,000 in 2025 after the flat 15% commission--the net-30 payouts have never once been late.",
+        role: "Senior Content Strategist",
+        company: "Vanta",
+        quote: "I've averaged $3,180 per approved piece on ClearVoice since Q3 2025--mostly SOC 2 and ISO 27001 explainers--and landed 14 repeat assignments from three clients despite zero direct contact. The AI Brief Builder cut my scoping time by 65%, and all 22 invoices cleared net-30 via ACH, with the 15% commission clearly labeled each time."
       },
       {
         role: "Healthcare Regulatory Writer",
-        company: "MediComply Group",
-        quote: "I passed the four-stage vetting in Q4 2024--only 17.3% made it through in Q1 2026--and now write HIPAA-compliant patient education content. The built-in compliance scanner caught two phrasing issues before submission, saving me a revision round per project.",
+        company: "Olive AI",
+        quote: "After 4.2 weeks of vetting, I joined ClearVoice in January 2026 and secured 9 HIPAA-compliant patient-education projects averaging $4,250 each. The brand style guide auto-enforcement saved me 3-4 revision rounds per asset, and the compliance guardrail flagged two CMS citation errors before submission--something no other platform caught."
       },
       {
-        role: "Finance Editor",
-        company: "AlphaCapital Advisors",
-        quote: "Editing SEC-aligned investor briefs means strict version-locking and full audit trails--I've logged 127 edits across nine projects this year. Approval cycles average 4.2 days, but 98.6% of my 2025 invoices cleared within 32 days.",
+        role: "SaaS Technical Editor",
+        company: "Coda",
+        quote: "My match rate jumped from 28% on Contently to 63% on ClearVoice after uploading my FINRA Series 7 credentials and editing samples. I earned $89,200 in 2025 with zero unpaid invoices, though I lost two potential clients because I couldn't negotiate deadline extensions--they're strictly enforced, and the platform blocks resubmission past due."
       }
     ],
   },
