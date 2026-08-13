@@ -65,6 +65,7 @@ const BLOG_SLUGS = [
   "freelance-client-boundaries-workload-protocols-2026",
   "freelance-retainer-agreements-stable-income-2026",
   "freelance-international-payments-fees-guide-2026",
+  "my-freelance-workflow-tech-stack-the-tools-that-actually-save-me-15-hours-per-we",
 ] as const;
 
 const TOOL_SLUGS = [
